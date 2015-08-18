@@ -1,3 +1,5 @@
 image: google/nodejs
+git:
+  path: github.ibm.com/FED/ha--node-starter
 script:
   - bash test.sh
