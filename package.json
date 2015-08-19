@@ -4,6 +4,7 @@
   "description": "Hack Academy starter repo",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm run gulp test",
     "install:bower": "npm run bower install",
     "install:bower:root": "./node_modules/.bin/bower install --allow-root",
