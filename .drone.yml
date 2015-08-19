@@ -1,7 +1,12 @@
 image: roster.rtp.raleigh.ibm.com/ruby-nodejs:0.12.5
 git:
   path: github.ibm.com/FED/ha--node-starter
-script:
-  - curl -v -L -o cf-cli_linux64.deb 'https://cli.run.pivotal.io/stable?release=linux64-binary&source=github'
-  - sudo dpkg -i cf-cli_linux64.deb
-  - cf -v
+deploy:
+  cloudfoundry:
+    target: http://api.ng.bluemix.net/
+    app: ha--node-starter
+    username: $$CF_ID
+    password: $$CF_PWD
+    space: $$CF_SPACE
+    when:
+      branch: master
