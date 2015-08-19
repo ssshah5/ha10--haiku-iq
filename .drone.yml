@@ -3,6 +3,7 @@ git:
   path: github.ibm.com/FED/ha--node-starter
 script:
   - npm install
+  - npm run install:bower
   - npm test
 deploy:
   cloudfoundry:
