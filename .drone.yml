@@ -1,8 +1,6 @@
 image: roster.rtp.raleigh.ibm.com/ruby-nodejs:0.12.5
 git:
   path: github.ibm.com/FED/ha--node-starter
-cache:
-  - /root/.npm
 script:
   - npm install
   - npm run install:bower:root
