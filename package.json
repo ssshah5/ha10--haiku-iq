@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run gulp test",
-    "postinstall": "npm run install:bower",
     "install:bower": "npm run bower install",
     "install:bower:root": "./node_modules/.bin/bower install --allow-root",
     "bower": "./node_modules/.bin/bower",
