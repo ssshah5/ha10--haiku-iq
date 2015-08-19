@@ -1,9 +1,12 @@
 image: roster.rtp.raleigh.ibm.com/ruby-nodejs:0.12.5
 git:
   path: github.ibm.com/FED/ha--node-starter
+script:
+  - npm install
+  - npm test
 deploy:
   cloudfoundry:
-    target: http://api.ng.bluemix.net/
+    target: https://api.ng.bluemix.net/
     app: ha--node-starter
     username: $$CF_ID
     password: $$CF_PWD
