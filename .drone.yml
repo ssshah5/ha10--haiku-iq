@@ -5,7 +5,7 @@ cache:
   - /root/.npm
 script:
   - npm install
-  - npm run install:bower --allow-root
+  - npm run install:bower:root
   - npm test
 deploy:
   cloudfoundry:
