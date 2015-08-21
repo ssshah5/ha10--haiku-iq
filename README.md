@@ -4,6 +4,38 @@ Welcome to Hack Academy!
 
 This repository will be the starting place for your work through Hack Academy. Following the instructions below will get you set up and ready to start working. Many items may seem new at first, but as you progress through Hack Academy, everything should become more familiar. We encourage you to make this codebase your own!
 
+## Pre Setup
+
+Before we get started, the following items need to be installed on our computers:
+
+[Git](http://git-scm.com/downloads) - Check to see if it's installed by running `git --help` in your terminal
+
+If you are on an **Apple Computer**:
+
+1. [Homebrew](http://brew.sh/) - Check to see if it's installed by running `brew -h` in your terminal
+2. [NVM](https://github.com/creationix/nvm) - Install by running `brew install nvm` in your terminal.
+3. Run `touch ~/.bash_profile`, then `open ~/.bash_profile`. This will create and open a file that allows your terminal to be set up. If you know you are running a different terminal, open that terminal's profile file (for instance, ZSH's file is `~/.zshrc`).
+4. Add the following to your `~/.bash_profile` file: `export NVM_DIR=~/.nvm` `source $(brew --prefix nvm)/nvm.sh`, each on separate lines. Save the file, close your terminal, and restart it.
+5. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
+6. Add `nvm use v0.12` on a new line to the same file you edited in Step 3. Save, close, and re-open your terminal
+7. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
+
+If you are on a **Windows Computer**
+
+1. [NVM for Windows](https://github.com/hakobera/nvmw)
+2. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
+3. Add `nvm use v0.12` to the same file you edited in Step 2. Save, close, and re-open your terminal
+4. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
+
+If you are on a **Linux Computer**
+
+1. [NVM](https://github.com/creationix/nvm) - Check to see if it's installed by running `nvm -h`
+2. Run `touch ~/.bash_profile`, then `open ~/.bash_profile`. This will create and open a file that allows your terminal to be set up. If you know you are running a different terminal, open that terminal's profile file (for instance, ZSH's file is `~/.zshrc`).
+3. Add the following to your `~/.bash_profile` file: `export NVM_DIR=~/.nvm` `source $(brew --prefix nvm)/nvm.sh`, each on separate lines. Save the file, close your terminal, and restart it.
+4. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
+5. Add `nvm use v0.12` on a new line to the same file you edited in Step 2. Save, close, and re-open your terminal
+6. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
+
 ## Getting Started
 
 The following steps should be done by a single member of each team.
