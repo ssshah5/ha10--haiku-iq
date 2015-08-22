@@ -61,9 +61,9 @@ If you have not already, go to [Bluemix](https://console.ng.bluemix.net/) and si
 Once signed up for Bluemix, go to [Drone](http://drone.rtp.raleigh.ibm.com/) and log in with your GitHub Enterprise account. Once there, hit **Browse All**, find your forked repo, and add it. Once added, go to the project's **Settings** on Drone and add the following private variables:
 
 ```yaml
-CF_ID: 
-CF_PWD: 
-CF_SPACE: 
+CF_ID:
+CF_PWD:
+CF_SPACE:
 ```
 
 **CF_ID** is your Bluemix username (probably an email address), **CF_PWD** is your Bluemix password in plain text (I know, CloudFoundry requires your password :sob:), and **CF_SPACE** is the space you made in Bluemix. Once you've added all of these things, copy the **Status Badge** code and replace the code in this README with your code!
@@ -74,7 +74,7 @@ There are two additional files you need to update; `.drone.yml` and `manifest.ym
 
 First, open up `manifest.yml` and change the `host` value to include your team name, something like `ha--{{team name}}` replacing `{{team name}}` with your team's name. No spaces allowed. You can change the `name` value too there, if you'd like.
 
-Second, open up `.drone.yml` files. On line 11, change the value of `app` the the value you set for `host` above. Then, on line 3, change `FED` to your GitHub Enterprise username.
+Second, open up `.drone.yml` files. On line 11, change the value of `app` the the value you set for `host` above.
 
 Commit all of the changes in, and push to `master`! This will trigger Drone to start a build of your project and deploy it to Bluemix once done!
 
