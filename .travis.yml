@@ -5,11 +5,9 @@ node_js:
 # Env
 env:
   global:
-    - CF_ORG=sam.richard@us.ibm
     - CF_APP=ha--node-starter
     - CF_API=https://api.ng.bluemix.net/
     - CF_SPACE=Hack-Academy
-    - CF_USERNAME=sam.richard@us.ibm.com
 
 # Deploy
 before_deploy:
