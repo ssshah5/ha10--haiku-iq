@@ -7,7 +7,6 @@ env:
   global:
     - CF_APP=ha--node-starter
     - CF_API=https://api.ng.bluemix.net/
-    - CF_SPACE=Hack-Academy
 
 # Deploy
 before_deploy:
