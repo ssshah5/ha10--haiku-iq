@@ -69,6 +69,10 @@ CF_SPACE
 
 **CF_USERNAME** is your Bluemix username (probably an email address), **CF_PASSWORD** is your Bluemix password in plain text (I know, CloudFoundry requires your password :sob:), **CF_SPACE** is the space you've made for your project, and **CF_ORGANIZATION** is the organization you are in in Bluemix (if its your email address, change it to a single word). Once you've added all of these things, copy the **Status Badge** code and replace the code in this README with your code!
 
+#### Deploying to Bluemix
+
+Before your first code push, run an initial push to Bluemix to ensure your app is up and running as expected. To do this, install the [Cloud Foundry CLI](https://github.com/cloudfoundry/cli). Follow the getting started guide from the Cloud Foundry CLI using the API endpoint `https://api.ng.bluemix.net/`. Once you've run `cf push`, you're done!
+
 #### Updating your App
 
 There are two additional files you need to update; `.travis.yml` and `manifest.yml`. These are both [YAML](http://yaml.org/) files; syntax highlighters should be available for your favorite code editor.
