@@ -11,7 +11,7 @@ env:
 # Deploy
 # Revert to `npm install -g cf-blue-green` once  https://github.com/18F/cf-blue-green/issues/17 is resolved
 before_deploy:
-  - npm install -g cf-blue-green
+  - 'npm install -g git://github.com/Snugug/cf-blue-green.git#push-if-new'
 deploy:
   - provider: script
     skip_cleanup: true
