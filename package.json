@@ -21,10 +21,10 @@
   "dependencies": {
     "cfenv": "^1.0.0",
     "express": "^4.13.3",
+    "bower": "^1.4.1",
     "watson-developer-cloud": "^0.9.28"
   },
   "devDependencies": {
-    "bower": "^1.4.1",
     "browser-sync": "^2.8.2",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
