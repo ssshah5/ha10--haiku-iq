@@ -5,7 +5,7 @@ node_js:
 # Env
 env:
   global:
-    - CF_APP=lets-do-lunch
+    - CF_APP=ha--node-starter
     - CF_API=https://api.ng.bluemix.net/
 
 # Deploy
