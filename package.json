@@ -1,7 +1,7 @@
 {
-  "name": "lets-do-lunch",
+  "name": "ha--node-starter",
   "version": "1.0.0",
-  "description": "Help decide on where to eat lunch and with who",
+  "description": "Hack Academy starter repo",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.ibm.com:colbycheeze/lets-do-lunch"
+    "url": "git@github.ibm.com:FED/ha--node-starter.git"
   },
   "author": "Sam Richard",
   "license": "Apache-2.0",
