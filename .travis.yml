@@ -8,6 +8,8 @@ deploy:
   provider: cloudfoundry
   username: ${CF_USERNAME}
   password: ${CF_PASSWORD}
+  organization: ${CF_ORGANIZATION}
+  space: ${CF_SPACE}
   api: https://api.ng.bluemix.net/
   on:
     branch: travis-deploy
