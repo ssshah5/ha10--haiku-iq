@@ -17,14 +17,14 @@ If you are on an **Apple Computer**:
 3. Run `touch ~/.bash_profile`, then `open ~/.bash_profile`. This will create and open a file that allows your terminal to be set up. If you know you are running a different terminal, open that terminal's profile file (for instance, ZSH's file is `~/.zshrc`).
 4. Add the following to your `~/.bash_profile` file: `export NVM_DIR=~/.nvm` `source $(brew --prefix nvm)/nvm.sh`, each on separate lines. Save the file, close your terminal, and restart it.
 5. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
-6. Add `nvm use v0.12` on a new line to the same file you edited in Step 3. Save, close, and re-open your terminal
+6. Add `nvm use v4.2` on a new line to the same file you edited in Step 3. Save, close, and re-open your terminal
 7. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
 
 If you are on a **Windows Computer**
 
 1. [NVM for Windows](https://github.com/hakobera/nvmw)
 2. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
-3. Add `nvm use v0.12` to the same file you edited in Step 2. Save, close, and re-open your terminal
+3. Add `nvm use v4.2` to the same file you edited in Step 2. Save, close, and re-open your terminal
 4. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
 
 If you are on a **Linux Computer**
@@ -33,62 +33,18 @@ If you are on a **Linux Computer**
 2. Run `touch ~/.bash_profile`, then `open ~/.bash_profile`. This will create and open a file that allows your terminal to be set up. If you know you are running a different terminal, open that terminal's profile file (for instance, ZSH's file is `~/.zshrc`).
 3. Add the following to your `~/.bash_profile` file: `export NVM_DIR=~/.nvm` `source $(brew --prefix nvm)/nvm.sh`, each on separate lines. Save the file, close your terminal, and restart it.
 4. [Node.js](https://nodejs.org/) - Install by running `nvm install v0.12` in your terminal.
-5. Add `nvm use v0.12` on a new line to the same file you edited in Step 2. Save, close, and re-open your terminal
+5. Add `nvm use v4.2` on a new line to the same file you edited in Step 2. Save, close, and re-open your terminal
 6. [Bower](http://bower.io/) - Check to see if it's installed by running `bower -h`
 
-## Getting Started
+At the end, you should have command line Git, NVM, and Bower installed, as well as Node v4.2 and, if you're a Mac user, Homebrew. After installing Node, run the following command: `npm install -g yo generator-hackademy && brew tap cloudfoundry/tap && brew install cf-cli`. This will install [Yeoman](http://yeoman.io/), a Yeoman generator for Hackademy that we will be using, and the Cloud Foundry Command Line interface for pushing to Bluemix.
 
-The following steps should be done by a single member of each team.
+It is important these steps are followed as we want to ensure that Node is installed via NVM to easily switch versions and ensure it is available without root access. If you are on a Mac and installed Node from the installer instead of Homebrew/NVM, please follow [these instructions](http://benznext.com/completely-uninstall-node-js-from-mac-os-x/) to remove it before starting over.
 
-### A Copy Of Your Own
+## Creating Your Project
 
-The first thing you'll need to do is [fork](https://guides.github.com/activities/forking/) this repository to your own account. This will give you an exact copy of this repo that you can start working from! Once you've forked the repo, [add an SSH key](https://github.ibm.com/settings/ssh) to your account. After you've added an SSH key, go back to your fork and copy the **SSH clone URL** (it should look like `git@github.ibm.com:FED/ha--node-starter.git` with your username instead of `FED`), and clone the repository to your computer! If you are using command-line Git, that will look something like this:
+Run `yo hackademy` from the command line to start scaffolding out your application! It will ask you to log in to [Bluemix](bluemix.net) and guide you through the process of setting up your project, even doing an initial deploy for you.
 
-```bash
-$ git clone git@github.ibm.com:FED/ha--node-starter.git
-```
-
-#### Adding your Team
-
-Each member of your team should follow the **add an SSH key** and **clone** steps above. The person who forked the repo should go to, from their fork **Settings->Collaborators** and add their team members to the repo.
-
-### Moar Account Setup
-
-In addition to GitHub Enterprise and a local clone of your project, there are two other accounts that you will need to set up: Bluemix and Travis.
-
-If you have not already, go to [Bluemix](https://console.ng.bluemix.net/) and sign up for an account. Once logged in, add a Space and give it a name _without spaces in it_. Remember this, you'll need it in a moment.
-
-Once signed up for Bluemix, go to [Travis](https://travis.innovate.ibm.com/repositories) and log in with your GitHub Enterprise account. Once there, hit **Browse All**, find your forked repo, and add it. Once added, go to the project's **Settings** on Travis and add the following **environment variables**:
-
-```yaml
-CF_USERNAME
-CF_PASSWORD
-CF_ORGANIZATION
-CF_SPACE
-```
-
-**CF_USERNAME** is your Bluemix username (probably an email address), **CF_PASSWORD** is your Bluemix password in plain text (I know, CloudFoundry requires your password :sob:), **CF_SPACE** is the space you've made for your project, and **CF_ORGANIZATION** is the organization you are in in Bluemix (if its your email address, change it to a single word). Once you've added all of these things, copy the **Status Badge** code and replace the code in this README with your code!
-
-#### Deploying to Bluemix
-
-Before your first code push, run an initial push to Bluemix to ensure your app is up and running as expected. To do this, install the [Cloud Foundry CLI](https://github.com/cloudfoundry/cli). Follow the getting started guide from the Cloud Foundry CLI using the API endpoint `https://api.ng.bluemix.net/`. Once you've run `cf push`, you're done!
-
-#### Updating your App
-
-There are two additional files you need to update; `.travis.yml` and `manifest.yml`. These are both [YAML](http://yaml.org/) files; syntax highlighters should be available for your favorite code editor.
-
-Open up `manifest.yml` and change the `host` value to include your team name, something like `ha--{{team name}}` replacing `{{team name}}` with your team's name. No spaces allowed. You can change the `name` value too there, if you'd like.
-
-Commit all of the changes in, and push to `master`! This will trigger Travis to start a build of your project and deploy it to Bluemix once done!
-
-## Installation
-
-After following the [Getting Started](#getting-started) guide, everyone on your team should now have a locally cloned copy of the codebase. Run these two commands from the root of your cloned codebase, and you'll be good to go:
-
-* `npm install`
-* `npm run install:bower`
-
-The first will install all of your Node dependencies, the second will install all of your [Bower](http://bower.io/) dependencies. Bower can be run via `npm run bower` followed by the command you'd like to use Bower.Alternatively, you can install Bower globally (`npm install -g bower`) and simply run `bower {{command}}`.
+Once you've set up your project and pushed it up to GitHub Enterprise, enable [Travis](https://travis.innovate.ibm.com/repositories) for your project. Once enabled, add a `BLUEMIX_PASSWORD` environment variable to your [project's settings](https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings). It should be set to your Bluemix password. Travis is now all set up to run your tests and deploy to Bluemix for you when you push to your `master` branch!
 
 ## Running
 
