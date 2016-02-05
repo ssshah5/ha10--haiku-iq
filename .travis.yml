@@ -2,18 +2,14 @@ language: node_js
 node_js:
   - '4.1'
 
-# Env
-env:
-  global:
-    - CF_APP=ha--node-starter
-    - CF_API=https://api.ng.bluemix.net/
-
 # Deploy
-before_deploy:
-  - npm install -g cf-blue-green
 deploy:
-  - provider: script
-    skip_cleanup: true
-    script: cf-blue-green-travis
-    on:
-      branch: master
+  edge: true
+  provider: cloudfoundry
+  username: ${CF_USERNAME}
+  password: ${CF_PASSWORD}
+  organization: ${CF_ORGANIZATION}
+  space: ${CF_SPACE}
+  api: https://api.ng.bluemix.net/
+  on:
+    branch: master
