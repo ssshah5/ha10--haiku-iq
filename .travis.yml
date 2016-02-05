@@ -9,3 +9,5 @@ deploy:
   username: ${CF_USERNAME}
   password: ${CF_PASSWORD}
   api: https://api.ng.bluemix.net/
+  on:
+    branch: travis-deploy
