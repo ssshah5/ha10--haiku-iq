@@ -1,15 +1,19 @@
 language: node_js
 node_js:
-  - '4.1'
+  - '4.4'
 
 # Deploy
 deploy:
   edge: true
   provider: cloudfoundry
-  username: ${CF_USERNAME}
-  password: ${CF_PASSWORD}
-  organization: ${CF_ORGANIZATION}
-  space: ${CF_SPACE}
+  username: email@us.ibm.com
+  #########################
+  ## Add BLUEMIX_PASSWORD environment variable to your Travis project's settings
+  ## https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings
+  #########################
+  password: ${BLUEMIX_PASSWORD}
+  organization: email@us.ibm.com # Set to your org
+  space: dev # Set to your space
   api: https://api.ng.bluemix.net/
   on:
     branch: master

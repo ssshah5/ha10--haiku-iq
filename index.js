@@ -4,20 +4,23 @@
 // Requires
 //////////////////////////////
 var express = require('express'),
-    cfenv = require('cfenv'),
-    // watson = require('watson-developer-cloud'),
     path = require('path');
+
+var appEnv = require('./lib/env'),
+    renderer = require('./lib/render');
 
 //////////////////////////////
 // App Variables
 //////////////////////////////
-var app = express(),
-    appEnv = cfenv.getAppEnv();
+var app = express();
+
+app.engine('html', renderer);
+app.set('view engine', 'html');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-  res.send('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Hello</title></head><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css/style.css" /><body><h1>Welcome to Hack Academy</h1><p><img src="images/bee.svg" alt="IBM Bee" /></p><script src="js/app.js"></script></body></html>');
+  res.render('index');
 });
 
 //////////////////////////////

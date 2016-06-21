@@ -24,6 +24,7 @@ var dirs = {
   'js': {
     'lint': [
       'index.js',
+      'lib/**/*.js',
       'src/**/*.js',
       '!src/**/*.min.js'
     ],
@@ -35,8 +36,11 @@ var dirs = {
   'server': {
     'main': 'index.js',
     'watch': [
-      'index.js'
-    ]
+      'index.js',
+      'lib',
+      'views',
+    ],
+    'extension': 'js html',
   },
   'sass': 'src/sass/**/*.scss',
   'images': 'src/images/**/*.*',
@@ -130,17 +134,20 @@ gulp.task('images:watch', function () {
 //////////////////////////////
 gulp.task('nodemon', function (cb) {
   nodemon({
-    'script': dirs.server.main,
-    'watch': dirs.server.watch,
-    'env': {
+    script: dirs.server.main,
+    watch: dirs.server.watch,
+    env: {
       'NODE_ENV': 'development'
-    }
+    },
+    ext: dirs.server.extension
   })
   .once('start', function () {
     cb();
   })
   .on('restart', function () {
-    // console.log('Restarted');
+    setTimeout(function () {
+      browserSync.reload();
+    }, 500);
   });
 });
 
