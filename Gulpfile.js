@@ -47,7 +47,7 @@ var dirs = {
   'public': 'public/'
 };
 
-var isCI = (typeof process.env.CI === 'undefined') ? process.env.CI : false;
+var isCI = (typeof process.env.CI !== 'undefined') ? Boolean(process.env.CI) : false;
 
 //////////////////////////////
 // Update BrowserSync
@@ -58,14 +58,14 @@ browserSync = browserSync.create();
 // JavaScript Lint Tasks
 //////////////////////////////
 gulp.task('eslint', function () {
-  gulp.src(dirs.js.lint)
+  return gulp.src(dirs.js.lint)
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(gulpif(isCI, eslint.failOnError()));
 });
 
 gulp.task('uglify', function () {
-  gulp.src(dirs.js.uglify)
+  return gulp.src(dirs.js.uglify)
     .pipe(gulpif(!isCI, sourcemaps.init()))
       .pipe(uglify({
         'mangle': isCI ? true : false
@@ -76,18 +76,18 @@ gulp.task('uglify', function () {
 });
 
 gulp.task('eslint:watch', function () {
-  gulp.watch(dirs.js.lint, ['eslint']);
+  return gulp.watch(dirs.js.lint, ['eslint']);
 });
 
 gulp.task('uglify:watch', function () {
-  gulp.watch(dirs.js.uglify, ['uglify']);
+  return gulp.watch(dirs.js.uglify, ['uglify']);
 });
 
 //////////////////////////////
 // Sass Tasks
 //////////////////////////////
 gulp.task('sass', function () {
-  gulp.src(dirs.sass)
+  return gulp.src(dirs.sass)
     .pipe(sasslint())
     .pipe(sasslint.format())
     .pipe(gulpif(isCI, sasslint.failOnError()))
@@ -108,14 +108,14 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch(dirs.sass, ['sass']);
+  return gulp.watch(dirs.sass, ['sass']);
 });
 
 //////////////////////////////
 // Image Tasks
 //////////////////////////////
 gulp.task('images', function () {
-  gulp.src(dirs.images)
+  return gulp.src(dirs.images)
     .pipe(imagemin({
       'progressive': true,
       'svgoPlugins': [
@@ -126,7 +126,7 @@ gulp.task('images', function () {
 });
 
 gulp.task('images:watch', function () {
-  gulp.watch(dirs.images, ['images']);
+  return gulp.watch(dirs.images, ['images']);
 });
 
 //////////////////////////////
