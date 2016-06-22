@@ -5,6 +5,7 @@ node_js:
 # Deploy
 deploy:
   edge: true
+  skip_cleanup: true
   provider: cloudfoundry
   username: email@us.ibm.com
   #########################
