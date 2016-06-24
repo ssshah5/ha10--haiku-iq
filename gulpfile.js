@@ -3,24 +3,24 @@
 //////////////////////////////
 // Requires
 //////////////////////////////
-var gulp = require('gulp'),
-    nodemon = require('gulp-nodemon'),
-    sourcemaps = require('gulp-sourcemaps'),
-    eslint = require('gulp-eslint'),
-    uglify = require('gulp-uglify'),
-    sass = require('gulp-sass'),
-    importOnce = require('node-sass-import-once'),
-    autoprefixer = require('gulp-autoprefixer'),
-    sasslint = require('gulp-sass-lint'),
-    imagemin = require('gulp-imagemin'),
-    cfenv = require('cfenv'),
-    gulpif = require('gulp-if'),
-    browserSync = require('browser-sync');
+const gulp = require('gulp');
+const nodemon = require('gulp-nodemon');
+const sourcemaps = require('gulp-sourcemaps');
+const eslint = require('gulp-eslint');
+const uglify = require('gulp-uglify');
+const sass = require('gulp-sass');
+const eyeglass = require('eyeglass');
+const autoprefixer = require('gulp-autoprefixer');
+const sasslint = require('gulp-sass-lint');
+const imagemin = require('gulp-imagemin');
+const cfenv = require('cfenv');
+const gulpif = require('gulp-if');
+const browserSync = require('browser-sync').create();
 
 //////////////////////////////
 // Variables
 //////////////////////////////
-var dirs = {
+const dirs = {
   'js': {
     'lint': [
       'index.js',
@@ -47,12 +47,11 @@ var dirs = {
   'public': 'public/'
 };
 
-var isCI = (typeof process.env.CI !== 'undefined') ? Boolean(process.env.CI) : false;
+const isCI = (typeof process.env.CI !== 'undefined') ? Boolean(process.env.CI) : false;
 
-//////////////////////////////
-// Update BrowserSync
-//////////////////////////////
-browserSync = browserSync.create();
+const sassOptions = {
+  'outputStyle': isCI ? 'expanded' : 'compressed',
+};
 
 //////////////////////////////
 // JavaScript Lint Tasks
@@ -92,15 +91,7 @@ gulp.task('sass', function () {
     .pipe(sasslint.format())
     .pipe(gulpif(isCI, sasslint.failOnError()))
     .pipe(gulpif(!isCI, sourcemaps.init()))
-      .pipe(sass({
-        'outputStyle': isCI ? 'expanded' : 'compressed',
-        'importer': importOnce,
-        'importOnce': {
-          'index': true,
-          'css': true,
-          'bower': true
-        }
-      }))
+      .pipe(sass(eyeglass(sassOptions)))
       .pipe(autoprefixer())
     .pipe(gulpif(!isCI, sourcemaps.write('maps')))
     .pipe(gulp.dest(dirs.public + 'css'))
