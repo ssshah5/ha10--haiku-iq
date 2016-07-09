@@ -88,7 +88,7 @@ gulp.task('uglify', function () {
 });
 
 gulp.task('eslint:watch', function () {
-  return gulp.watch(dirs.js.lint, ['eslint']);
+  return gulp.watch([dirs.js.lint.browser, dirs.js.lint.node], ['eslint']);
 });
 
 gulp.task('uglify:watch', function () {
