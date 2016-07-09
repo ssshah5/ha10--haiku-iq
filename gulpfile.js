@@ -21,30 +21,34 @@ const browserSync = require('browser-sync').create();
 // Variables
 //////////////////////////////
 const dirs = {
-  'js': {
-    'lint': [
-      'index.js',
-      'lib/**/*.js',
-      'src/**/*.js',
-      '!src/**/*.min.js'
-    ],
-    'uglify': [
+  js: {
+    lint: {
+      browser: [
+        'src/**/*.js',
+        '!src/**/*.min.js'
+      ],
+      node: [
+        'index.js',
+        'lib/**/*.js',
+      ],
+    },
+    uglify: [
       'src/js/**/*.js',
       '!src/js/**/*.min.js'
     ]
   },
-  'server': {
-    'main': 'index.js',
-    'watch': [
+  server: {
+    main: 'index.js',
+    watch: [
       'index.js',
       'lib',
       'views',
     ],
-    'extension': 'js html',
+    extension: 'js html',
   },
-  'sass': 'src/sass/**/*.scss',
-  'images': 'src/images/**/*.*',
-  'public': 'public/'
+  sass: 'src/sass/**/*.scss',
+  images: 'src/images/**/*.*',
+  public: 'public/'
 };
 
 const isCI = (typeof process.env.CI !== 'undefined') ? Boolean(process.env.CI) : false;
@@ -56,9 +60,18 @@ const sassOptions = {
 //////////////////////////////
 // JavaScript Lint Tasks
 //////////////////////////////
-gulp.task('eslint', function () {
-  return gulp.src(dirs.js.lint)
-    .pipe(eslint())
+gulp.task('eslint', ['eslint:browser', 'eslint:node']);
+
+gulp.task('eslint:browser', function () {
+  return gulp.src(dirs.js.lint.browser)
+    .pipe(eslint('./.eslintrc-browser.yml'))
+    .pipe(eslint.format())
+    .pipe(gulpif(isCI, eslint.failOnError()));
+});
+
+gulp.task('eslint:node', function () {
+  return gulp.src(dirs.js.lint.node)
+    .pipe(eslint('./.eslintrc-node.yml'))
     .pipe(eslint.format())
     .pipe(gulpif(isCI, eslint.failOnError()));
 });
@@ -75,7 +88,7 @@ gulp.task('uglify', function () {
 });
 
 gulp.task('eslint:watch', function () {
-  return gulp.watch(dirs.js.lint, ['eslint']);
+  return gulp.watch([dirs.js.lint.browser, dirs.js.lint.node], ['eslint']);
 });
 
 gulp.task('uglify:watch', function () {
