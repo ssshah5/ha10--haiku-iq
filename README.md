@@ -2,11 +2,38 @@
 
 Welcome to Hackademy!
 
-This repository will be the starting place for your work through Hackademy. Following the instructions below will get you set up and ready to start working. Many items may seem new at first, but as you progress through Hackademy, everything should become more familiar. We encourage you to make this codebase your own!
+This repository will be the starting place for your work throughout Hackademy. Following the instructions below will get you set up and ready to start working. Many items may seem new at first, but as you progress through Hackademy, everything should become more familiar. We encourage you to make this codebase your own!
+
+## Collaborating
+
+One of the most effective ways to collaborate on GitHub is by using a forking/branching model as described in the [GitHub Guides](https://guides.github.com/).
+
+### Setup
+
+* [Fork](https://guides.github.com/activities/forking/) the main (blessed) repository to your personal GitHub Enterprise space
+* Clone this new fork locally to your computer. Make sure you use the SSH URL, not the HTTPS URL. This will be your `origin` remote.
+* Add an `upstream` remote whose URL is the SSH URL of the blessed repository - `git remote add upstream {{url}}`, replacing `{{url}}` with the blessed repo's URL.
+* Ensure that the blessed repository's `master` branch is [protected](https://help.github.com/articles/about-protected-branches/)
+
+### Divvying Up Work
+
+* As a team, create [issues](https://guides.github.com/features/issues/) in the blessed repository to describe what work needs to be done
+* Assign the issue to an individual to work on and add it to the `To Do` pipeline in the [ZenHub](ibm.biz/zenhub-install) boards
+* When you have started working on an issue, move it to the `In Progress` pipeline.
+
+### Doing Work
+
+* Each time you begin doing work on a new issue, check out the master branch by doing `git checkout master`. You will only be able to do this if you don't have any changes in your local codebase.
+* Pull in the latest changes from upstream's master branch - `git pull upstream master`
+* Create a new [branch](https://guides.github.com/introduction/flow/), named something relevant to the issue being worked on - `git checkout -b {{branch-name}}`, replacing `{{branch-name}}` with the name of your branch.
+* Push your new branch to your origin remote - `git push -u origin {{branch-name}}`
+* Add your commits and push to that branch - `git push origin {{branch-name}}`
+* Issue a Pull Request in to the upstream repository when the work is done. Make sure the Pull Request comment includes a [keyword for closing issues](https://help.github.com/articles/closing-issues-via-commit-messages/) for closing the issue the work is for - `Resolves #42` (with `42` being the issue number)
+* Once the Pull Request is merged, delete the local and remote branch you worked on - `git branch -d {{branch-name}}` for local, `git push origin :{{branch-name}}` for remote. **Important: Never Reuse A Branch After It Has Been Merged**
 
 ## Installing
 
-After [forking](https://guides.github.com/activities/forking/) and cloning the codebase, run the following command to install all of the dependencies:
+After forking and cloning the codebase, run the following command to install all of the dependencies:
 
 ```bash
 npm install
