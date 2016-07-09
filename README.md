@@ -23,7 +23,7 @@ One of the most effective ways to collaborate on GitHub is by using a forking/br
 
 ### Doing Work
 
-* Each time you begin doing new work on an issue, check out the master branch by doing `git checkout master`. You will only be able to do this if you don't have any changes in your local codebase.
+* Each time you begin doing work on a new issue, check out the master branch by doing `git checkout master`. You will only be able to do this if you don't have any changes in your local codebase.
 * Pull in the latest changes from upstream's master branch - `git pull upstream master`
 * Create a new [branch](https://guides.github.com/introduction/flow/), named something relevant to the issue being worked on - `git checkout -b {{branch-name}}`, replacing `{{branch-name}}` with the name of your branch.
 * Push your new branch to your origin remote - `git push -u origin {{branch-name}}`
