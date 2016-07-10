@@ -59,7 +59,7 @@ If a commit comes in to the `master` branch and all of the tests pass, Travis wi
 
 ## Extending This Starter
 
-The Node Starter comes if a very bare-bones Node middleware setup.
+The Node Starter is a very bare-bones Node server.
 
 * `src` - Browser source files
   * `src/js` - Browser JS files you write. Will render to `public/js` and available in the `/js` folder from the browser
