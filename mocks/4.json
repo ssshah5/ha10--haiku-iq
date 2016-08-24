@@ -65,15 +65,18 @@
  },
  {
    "word": "strawberry",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "nature"
  },
  {
    "word": "skyscraper",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "building"
  },
  {
    "word": "queen",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "deal",
@@ -113,11 +116,13 @@
  },
  {
    "word": "elevator",
-   "syllableCount": 4
+   "syllableCount": 4,
+   "theme": "building"
  },
  {
    "word": "coffee",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "food"
  },
  {
    "word": "suggested",
@@ -141,7 +146,8 @@
  },
  {
    "word": "television",
-   "syllableCount": 4
+   "syllableCount": 4,
+   "theme": "technology"
  },
  {
    "word": "empty",
@@ -153,7 +159,8 @@
  },
  {
    "word": "wild",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "smile",
@@ -173,7 +180,8 @@
  },
  {
    "word": "prize",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "arrived",
@@ -193,7 +201,8 @@
  },
  {
    "word": "library",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "building"
  },
  {
    "word": "fifty",
@@ -245,7 +254,8 @@
  },
  {
    "word": "husband",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "honor",
@@ -261,7 +271,8 @@
  },
  {
    "word": "thunder",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "polish",
@@ -309,7 +320,8 @@
  },
  {
    "word": "raccoon",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "bloomed",
@@ -325,7 +337,8 @@
  },
  {
    "word": "roofs",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "building"
  },
  {
    "word": "loose",
@@ -333,11 +346,13 @@
  },
  {
    "word": "coop",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "building"
  },
  {
    "word": "stoop",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "building"
  },
  {
    "word": "troop",
@@ -397,7 +412,8 @@
  },
  {
    "word": "hardware",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "technology"
  },
  {
    "word": "garbage",
@@ -413,7 +429,8 @@
  },
  {
    "word": "radar",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "technology"
  },
  {
    "word": "harbor",
@@ -457,7 +474,8 @@
  },
  {
    "word": "yourself",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "support",
@@ -489,7 +507,8 @@
  },
  {
    "word": "tornado",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "nature"
  },
  {
    "word": "cared",
@@ -497,7 +516,8 @@
  },
  {
    "word": "dairy",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "unfair",
@@ -521,7 +541,8 @@
  },
  {
    "word": "airplanes",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "technology"
  },
  {
    "word": "barely",
@@ -533,7 +554,8 @@
  },
  {
    "word": "software",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "technology"
  },
  {
    "word": "staircase",
@@ -581,7 +603,8 @@
  },
  {
    "word": "pearl",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "purse",
@@ -593,7 +616,8 @@
  },
  {
    "word": "turtle",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "urgent",
@@ -633,7 +657,8 @@
  },
  {
    "word": "furniture",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "objects"
  },
  {
    "word": "research",
@@ -661,7 +686,8 @@
  },
  {
    "word": "scout",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "counter",
@@ -681,7 +707,8 @@
  },
  {
    "word": "mountain",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "county",
@@ -697,7 +724,8 @@
  },
  {
    "word": "counselor",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "discount",
@@ -737,7 +765,8 @@
  },
  {
    "word": "employer",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "joining",
@@ -769,7 +798,8 @@
  },
  {
    "word": "employee",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "voyage",
@@ -809,15 +839,18 @@
  },
  {
    "word": "elves",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "mice",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "calves",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "feet",
@@ -825,11 +858,13 @@
  },
  {
    "word": "women",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "geese",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "series",
@@ -837,7 +872,8 @@
  },
  {
    "word": "scissors",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "halves",
@@ -845,7 +881,8 @@
  },
  {
    "word": "oxen",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "crises",
@@ -853,11 +890,13 @@
  },
  {
    "word": "knives",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "thieves",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "adventures",
@@ -869,23 +908,28 @@
  },
  {
    "word": "teams",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "players",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "birds",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "wolfs",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "horses",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "classs",
@@ -893,19 +937,23 @@
  },
  {
    "word": "groups",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "students",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "trees",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "parents",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "owners",
@@ -913,26 +961,30 @@
  },
  {
    "word": "cousins",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "teachers",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "aunts",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "friends",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
-   "word": "childrens",
+   "word": "children's",
    "syllableCount": 2
  },
  {
-   "word": "citys",
+   "word": "city's",
    "syllableCount": 2
  },
  {
@@ -940,7 +992,7 @@
    "syllableCount": 1
  },
  {
-   "word": "countrys",
+   "word": "country's",
    "syllableCount": 2
  },
  {
@@ -949,7 +1001,8 @@
  },
  {
    "word": "doctor",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "January",
@@ -993,11 +1046,13 @@
  },
  {
    "word": "governor",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "President",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "highway",
@@ -1025,11 +1080,13 @@
  },
  {
    "word": "ceiling",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "building"
  },
  {
    "word": "reindeer",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "nature"
  },
  {
    "word": "freight",
@@ -1041,7 +1098,8 @@
  },
  {
    "word": "neighbor",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "receive",
@@ -1053,7 +1111,8 @@
  },
  {
    "word": "chief",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "seize",
@@ -1073,7 +1132,8 @@
  },
  {
    "word": "windshield",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "pierce",
@@ -1081,7 +1141,8 @@
  },
  {
    "word": "thief",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "achieve",
@@ -1105,7 +1166,8 @@
  },
  {
    "word": "money",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "already",
@@ -1113,11 +1175,13 @@
  },
  {
    "word": "valley",
-   "syllableCount": 2
+   "syllableCount": 2 ,
+   "theme": "nature"
  },
  {
    "word": "monkey",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "company",
@@ -1145,7 +1209,8 @@
  },
  {
    "word": "honey",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "food"
  },
  {
    "word": "unused",
@@ -1285,7 +1350,8 @@
  },
  {
    "word": "families",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "worried",
@@ -1337,7 +1403,8 @@
  },
  {
    "word": "enemies",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "scurried",
@@ -1345,7 +1412,8 @@
  },
  {
    "word": "libraries",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "building"
  },
  {
    "word": "prettier",
@@ -1453,7 +1521,8 @@
  },
  {
    "word": "calendar",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "objects"
  },
  {
    "word": "horror",
@@ -1461,7 +1530,8 @@
  },
  {
    "word": "officer",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "finger",
@@ -1469,11 +1539,13 @@
  },
  {
    "word": "director",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "master",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "regular",
@@ -1485,7 +1557,8 @@
  },
  {
    "word": "table",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "furniture"
  },
  {
    "word": "handle",
@@ -1501,7 +1574,8 @@
  },
  {
    "word": "jungle",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "actual",
@@ -1513,7 +1587,8 @@
  },
  {
    "word": "bottle",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "possible",
@@ -1533,7 +1608,8 @@
  },
  {
    "word": "hospital",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "building"
  },
  {
    "word": "trouble",
@@ -1541,7 +1617,8 @@
  },
  {
    "word": "candle",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "dial",
@@ -1561,7 +1638,8 @@
  },
  {
    "word": "kitchen",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "food"
  },
  {
    "word": "reason",
@@ -1569,11 +1647,13 @@
  },
  {
    "word": "human",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "season",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "burden",
@@ -1581,7 +1661,8 @@
  },
  {
    "word": "oven",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "horizon",
@@ -1605,7 +1686,8 @@
  },
  {
    "word": "canyon",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "slogan",
@@ -1693,7 +1775,8 @@
  },
  {
    "word": "lamb",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "often",
@@ -1701,7 +1784,8 @@
  },
  {
    "word": "comb",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "climbed",
@@ -1749,7 +1833,8 @@
  },
  {
    "word": "tomb",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "glisten",
@@ -1760,48 +1845,49 @@
    "syllableCount": 2
  },
  {
-   "word": "weve",
+   "word": "we've",
    "syllableCount": 1
  },
  {
-   "word": "youd",
+   "word": "you'd",
    "syllableCount": 1
  },
  {
-   "word": "youve",
+   "word": "you've",
    "syllableCount": 1
  },
  {
-   "word": "shed",
+   "word": "she'd",
    "syllableCount": 1
  },
  {
-   "word": "shouldnt",
+   "word": "shouldn't",
    "syllableCount": 2
  },
  {
-   "word": "werent",
+   "word": "weren't",
    "syllableCount": 2
  },
  {
-   "word": "wed",
+   "word": "we'd",
    "syllableCount": 1
  },
  {
-   "word": "hadnt",
+   "word": "hadn't",
    "syllableCount": 2
  },
  {
-   "word": "theyd",
+   "word": "they'd",
    "syllableCount": 1
  },
  {
-   "word": "Id",
+   "word": "I'd",
    "syllableCount": 1
  },
  {
    "word": "plains",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "piece",
@@ -1809,7 +1895,8 @@
  },
  {
    "word": "planes",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "peace",
@@ -1821,19 +1908,23 @@
  },
  {
    "word": "pedal",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "stake",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "steak",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "food"
  },
  {
    "word": "berry",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "food"
  },
  {
    "word": "bury",
@@ -1845,7 +1936,8 @@
  },
  {
    "word": "dinner",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "food"
  },
  {
    "word": "suppose",
@@ -1873,7 +1965,8 @@
  },
  {
    "word": "cotton",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "object",
@@ -1881,7 +1974,8 @@
  },
  {
    "word": "shelter",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "building"
  },
  {
    "word": "pattern",
@@ -2188,10 +2282,6 @@
    "syllableCount": 2
  },
  {
-   "word": "underground",
-   "syllableCount": 3
- },
- {
    "word": "compound",
    "syllableCount": 2
  },
@@ -2205,7 +2295,8 @@
  },
  {
    "word": "bloodhound",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "mound",
@@ -2216,12 +2307,9 @@
    "syllableCount": 2
  },
  {
-   "word": "greyhound",
-   "syllableCount": 2
- },
- {
    "word": "hound",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "distraught",
@@ -2440,56 +2528,8 @@
    "syllableCount": 3
  },
  {
-   "word": "pocketknife",
-   "syllableCount": 3
- },
- {
-   "word": "blackmail",
-   "syllableCount": 2
- },
- {
-   "word": "pocketbook",
-   "syllableCount": 3
- },
- {
-   "word": "blackboard",
-   "syllableCount": 2
- },
- {
    "word": "friendship",
    "syllableCount": 2
- },
- {
-   "word": "tightrope",
-   "syllableCount": 2
- },
- {
-   "word": "snowflakes",
-   "syllableCount": 2
- },
- {
-   "word": "earmuffs",
-   "syllableCount": 2
- },
- {
-   "word": "buttercup",
-   "syllableCount": 3
- },
- {
-   "word": "airman",
-   "syllableCount": 2
- },
- {
-   "word": "anchorman",
-   "syllableCount": 3
- },
- {
-   "word": "stepladder",
-   "syllableCount": 3
- },
- {
-   "word": "mistletoe",
-   "syllableCount": 3
  },
  {
    "word": "fully",
@@ -2553,7 +2593,8 @@
  },
  {
    "word": "yourself",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "anymore",
@@ -2561,7 +2602,8 @@
  },
  {
    "word": "staircase",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "building"
  },
  {
    "word": "overheard",
@@ -2588,8 +2630,9 @@
    "syllableCount": 2
  },
  {
-   "word": "windshield  ",
-   "syllableCount": 2
+   "word": "windshield",
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "inactive",
@@ -2597,7 +2640,8 @@
  },
  {
    "word": "pocketknife",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "objects"
  },
  {
    "word": "blackmail",
@@ -2605,7 +2649,8 @@
  },
  {
    "word": "pocketbook",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "objects"
  },
  {
    "word": "blackboard",
@@ -2616,44 +2661,46 @@
    "syllableCount": 3
  },
  {
-   "word": "friendship",
-   "syllableCount": 2
- },
- {
    "word": "tightrope",
    "syllableCount": 2
  },
  {
    "word": "snowflakes",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "earmuffs",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "buttercup",
    "syllableCount": 3
  },
  {
-   "word": "understood  ",
+   "word": "understood",
    "syllableCount": 3
  },
  {
    "word": "airman",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "anchorman",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "stepladder",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "objects"
  },
  {
    "word": "mistletoe",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "nature"
  },
  {
    "word": "homeless",
@@ -2681,35 +2728,12 @@
  },
  {
    "word": "campground",
-   "syllableCount": 2
- },
- {
-   "word": "skyscraper  ",
-   "syllableCount": 3
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "snowbound",
    "syllableCount": 2
- },
- {
-   "word": "underwear",
-   "syllableCount": 3
- },
- {
-   "word": "bloodhound",
-   "syllableCount": 2
- },
- {
-   "word": "underestimate",
-   "syllableCount": 5
- },
- {
-   "word": "undercover",
-   "syllableCount": 4
- },
- {
-   "word": "underside",
-   "syllableCount": 3
  },
  {
    "word": "spellbound",
@@ -2721,18 +2745,17 @@
  },
  {
    "word": "greyhound",
-   "syllableCount": 2
- },
- {
-   "word": "undertook",
-   "syllableCount": 3
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "layman",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "mangrove",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  }
 ]
