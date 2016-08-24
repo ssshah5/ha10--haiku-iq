@@ -36,12 +36,10 @@ app.get('/words', (req, res) => {
   res.end();
 });
 
-//Route for fetching words
 app.get('/words', (req, res) => {
   res.send('Words are here');
 });
 
-//Route for fetching images
 app.get('/image', (req, res) => {
   res.send('Image is here');
 });
