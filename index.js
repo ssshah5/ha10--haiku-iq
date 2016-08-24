@@ -36,6 +36,15 @@ app.get('/words', (req, res) => {
   res.end();
 });
 
+app.get('/words', (req, res) => {
+  res.send('Words are here');
+});
+
+app.get('/image', (req, res) => {
+  res.send('Image is here');
+});
+
+
 //////////////////////////////
 // Start the server
 //////////////////////////////

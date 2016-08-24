@@ -1,1642 +1,1617 @@
 [
  {
    "word": "bad",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "map",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"buildings"
  },
  {
    "word": "had",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dad",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sad",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tap",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mad",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "lap",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rap",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "what",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "all",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "were",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "field",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "turn",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "afraid",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "closed",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "six",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fix",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pin",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rip",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tip",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sit",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "him",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hill",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "win",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bit",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "log",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dog",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "job",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fog",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "flop",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "jog",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "off",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sand",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pond",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "lost",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "just",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "past",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "list",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "band",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hand",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "cast",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "grand",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "egg",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "fed",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "met",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "them",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rest",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bend",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "test",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "went",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "send",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "us",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mud",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "rub",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "luck",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "shut",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rust",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "stuck",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bud",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "kind",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "child",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "slide",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hide",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "glide",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "side",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pride",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wide",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tide",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bride",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "stride",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "told",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "cold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "most",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "both",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "scold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mold",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "May",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rain",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "say",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wait",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pay",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "train",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"technology"
  },
  {
    "word": "lay",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "laid",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "way",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bait",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "need",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "read",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "deep",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "eat",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "keep",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "team",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "feet",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "each",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "seat",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "weed",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "boat",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "row",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "show",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "coal",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "coat",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "slow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "coast",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "own",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "low",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "road",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "soup",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "huge",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "flute",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "cute",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "suit",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mute",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "amuse",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "chute",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fuse",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "lute",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "car",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pear",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "war",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "ear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "gear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "grass",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dress",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "less",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pass",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "glass",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "class",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mess",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bass",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "brass",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "ball",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "fall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "call",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tall",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"buildings"
  },
  {
    "word": "stall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mall",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"buildings"
  },
  {
    "word": "gall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "ship",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"buildings"
  },
  {
    "word": "rich",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "change",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "shop",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "chest",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fish",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "reach",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wish",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "shape",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "long",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "ring",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "thing",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "song",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "string",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "king",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wing",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "belong",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "pong",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "stick",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "kick",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "took",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "track",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "black",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "neck",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "pack",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "snack",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "lock",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "clock",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "sock",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sack",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "he's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "we're",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "I'm",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "she's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "they're",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "I'll",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "you're",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "that's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "there's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "what's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "grew",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "room",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "group",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "flew",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "food",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "drew",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "loom",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "gloom",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bloom",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "boom",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "groom",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "high",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "night",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "fight",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "light",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sight",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bright",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "might",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "right",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "arm",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "far",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "heart",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dark",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "hard",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "farm",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "park",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "start",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "part",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "are",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "don't",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "can't",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "let's",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "won't",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "I've",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "didn't",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "wasn't",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "couldn't",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "doesn't",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "wouldn't",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "sew",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "so",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "two",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "too",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "there",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "their",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "asked",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "doing",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "called",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "going",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "looked",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "playing",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "started",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "trying",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "looking",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "wanted",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "soon",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "came",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "upon",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "home",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "first",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "house",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "box",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "girl",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "saw",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "stand",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "grandma",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "seesaw",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"objects"
  },
  {
    "word": "sometimes",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "herself",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "somewhere",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "classroom",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "himself",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "baseball",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "softball",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "kickball",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "dropped",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "putting",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "stopped",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "getting",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "planned",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "running",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "slipped",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "grabbed",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "popping",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "sitting",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "saved",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "giving",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "liked",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "taking",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "used",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "riding",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "placed",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "moving",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "loved",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "living",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "girls",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "boxes",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "toys",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dishes",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "times",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "inches",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "boys",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "wishes",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "days",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "things",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "ducks",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "cows",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "whales",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "seals",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rabbits",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "chickens",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "zebras",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "animals",
-   "syllables": ""
+   "syllableCount": 3
  },
  {
    "word": "see",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "sea",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "dear",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "deer",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "meet",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "meat",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "road",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "rode",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "dye",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "die",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "family",
-   "syllables": ""
+   "syllableCount": 3,
+   "theme":"people"
  },
  {
    "word": "sister",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "grandmother",
-   "syllables": ""
+   "syllableCount": 3,
+   "theme":"people"
  },
  {
    "word": "aunt",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "baby",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "grandfather",
-   "syllables": ""
+   "syllableCount": 3,
+   "theme":"people"
  },
  {
    "word": "uncle",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "father",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "brother",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "maybe",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "bedroom",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "lunchroom",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "into",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "something",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "nobody",
-   "syllables": ""
+   "syllableCount": 3
  },
  {
    "word": "doghouse",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "inside",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "notebook",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"objects"
  },
  {
    "word": "snowball",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "book",
-   "syllables": ""
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "school",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "look",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "could",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "because",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "mother",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "run",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "people",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "made",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "find",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "think",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "four",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "let",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "red",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "name",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "back",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "big",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "color",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "use",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "bring",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "next",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "better",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "leave",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "tell",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "never",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "should",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "best",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "under",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "present",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "please",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "also",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "another",
-   "syllables": ""
+   "syllableCount": 3
  },
  {
    "word": "must",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "over",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "end",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "water",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "five",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "only",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "shall",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "below",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "glow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "snow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "follow",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "throw",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "elbow",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "stow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "flow",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "mow",
-   "syllables": ""
- },
- {
-   "word": "grandma",
-   "syllables": ""
- },
- {
-   "word": "seesaw",
-   "syllables": ""
- },
- {
-   "word": "sometimes",
-   "syllables": ""
- },
- {
-   "word": "herself",
-   "syllables": ""
- },
- {
-   "word": "himself",
-   "syllables": ""
- },
- {
-   "word": "grandmother",
-   "syllables": ""
- },
- {
-   "word": "grandfather",
-   "syllables": ""
- },
- {
-   "word": "maybe  ",
-   "syllables": ""
- },
- {
-   "word": "bedroom",
-   "syllables": ""
- },
- {
-   "word": "lunchroom",
-   "syllables": ""
- },
- {
-   "word": "into",
-   "syllables": ""
- },
- {
-   "word": "something",
-   "syllables": ""
- },
- {
-   "word": "nobody",
-   "syllables": ""
- },
- {
-   "word": "doghouse",
-   "syllables": ""
- },
- {
-   "word": "inside",
-   "syllables": ""
- },
- {
-   "word": "notebook ",
-   "syllables": ""
+   "syllableCount": 1
  },
  {
    "word": "asleep",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "springtime",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "without",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "raincoat",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "bedtime",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "hotdog",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "homesick",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
-   "word": "tablecloth ",
-   "syllables": ""
+   "word": "tablecloth",
+   "syllableCount": 3
  },
  {
    "word": "snowstorm",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "landmark",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"buildings"
  },
  {
    "word": "aircraft",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"technology"
  },
  {
    "word": "snowball",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "goodbye",
-   "syllables": ""
+   "syllableCount": 2
  },
  {
    "word": "kickball",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"objects"
  },
  {
    "word": "handlebars",
-   "syllables": ""
+   "syllableCount": 3,
+   "theme":"objects"
  },
  {
    "word": "seashell",
-   "syllables": ""
+   "syllableCount": 2,
+   "theme":"nature"
  }
 ]
