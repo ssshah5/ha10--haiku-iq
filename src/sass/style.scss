@@ -1,6 +1,77 @@
 @import 'toolkit/reset';
 @import 'ibm-colors';
 
+$grid: 1;
+$column: 60px;
+$gutter: 20px;
+
+$spans: (
+  'header': (
+    'small': 1,
+  ),
+  'main': (
+    'small': 1,
+  )
+);
+
+@function span($span) {
+  @return ($span * $column) + (($span - 1) * $gutter);
+}
+
+@function rwd($target, $context) {
+  @return $target / $context * 100%;
+}
+
+@each $class, $span in $spans {
+  .#{$class} {
+    $amount: span(map-get($span, 'small'));
+    text-align: center;
+    width: rwd($amount, span($grid));
+  }
+}
+
+.theme {
+  font-size: 32px;
+  padding: 10vh;
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+}
+
+.footer-icon {
+  width: 32px;
+}
+
+//////////////////////////////////
+// Poem styling
+//////////////////////////////////
+.poemline {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid color('warm-gray', 20);
+  line-height: 2.5em;
+  margin: 0;
+  min-width: 250px;
+  outline: 0;
+  padding: 2px 10px;
+  text-decoration-line: underline 1px;
+
+  &:focus {
+    background: color('warm-gray', 10);
+    border-radius: 2px;
+    outline: none;
+  }
+}
+
+legend {
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+}
+
 body {
-  background: color('blue', 50);
+  background: color('neutral-white', 40);
+  font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', HelvLightIBM, Arial, sans-serif;
 }
