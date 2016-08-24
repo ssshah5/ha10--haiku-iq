@@ -48,11 +48,13 @@ $spans: (
 // Poem styling
 //////////////////////////////////
 .poemline {
-  background: none;
+  background: transparent;
   border: 0;
+  border-bottom: 1px solid color('warm-gray', 20);
   line-height: 2.5em;
   margin: 0;
-  min-width: 150px;
+  min-width: 250px;
+  outline: 0;
   padding: 2px 10px;
   text-decoration-line: underline 1px;
 
