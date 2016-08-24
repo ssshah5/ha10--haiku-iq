@@ -5,11 +5,17 @@ $grid: 1;
 $column: 60px;
 $gutter: 20px;
 
+$default-color: rgb(0, 0, 0);
+$opaque: rgba(0, 0, 0, .4);
+
 $spans: (
   'header': (
     'small': 1,
   ),
   'main': (
+    'small': 1,
+  ),
+  'footer': (
     'small': 1,
   )
 );
@@ -37,11 +43,51 @@ $spans: (
 
 .footer {
   bottom: 0;
+  padding-bottom: 2%;
   position: fixed;
 }
 
 .footer-icon {
-  width: 32px;
+  width: 65px;
+}
+
+.right-footer {
+  margin-left: 50%;
+  padding-right: 2%;
+  text-align: right;
+}
+
+.left-footer {
+  float: left;
+  padding-left: 2%;
+  text-align: left;
+  width: 50%;
+}
+
+.info-popup {
+  background-color: $opaque;
+  display: none;
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding: 10%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.info-content {
+  background-color: color('cool-white');
+  border: 1px solid color('black');
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.close-icon {
+  float: right;
+  width: 30px;
 }
 
 //////////////////////////////////
