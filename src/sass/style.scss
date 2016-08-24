@@ -38,7 +38,8 @@ $spans: (
 
 .theme {
   font-size: 32px;
-  padding: 10vh;
+  padding: 10vh 15px;
+  overflow-wrap: break-word;
 }
 
 .footer {
