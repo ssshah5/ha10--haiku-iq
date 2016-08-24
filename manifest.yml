@@ -1,6 +1,6 @@
 applications:
   - disk_quota: 1024M
-    host: ha--node-starter
+    host: ha--who-nodes
     name: Hack Academy - Node Starter
     path: .
     domain: mybluemix.net
