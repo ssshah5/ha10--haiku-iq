@@ -11,9 +11,6 @@ $spans: (
   ),
   'main': (
     'small': 1,
-  ),
-  'footer': (
-    'small': 1,
   )
 );
 
@@ -33,25 +30,18 @@ $spans: (
   }
 }
 
-.header {
-
-}
-
-#theme {
-  padding: 20vh;
+.theme {
+  font-size: 32px;
+  padding: 10vh;
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
+  position: fixed;
 }
 
 .footer-icon {
   width: 32px;
-}
-
-#dictionary {
-  text-align: right;
 }
 
 body {
