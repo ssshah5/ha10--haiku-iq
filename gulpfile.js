@@ -44,7 +44,7 @@ const dirs = {
       'lib',
       'views',
     ],
-    extension: 'js html',
+    extension: 'js html handlebars',
   },
   sass: 'src/sass/**/*.scss',
   images: 'src/images/**/*.*',

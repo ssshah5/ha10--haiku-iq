@@ -10,6 +10,8 @@ const path = require('path');
 
 const appEnv = require('./lib/env');
 
+const mockWords = require('./mocks/words.json');
+
 //////////////////////////////
 // App Variables
 //////////////////////////////
@@ -24,6 +26,14 @@ app.get('/', (req, res) => {
   res.render('home',
     { theme: 'myAwesomeTheme' }
   );
+});
+
+app.get('/words', (req, res) => {
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(mockWords));
+  res.end();
 });
 
 //////////////////////////////
