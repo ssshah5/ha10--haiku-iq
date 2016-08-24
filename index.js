@@ -4,24 +4,36 @@
 // Requires
 //////////////////////////////
 const express = require('express');
+const exphbs = require('express-handlebars');
 
 const path = require('path');
 
 const appEnv = require('./lib/env');
-const renderer = require('./lib/render');
+
+const mockWords = require('./mocks/words.json');
 
 //////////////////////////////
 // App Variables
 //////////////////////////////
 const app = express();
 
-app.engine('html', renderer);
-app.set('view engine', 'html');
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('home',
+    { theme: 'myAwesomeTheme' }
+  );
+});
+
+app.get('/words', (req, res) => {
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(mockWords));
+  res.end();
 });
 
 //Route for fetching words
