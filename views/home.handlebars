@@ -2,11 +2,21 @@
   <h1 class='theme'>{{theme}}</h1>
 </header>
 <main class='main'>
+  <fieldset>
+    <legend>Haiku poem lines</legend>
+    
   <ul id='poem'>
-    <li id='line1' class='five-syl'>Line1</li>
-    <li id='line2' class='seven-syl'>Line2</li>
-    <li id='line3' class='five-syl'>Line3</li>
+    <li id='line1' class='five-syl'>
+      <input type="text" class="poemline" placeholder="five syllables here" name="poemLine1"></input>
+    </li>
+    <li id='line2' class='seven-syl'>
+      <input type="text" class="poemline" placeholder="now, seven syllables typed" name="poemLine2"></input>
+    </li>
+    <li id='line3' class='five-syl'>
+      <input type="text" class="poemline" placeholder="five more syllables" name="poemLine3"></input>
+    </li>
   </ul>
+  </fieldset>
 </main>
 <footer class='footer'>
   <div class='left-footer'>
