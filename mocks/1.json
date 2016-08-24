@@ -1,7 +1,8 @@
 [
  {
    "word": "hat",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "cat",
@@ -53,11 +54,13 @@
  },
  {
    "word": "jug",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "mug",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "mad",
@@ -85,7 +88,8 @@
  },
  {
    "word": "man",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "than",
@@ -109,15 +113,18 @@
  },
  {
    "word": "pan",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "van",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "pot",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "hot",
@@ -161,7 +168,8 @@
  },
  {
    "word": "men",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "people"
  },
  {
    "word": "then",
@@ -177,7 +185,8 @@
  },
  {
    "word": "hen",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "nature"
  },
  {
    "word": "den",
@@ -189,7 +198,8 @@
  },
  {
    "word": "sun",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"nature"
  },
  {
    "word": "stun",
@@ -205,7 +215,8 @@
  },
  {
    "word": "gun",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "nun",
@@ -389,7 +400,8 @@
  },
  {
    "word": "boy",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"people"
  },
  {
    "word": "joy",
@@ -401,7 +413,8 @@
  },
  {
    "word": "cowboy",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme":"people"
  },
  {
    "word": "coy",
@@ -565,7 +578,8 @@
  },
  {
    "word": "sip",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "star",
@@ -601,7 +615,8 @@
  },
  {
    "word": "corn",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "porch",
@@ -741,7 +756,8 @@
  },
  {
    "word": "me",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"people"
  },
  {
    "word": "they",
@@ -773,7 +789,8 @@
  },
  {
    "word": "she",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"people"
  },
  {
    "word": "shark",
@@ -829,7 +846,8 @@
  },
  {
    "word": "chips",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "chat",
@@ -901,7 +919,8 @@
  },
  {
    "word": "sheep",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"people"
  },
  {
    "word": "leak",
@@ -925,7 +944,8 @@
  },
  {
    "word": "bike",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "wipe",
@@ -937,7 +957,8 @@
  },
  {
    "word": "ripe",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"food"
  },
  {
    "word": "pipe",
@@ -993,7 +1014,8 @@
  },
  {
    "word": "stove",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"objects"
  },
  {
    "word": "yoke",
@@ -1057,7 +1079,8 @@
  },
  {
    "word": "doors",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme": "objects"
  },
  {
    "word": "indoors",
@@ -1089,7 +1112,8 @@
  },
  {
    "word": "butterfly",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "fireplace",
@@ -1097,7 +1121,8 @@
  },
  {
    "word": "spaceship",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "objects"
  },
  {
    "word": "eyelid",
@@ -1109,11 +1134,13 @@
  },
  {
    "word": "firemen",
-   "syllableCount": 3
+   "syllableCount": 3,
+   "theme": "people"
  },
  {
    "word": "bobcat",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "people"
  },
  {
    "word": "birthday",
@@ -1121,7 +1148,8 @@
  },
  {
    "word": "raindrop",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "toolhouse",
@@ -1137,7 +1165,8 @@
  },
  {
    "word": "daylight",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "snowplow",
@@ -1153,11 +1182,13 @@
  },
  {
    "word": "seashore",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "seashells",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "foxhole",
@@ -1173,7 +1204,8 @@
  },
  {
    "word": "daytime",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme": "nature"
  },
  {
    "word": "woodwork",
@@ -1184,100 +1216,13 @@
    "syllableCount": 2
  },
  {
-   "word": "new",
-   "syllableCount": 1
- },
- {
-   "word": "stew",
-   "syllableCount": 1
- },
- {
-   "word": "blew",
-   "syllableCount": 1
- },
- {
-   "word": "crew",
-   "syllableCount": 1
- },
- {
-   "word": "dew",
-   "syllableCount": 1
- },
- {
-   "word": "news",
-   "syllableCount": 1
- },
- {
-   "word": "chews",
-   "syllableCount": 1
- },
- {
-   "word": "brews",
-   "syllableCount": 1
- },
- {
-   "word": "before",
-   "syllableCount": 2
- },
- {
-   "word": "store",
-   "syllableCount": 1
- },
- {
-   "word": "bore",
-   "syllableCount": 1
- },
- {
-   "word": "chore",
-   "syllableCount": 1
- },
- {
-   "word": "tore",
-   "syllableCount": 1
- },
- {
-   "word": "pore",
-   "syllableCount": 1
- },
- {
-   "word": "snore",
-   "syllableCount": 1
- },
- {
-   "word": "ore",
-   "syllableCount": 1
- },
- {
-   "word": "crunch",
-   "syllableCount": 1
- },
- {
-   "word": "lunch",
-   "syllableCount": 1
- },
- {
-   "word": "bunch",
-   "syllableCount": 1
- },
- {
-   "word": "hunch",
-   "syllableCount": 1
- },
- {
-   "word": "punch",
-   "syllableCount": 1
- },
- {
-   "word": "brunch",
-   "syllableCount": 1
- },
- {
    "word": "get",
    "syllableCount": 1
  },
  {
    "word": "rocket",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme":"technology"
  },
  {
    "word": "bet",
@@ -1285,7 +1230,8 @@
  },
  {
    "word": "sunset",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme":"nature"
  },
  {
    "word": "pet",
@@ -1309,142 +1255,16 @@
  },
  {
    "word": "jet",
-   "syllableCount": 1
+   "syllableCount": 1,
+   "theme":"technology"
  },
  {
    "word": "carpet",
-   "syllableCount": 2
+   "syllableCount": 2,
+   "theme":"objects"
  },
  {
    "word": "piglet",
-   "syllableCount": 2
- },
- {
-   "word": "snowflake",
-   "syllableCount": 2
- },
- {
-   "word": "butterfly",
-   "syllableCount": 3
- },
- {
-   "word": "fireplace",
-   "syllableCount": 2
- },
- {
-   "word": "spaceship",
-   "syllableCount": 2
- },
- {
-   "word": "birthday",
-   "syllableCount": 2
- },
- {
-   "word": "raindrop",
-   "syllableCount": 2
- },
- {
-   "word": "mailbox",
-   "syllableCount": 2
- },
- {
-   "word": "seashore",
-   "syllableCount": 2
- },
- {
-   "word": "seashells",
-   "syllableCount": 2
- },
- {
-   "word": "eyelid",
-   "syllableCount": 2
- },
- {
-   "word": "someone",
-   "syllableCount": 2
- },
- {
-   "word": "sunset",
-   "syllableCount": 2
- },
- {
-   "word": "indoors",
-   "syllableCount": 2
- },
- {
-   "word": "toolhouse",
-   "syllableCount": 2
- },
- {
-   "word": "firemen",
-   "syllableCount": 3
- },
- {
-   "word": "bobcat",
-   "syllableCount": 2
- },
- {
-   "word": "dollhouse",
-   "syllableCount": 2
- },
- {
-   "word": "foxhole",
-   "syllableCount": 2
- },
- {
-   "word": "somehow",
-   "syllableCount": 2
- },
- {
-   "word": "moonlight",
-   "syllableCount": 2
- },
- {
-   "word": "daylight",
-   "syllableCount": 2
- },
- {
-   "word": "anyway",
-   "syllableCount": 3
- },
- {
-   "word": "outdoor",
-   "syllableCount": 2
- },
- {
-   "word": "snowplow",
-   "syllableCount": 2
- },
- {
-   "word": "icebox",
-   "syllableCount": 2
- },
- {
-   "word": "outfit",
-   "syllableCount": 2
- },
- {
-   "word": "floors",
-   "syllableCount": 1
- },
- {
-   "word": "bellboy",
-   "syllableCount": 2
- },
- {
-   "word": "outdoors",
-   "syllableCount": 2
- },
- {
-   "word": "daytime",
-   "syllableCount": 2
- },
- {
-   "word": "woodwork",
-   "syllableCount": 2
- },
- {
-   "word": "outrun",
    "syllableCount": 2
  }
 ]
