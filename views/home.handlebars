@@ -1,4 +1,25 @@
-  <header>
-    <h1>{{theme}}</h1>
-  </header>
-  <p><img src="/images/bee.svg" alt="IBM Bee" /></p>
+<header class='header'>
+  <h1 class='theme'>{{theme}}</h1>
+</header>
+<main class='main'>
+  <fieldset>
+    <legend>Haiku poem lines</legend>
+    
+  <ul id='poem'>
+    <li id='line1' class='five-syl'>
+      <input type="text" class="poemline" placeholder="five syllables here" name="poemLine1"></input>
+    </li>
+    <li id='line2' class='seven-syl'>
+      <input type="text" class="poemline" placeholder="now, seven syllables typed" name="poemLine2"></input>
+    </li>
+    <li id='line3' class='five-syl'>
+      <input type="text" class="poemline" placeholder="five more syllables" name="poemLine3"></input>
+    </li>
+  </ul>
+  </fieldset>
+</main>
+<footer class='footer'>
+  <input type='image' src='/images/catalog/catalog_32.svg' name='Dictionary' class='footer-icon' id='dictionary'/>
+  <input type='image' src='/images/reset/reset_32.svg' name='Undo' class='footer-icon' id='undo'/>
+  <input type='image' src='/images/get-information/get-information_32.svg' name='Info' class='footer-icon' id='info'/>
+</footer>
