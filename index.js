@@ -10,7 +10,7 @@ const path = require('path');
 const appEnv = require('./lib/env');
 const renderer = require('./lib/render');
 
-const mock_words = require('./mocks/words.json');
+const mockWords = require('./mocks/words.json');
 
 //////////////////////////////
 // App Variables
@@ -28,13 +28,11 @@ app.get('/', (req, res) => {
 
 app.get('/words', (req, res) => {
   res.writeHead(200, {
-    'content-type' : 'application/json',
+    'content-type': 'application/json',
   });
-  res.write(JSON.stringify(mock_words));
-  res.end();  
+  res.write(JSON.stringify(mockWords));
+  res.end();
 });
-
-
 
 //////////////////////////////
 // Start the server
