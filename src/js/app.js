@@ -168,11 +168,11 @@
       syl.innerHTML = parseInt(syl.innerHTML, 10) - curSyl;
 
       lines[curLine - 1].pop();
-      line = document.getElementById('poemLine' + curLine);
-      line.value = '';
+      line = document.getElementById('poemLineWord' + curLine);
+      line.textContent = '';
 
       for (i = 0; i < lines[curLine - 1].length; i++) {
-        line.value = line.value + lines[curLine - 1][i].word + ' ';
+        line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
       }
     };
 
