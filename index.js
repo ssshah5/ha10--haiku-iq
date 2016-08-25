@@ -32,18 +32,40 @@ app.get('/words', (req, res) => {
   res.writeHead(200, {
     'content-type': 'application/json',
   });
-  res.write(JSON.stringify(mockWords));
+  res.write(JSON.stringify(getWords()));
   res.end();
-});
-
-app.get('/words', (req, res) => {
-  res.send('Words are here');
 });
 
 app.get('/image', (req, res) => {
   res.send('Image is here');
 });
 
+function getWords(){
+    var themedNumber = 5;
+    var notThemedNumber = 15;
+
+    var themedValues = mockWords.themed;
+    var notThemedValues = mockWords.notThemed;
+
+    var returnArray = [];
+
+
+    for (var i=0; i<themedNumber; i++){
+        var index = generateRandomNumber(themedValues.length);
+        returnArray.push(themedValues[index]);
+    }
+
+        for (var i=0; i<notThemedNumber; i++){
+        var index = generateRandomNumber(notThemedValues.length);
+        returnArray.push(notThemedValues[index]);
+    }
+    return returnArray;
+}
+
+function generateRandomNumber(max_number){
+    var number = Math.floor(Math.random() * max_number);
+    return number;
+}
 
 //////////////////////////////
 // Start the server
