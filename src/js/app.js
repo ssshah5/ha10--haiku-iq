@@ -15,7 +15,10 @@
   };
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
-    var generateTable, getWordsAPI, curLine, dictionaryButton = document.getElementById('dictionary');
+    var generateTable, getWordsAPI, curLine, lines, line1, line2, line3, wordListener, undoListener, dictionaryButton, undoButton;
+
+    dictionaryButton = document.getElementById('dictionary');
+    undoButton = document.getElementById('undo');
 
     // Mean to console.log out, so disabling
     console.log('Hello World'); // eslint-disable-line no-console
@@ -36,11 +39,11 @@
         },
         {
           'word': 'kitten',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'flowers',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'spring',
@@ -48,7 +51,7 @@
         },
         {
           'word': 'winter',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'cat',
@@ -76,11 +79,11 @@
         },
         {
           'word': 'kitten',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'flowers',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'spring',
@@ -88,7 +91,7 @@
         },
         {
           'word': 'winter',
-          'syllableCount': 1,
+          'syllableCount': 2,
         },
         {
           'word': 'cat',
@@ -106,6 +109,74 @@
       ];
 
       return wordList;
+    };
+
+    curLine = 1;
+    line1 = new Array();
+    line2 = new Array();
+    line3 = new Array();
+    lines = [line1, line2, line3];
+
+    wordListener = function wordListenerFunc(e) {
+      var button, word, i, line, syl, sylAdd, wordObj, totalSyl;
+
+      if (e.target.type === 'submit') {
+        button = e.target;
+        word = button.innerHTML;
+
+        line = document.getElementById('poemLine' + curLine);
+
+        sylAdd = button.getAttribute('data-syl');
+        syl = document.getElementById('syl' + curLine);
+        syl.innerHTML = parseInt(syl.innerHTML, 10) + parseInt(sylAdd, 10);
+
+        wordObj = {
+          'word': word,
+          'syl': sylAdd,
+        };
+
+        lines[curLine - 1].push(wordObj);
+        line.value = '';
+        for (i = 0; i < lines[curLine - 1].length; i++) {
+          line.value = line.value + lines[curLine - 1][i].word + ' ';
+        }
+
+        if (curLine === 1 || curLine === 3) {
+          totalSyl = '5';
+        }
+        else {
+          totalSyl = '7';
+        }
+
+        if (syl.innerHTML === totalSyl) {
+          if (curLine !== 3) {
+            curLine = curLine + 1;
+          }
+          else {
+            alert('Haiku Complete!');
+          }
+        }
+      }
+    };
+
+    undoListener = function undoListenerFunc() {
+      var line, i, syl, curSyl;
+
+      if (lines[curLine - 1].length === 0 && curLine !== 1) {
+        curLine = curLine - 1;
+      }
+
+      syl = document.getElementById('syl' + curLine);
+      curSyl = lines[curLine - 1][lines[curLine - 1].length - 1].syl;
+      syl.innerHTML = parseInt(syl.innerHTML, 10) - curSyl;
+
+      lines[curLine - 1].pop();
+      line = document.getElementById('poemLine' + curLine);
+      line.value = '';
+
+      for (i = 0; i < lines[curLine - 1].length; i++) {
+        line.value = line.value + lines[curLine - 1][i].word + ' ';
+      }
     };
 
     generateTable = function generateTableFunc() {
@@ -147,37 +218,8 @@
         tblBody.appendChild(row);
       }
 
-      curLine = 1;
-
       wordTable.addEventListener('click', function (e) {
-        var button, word, line, syl, sylAdd, totalSyl;
-
-        if (e.target.type === 'submit') {
-          button = e.target;
-          word = button.innerHTML;
-          line = document.getElementById('poemLine' + curLine);
-          line.value = line.value + word + ' ';
-
-          sylAdd = button.getAttribute('data-syl');
-          syl = document.getElementById('syl' + curLine);
-          syl.innerHTML = parseInt(syl.innerHTML, 10) + parseInt(sylAdd, 10);
-
-          if (curLine === 1 || curLine === 3) {
-            totalSyl = '5';
-          }
-          else {
-            totalSyl = '7';
-          }
-
-          if (syl.innerHTML === totalSyl) {
-            syl.style.color = 'green';
-            syl.style.fontWeight = 'bold';
-            curLine = curLine + 1;
-          }
-          else if (syl.innerHTML > totalSyl) {
-            syl.style.color = 'red';
-          }
-        }
+        wordListener(e);
       });
 
       // put the <tbody> in the <table>
@@ -189,5 +231,6 @@
 
     // Add event listeners
     dictionaryButton.addEventListener('click', generateTable);
+    undoButton.addEventListener('click', undoListener);
   });
 }());
