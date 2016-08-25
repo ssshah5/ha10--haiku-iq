@@ -1,6 +1,18 @@
 (function app() {
   'use strict';
 
+  var infoBox = document.getElementById('info-popup'),
+      infoButton = document.getElementById('info'),
+      closeButton = document.getElementById('close');
+
+  infoButton.onclick = function () {
+    infoBox.style.display = 'block';
+  };
+
+  closeButton.onclick = function () {
+    infoBox.style.display = 'none';
+  };
+
   window.addEventListener('DOMContentLoaded', function appDCL() {
     var generateTable, getWordsAPI, dictionaryButton = document.getElementById('dictionary');
 

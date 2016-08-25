@@ -1,1691 +1,5864 @@
-[
 {
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-},
-{
-  "word": "example",
-  "results": [
-    {
-      "definition": "a representative form or pattern",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "model"
-      ],
-      "typeOf": [
-        "representation",
-        "internal representation",
-        "mental representation"
-      ],
-      "hasTypes": [
-        "prefiguration",
-        "archetype",
-        "epitome",
-        "guide",
-        "holotype",
-        "image",
-        "loadstar",
-        "lodestar",
-        "microcosm",
-        "original",
-        "paradigm",
-        "pilot",
-        "prototype",
-        "template",
-        "templet",
-        "type specimen"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "I profited from his example"
-      ]
-    },
-    {
-      "definition": "something to be imitated",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exemplar",
-        "good example",
-        "model"
-      ],
-      "typeOf": [
-        "ideal"
-      ],
-      "hasTypes": [
-        "pacemaker",
-        "pattern",
-        "beauty",
-        "prodigy",
-        "beaut",
-        "pacesetter"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ]
-    },
-    {
-      "definition": "an occurrence of something",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "case",
-        "instance"
-      ],
-      "typeOf": [
-        "happening",
-        "natural event",
-        "occurrence",
-        "occurrent"
-      ],
-      "hasTypes": [
-        "clip",
-        "mortification",
-        "piece",
-        "time",
-        "humiliation",
-        "bit"
-      ],
-      "derivation": [
-        "exemplify"
-      ],
-      "examples": [
-        "but there is always the famous example of the Smiths"
-      ]
-    },
-    {
-      "definition": "an item of information that is typical of a class or group",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "illustration",
-        "instance",
-        "representative"
-      ],
-      "typeOf": [
-        "information"
-      ],
-      "hasTypes": [
-        "excuse",
-        "apology",
-        "specimen",
-        "case in point",
-        "sample",
-        "exception",
-        "quintessence",
-        "precedent"
-      ],
-      "derivation": [
-        "exemplify",
-        "exemplary"
-      ],
-      "examples": [
-        "this patient provides a typical example of the syndrome",
-        "there is an example on page 10"
-      ]
-    },
-    {
-      "definition": "punishment intended as a warning to others",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "deterrent example",
-        "lesson",
-        "object lesson"
-      ],
-      "typeOf": [
-        "monition",
-        "admonition",
-        "word of advice",
-        "warning"
-      ],
-      "derivation": [
-        "exemplary"
-      ],
-      "examples": [
-        "they decided to make an example of him"
-      ]
-    },
-    {
-      "definition": "a task performed or problem solved in order to develop skill or understanding",
-      "partOfSpeech": "noun",
-      "synonyms": [
-        "exercise"
-      ],
-      "typeOf": [
-        "lesson"
-      ],
-      "examples": [
-        "you must work the examples at the end of each chapter in the textbook"
-      ]
-    }
-  ],
-  "syllables": {
-    "count": 3,
-    "list": [
-      "ex",
-      "am",
-      "ple"
-    ]
-  },
-  "pronunciation": {
-    "all": "ɪɡ'zæmpəl"
-  },
-  "frequency": 4.67
-}]
+   "themed": [{
+      "word": "hat",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "jug",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "mug",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "man",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "pan",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "van",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "pot",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "men",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "hen",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "sun",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "gun",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "boy",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "cowboy",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "sip",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "corn",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "me",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "she",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "chips",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "sheep",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "bike",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "ripe",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "stove",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "doors",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "butterfly",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "spaceship",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "firemen",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "bobcat",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "raindrop",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "daylight",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "seashore",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "seashells",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "daytime",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "rocket",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "sunset",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "jet",
+      "syllableCount": 1,
+      "theme": "technology"
+   }, {
+      "word": "carpet",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "map",
+      "syllableCount": 1,
+      "theme": "buildings"
+   }, {
+      "word": "dog",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "fog",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "pond",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "egg",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "mud",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "train",
+      "syllableCount": 1,
+      "theme": "technology"
+   }, {
+      "word": "coast",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "soup",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "pear",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "ball",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "tall",
+      "syllableCount": 1,
+      "theme": "buildings"
+   }, {
+      "word": "mall",
+      "syllableCount": 1,
+      "theme": "buildings"
+   }, {
+      "word": "ship",
+      "syllableCount": 1,
+      "theme": "buildings"
+   }, {
+      "word": "fish",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "clock",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "seesaw",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "sea",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "family",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "sister",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "grandmother",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "grandfather",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "uncle",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "father",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "brother",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "notebook",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "snowball",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "book",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "mother",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "people",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "water",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "springtime",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "raincoat",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "snowstorm",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "landmark",
+      "syllableCount": 2,
+      "theme": "buildings"
+   }, {
+      "word": "aircraft",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "kickball",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "handlebars",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "seashell",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "drink",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "dragon",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "drum",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "bank",
+      "syllableCount": 1,
+      "theme": "buildling"
+   }, {
+      "word": "cheese",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "chain",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "jam",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "pencil",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "orange",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "jeans",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "jelly",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "flies",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "crackers",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "ladies",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "fried",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "frying",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "breakfast",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "feather",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "bread",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "video",
+      "syllableCount": 3,
+      "theme": "technology"
+   }, {
+      "word": "trail",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "socks",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "toast",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "picnic",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "sprout",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "tropical",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "whale",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "wheel",
+      "syllableCount": 1,
+      "theme": "technology"
+   }, {
+      "word": "whip",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "jacket",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "police",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "bucket",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "ticket",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "locker",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "knife",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "knee",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "rabbit",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "balloon",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "ladder",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "puddle",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "hammer",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "cookie",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "foot",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "royal",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "oil",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "summer",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "straw",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "claws",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "chalk",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "stalk",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "lawn",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "sauce",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "friend",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "surfboard",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "surf",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "nurse",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "turkey",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "hair",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "stairs",
+      "syllableCount": 1,
+      "theme": "buildling"
+   }, {
+      "word": "everybody",
+      "syllableCount": 5,
+      "theme": "people"
+   }, {
+      "word": "everyone",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "anyone",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "backpack",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "saucepan",
+      "syllableCount": 3,
+      "theme": "food"
+   }, {
+      "word": "wagon",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "garden",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "sugar",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "paper",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "animal",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "lemon",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "squirrel",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "farmer",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "reader",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "player",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "visitor",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "sailor",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "finalist",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "painter",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "waiter",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "hunter",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "inventor",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "violinist",
+      "syllableCount": 4,
+      "theme": "people"
+   }, {
+      "word": "tourist",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "caterpillar",
+      "syllableCount": 4,
+      "theme": "nature"
+   }, {
+      "word": "cousin",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "chocolate",
+      "syllableCount": 3,
+      "theme": "food"
+   }, {
+      "word": "dinosaur",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "clothes",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "Earth",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "planets",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "astronauts",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "myself",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "woman",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "weather",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "fire",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "flights",
+      "syllableCount": 1,
+      "theme": "technology"
+   }, {
+      "word": "treasure",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "treasurer",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "outside",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "backyard",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "popcorn",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "everyone",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "anyone",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "boatman",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "housecoat",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "grasshoppers",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "upstairs",
+      "syllableCount": 2,
+      "theme": "buildling"
+   }, {
+      "word": "snowman",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "meatloaf",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "sunflower",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "backpack",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "overcast",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "salesperson",
+      "syllableCount": 4,
+      "theme": "person"
+   }, {
+      "word": "meatballs",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "woodpecker",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "starship",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "strawberry",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "skyscraper",
+      "syllableCount": 3,
+      "theme": "building"
+   }, {
+      "word": "queen",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "elevator",
+      "syllableCount": 4,
+      "theme": "building"
+   }, {
+      "word": "coffee",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "television",
+      "syllableCount": 4,
+      "theme": "technology"
+   }, {
+      "word": "wild",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "prize",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "library",
+      "syllableCount": 3,
+      "theme": "building"
+   }, {
+      "word": "husband",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "thunder",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "raccoon",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "roofs",
+      "syllableCount": 1,
+      "theme": "building"
+   }, {
+      "word": "coop",
+      "syllableCount": 1,
+      "theme": "building"
+   }, {
+      "word": "stoop",
+      "syllableCount": 1,
+      "theme": "building"
+   }, {
+      "word": "hardware",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "radar",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "yourself",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "tornado",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "dairy",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "airplanes",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "software",
+      "syllableCount": 2,
+      "theme": "technology"
+   }, {
+      "word": "pearl",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "turtle",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "furniture",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "scout",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "mountain",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "counselor",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "employer",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "employee",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "elves",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "mice",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "calves",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "women",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "geese",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "scissors",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "oxen",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "knives",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "thieves",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "teams",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "players",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "birds",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "wolfs",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "horses",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "groups",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "students",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "trees",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "parents",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "cousins",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "teachers",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "aunts",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "friends",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "doctor",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "governor",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "President",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "ceiling",
+      "syllableCount": 2,
+      "theme": "building"
+   }, {
+      "word": "reindeer",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "neighbor",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "chief",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "windshield",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "thief",
+      "syllableCount": 1,
+      "theme": "people"
+   }, {
+      "word": "money",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "valley",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "monkey",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "honey",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "families",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "enemies",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "libraries",
+      "syllableCount": 3,
+      "theme": "building"
+   }, {
+      "word": "calendar",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "officer",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "director",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "master",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "table",
+      "syllableCount": 2,
+      "theme": "furniture"
+   }, {
+      "word": "jungle",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "bottle",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "hospital",
+      "syllableCount": 3,
+      "theme": "building"
+   }, {
+      "word": "candle",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "kitchen",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "human",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "season",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "oven",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "canyon",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "lamb",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "comb",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "tomb",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "plains",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "planes",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "pedal",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "stake",
+      "syllableCount": 1,
+      "theme": "objects"
+   }, {
+      "word": "steak",
+      "syllableCount": 1,
+      "theme": "food"
+   }, {
+      "word": "berry",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "dinner",
+      "syllableCount": 2,
+      "theme": "food"
+   }, {
+      "word": "cotton",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "shelter",
+      "syllableCount": 2,
+      "theme": "building"
+   }, {
+      "word": "bloodhound",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "hound",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "yourself",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "staircase",
+      "syllableCount": 2,
+      "theme": "building"
+   }, {
+      "word": "windshield",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "pocketknife",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "pocketbook",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "snowflakes",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "earmuffs",
+      "syllableCount": 2,
+      "theme": "objects"
+   }, {
+      "word": "airman",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "anchorman",
+      "syllableCount": 3,
+      "theme": "people"
+   }, {
+      "word": "stepladder",
+      "syllableCount": 3,
+      "theme": "objects"
+   }, {
+      "word": "mistletoe",
+      "syllableCount": 3,
+      "theme": "nature"
+   }, {
+      "word": "campground",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "greyhound",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "layman",
+      "syllableCount": 2,
+      "theme": "people"
+   }, {
+      "word": "mangrove",
+      "syllableCount": 2,
+      "theme": "nature"
+   }, {
+      "word": "cat",
+      "syllableCount": 1,
+      "theme": "nature"
+   }, {
+      "word": "rat",
+      "syllableCount": 1,
+      "theme": "nature"
+   }],
+   "notThemed": [{
+      "word": "sat",
+      "syllableCount": 1
+   }, {
+      "word": "bat",
+      "syllableCount": 1
+   }, {
+      "word": "mat",
+      "syllableCount": 1
+   }, {
+      "word": "fat",
+      "syllableCount": 1
+   }, {
+      "word": "pat",
+      "syllableCount": 1
+   }, {
+      "word": "tug",
+      "syllableCount": 1
+   }, {
+      "word": "rug",
+      "syllableCount": 1
+   }, {
+      "word": "bug",
+      "syllableCount": 1
+   }, {
+      "word": "hug",
+      "syllableCount": 1
+   }, {
+      "word": "dug",
+      "syllableCount": 1
+   }, {
+      "word": "mad",
+      "syllableCount": 1
+   }, {
+      "word": "bad",
+      "syllableCount": 1
+   }, {
+      "word": "dad",
+      "syllableCount": 1
+   }, {
+      "word": "sad",
+      "syllableCount": 1
+   }, {
+      "word": "glad",
+      "syllableCount": 1
+   }, {
+      "word": "fad",
+      "syllableCount": 1
+   }, {
+      "word": "than",
+      "syllableCount": 1
+   }, {
+      "word": "an",
+      "syllableCount": 1
+   }, {
+      "word": "ran",
+      "syllableCount": 1
+   }, {
+      "word": "fan",
+      "syllableCount": 1
+   }, {
+      "word": "tan",
+      "syllableCount": 1
+   }, {
+      "word": "hot",
+      "syllableCount": 1
+   }, {
+      "word": "got",
+      "syllableCount": 1
+   }, {
+      "word": "lot",
+      "syllableCount": 1
+   }, {
+      "word": "spot",
+      "syllableCount": 1
+   }, {
+      "word": "cot",
+      "syllableCount": 1
+   }, {
+      "word": "plot",
+      "syllableCount": 1
+   }, {
+      "word": "rot",
+      "syllableCount": 1
+   }, {
+      "word": "blot",
+      "syllableCount": 1
+   }, {
+      "word": "jot",
+      "syllableCount": 1
+   }, {
+      "word": "ten",
+      "syllableCount": 1
+   }, {
+      "word": "then",
+      "syllableCount": 1
+   }, {
+      "word": "open",
+      "syllableCount": 2
+   }, {
+      "word": "pen",
+      "syllableCount": 1
+   }, {
+      "word": "den",
+      "syllableCount": 1
+   }, {
+      "word": "fun",
+      "syllableCount": 1
+   }, {
+      "word": "stun",
+      "syllableCount": 1
+   }, {
+      "word": "bun",
+      "syllableCount": 1
+   }, {
+      "word": "spun",
+      "syllableCount": 1
+   }, {
+      "word": "nun",
+      "syllableCount": 1
+   }, {
+      "word": "shun",
+      "syllableCount": 1
+   }, {
+      "word": "rerun",
+      "syllableCount": 2
+   }, {
+      "word": "play",
+      "syllableCount": 1
+   }, {
+      "word": "stay",
+      "syllableCount": 1
+   }, {
+      "word": "tray",
+      "syllableCount": 1
+   }, {
+      "word": "ray",
+      "syllableCount": 1
+   }, {
+      "word": "clay",
+      "syllableCount": 1
+   }, {
+      "word": "bay",
+      "syllableCount": 1
+   }, {
+      "word": "hay",
+      "syllableCount": 1
+   }, {
+      "word": "away",
+      "syllableCount": 2
+   }, {
+      "word": "stray",
+      "syllableCount": 1
+   }, {
+      "word": "tree",
+      "syllableCount": 1
+   }, {
+      "word": "bee",
+      "syllableCount": 1
+   }, {
+      "word": "free",
+      "syllableCount": 1
+   }, {
+      "word": "flee",
+      "syllableCount": 1
+   }, {
+      "word": "fee",
+      "syllableCount": 1
+   }, {
+      "word": "glee",
+      "syllableCount": 1
+   }, {
+      "word": "write",
+      "syllableCount": 1
+   }, {
+      "word": "kite",
+      "syllableCount": 1
+   }, {
+      "word": "white",
+      "syllableCount": 1
+   }, {
+      "word": "bite",
+      "syllableCount": 1
+   }, {
+      "word": "site",
+      "syllableCount": 1
+   }, {
+      "word": "excite",
+      "syllableCount": 2
+   }, {
+      "word": "recite",
+      "syllableCount": 2
+   }, {
+      "word": "cite",
+      "syllableCount": 1
+   }, {
+      "word": "mite",
+      "syllableCount": 1
+   }, {
+      "word": "bone",
+      "syllableCount": 1
+   }, {
+      "word": "rope",
+      "syllableCount": 1
+   }, {
+      "word": "cone",
+      "syllableCount": 1
+   }, {
+      "word": "stone",
+      "syllableCount": 1
+   }, {
+      "word": "zone",
+      "syllableCount": 1
+   }, {
+      "word": "throne",
+      "syllableCount": 1
+   }, {
+      "word": "phone",
+      "syllableCount": 1
+   }, {
+      "word": "hone",
+      "syllableCount": 1
+   }, {
+      "word": "tone",
+      "syllableCount": 1
+   }, {
+      "word": "cake",
+      "syllableCount": 1
+   }, {
+      "word": "take",
+      "syllableCount": 1
+   }, {
+      "word": "make",
+      "syllableCount": 1
+   }, {
+      "word": "snake",
+      "syllableCount": 1
+   }, {
+      "word": "rake",
+      "syllableCount": 1
+   }, {
+      "word": "bake",
+      "syllableCount": 1
+   }, {
+      "word": "lake",
+      "syllableCount": 1
+   }, {
+      "word": "wake",
+      "syllableCount": 1
+   }, {
+      "word": "fake",
+      "syllableCount": 1
+   }, {
+      "word": "joy",
+      "syllableCount": 1
+   }, {
+      "word": "toy",
+      "syllableCount": 1
+   }, {
+      "word": "coy",
+      "syllableCount": 1
+   }, {
+      "word": "soy",
+      "syllableCount": 1
+   }, {
+      "word": "bellboy",
+      "syllableCount": 2
+   }, {
+      "word": "decoy",
+      "syllableCount": 2
+   }, {
+      "word": "chin",
+      "syllableCount": 1
+   }, {
+      "word": "fin",
+      "syllableCount": 1
+   }, {
+      "word": "grin",
+      "syllableCount": 1
+   }, {
+      "word": "twin",
+      "syllableCount": 1
+   }, {
+      "word": "spin",
+      "syllableCount": 1
+   }, {
+      "word": "skin",
+      "syllableCount": 1
+   }, {
+      "word": "tin",
+      "syllableCount": 1
+   }, {
+      "word": "sin",
+      "syllableCount": 1
+   }, {
+      "word": "shin",
+      "syllableCount": 1
+   }, {
+      "word": "chop",
+      "syllableCount": 1
+   }, {
+      "word": "stop",
+      "syllableCount": 1
+   }, {
+      "word": "top",
+      "syllableCount": 1
+   }, {
+      "word": "mop",
+      "syllableCount": 1
+   }, {
+      "word": "pop",
+      "syllableCount": 1
+   }, {
+      "word": "cop",
+      "syllableCount": 1
+   }, {
+      "word": "drop",
+      "syllableCount": 1
+   }, {
+      "word": "crop",
+      "syllableCount": 1
+   }, {
+      "word": "prop",
+      "syllableCount": 1
+   }, {
+      "word": "clop",
+      "syllableCount": 1
+   }, {
+      "word": "duck",
+      "syllableCount": 1
+   }, {
+      "word": "puck",
+      "syllableCount": 1
+   }, {
+      "word": "pluck",
+      "syllableCount": 1
+   }, {
+      "word": "cluck",
+      "syllableCount": 1
+   }, {
+      "word": "buck",
+      "syllableCount": 1
+   }, {
+      "word": "chuck",
+      "syllableCount": 1
+   }, {
+      "word": "struck",
+      "syllableCount": 1
+   }, {
+      "word": "tuck",
+      "syllableCount": 1
+   }, {
+      "word": "muck",
+      "syllableCount": 1
+   }, {
+      "word": "lip",
+      "syllableCount": 1
+   }, {
+      "word": "skip",
+      "syllableCount": 1
+   }, {
+      "word": "grip",
+      "syllableCount": 1
+   }, {
+      "word": "trip",
+      "syllableCount": 1
+   }, {
+      "word": "zip",
+      "syllableCount": 1
+   }, {
+      "word": "hip",
+      "syllableCount": 1
+   }, {
+      "word": "dip",
+      "syllableCount": 1
+   }, {
+      "word": "pip",
+      "syllableCount": 1
+   }, {
+      "word": "star",
+      "syllableCount": 1
+   }, {
+      "word": "jar",
+      "syllableCount": 1
+   }, {
+      "word": "bar",
+      "syllableCount": 1
+   }, {
+      "word": "scar",
+      "syllableCount": 1
+   }, {
+      "word": "tar",
+      "syllableCount": 1
+   }, {
+      "word": "spar",
+      "syllableCount": 1
+   }, {
+      "word": "mar",
+      "syllableCount": 1
+   }, {
+      "word": "or",
+      "syllableCount": 1
+   }, {
+      "word": "porch",
+      "syllableCount": 1
+   }, {
+      "word": "horn",
+      "syllableCount": 1
+   }, {
+      "word": "short",
+      "syllableCount": 1
+   }, {
+      "word": "story",
+      "syllableCount": 2
+   }, {
+      "word": "floor",
+      "syllableCount": 1
+   }, {
+      "word": "born",
+      "syllableCount": 1
+   }, {
+      "word": "brake",
+      "syllableCount": 1
+   }, {
+      "word": "shake",
+      "syllableCount": 1
+   }, {
+      "word": "flake",
+      "syllableCount": 1
+   }, {
+      "word": "awake",
+      "syllableCount": 2
+   }, {
+      "word": "quake",
+      "syllableCount": 1
+   }, {
+      "word": "remake",
+      "syllableCount": 2
+   }, {
+      "word": "intake",
+      "syllableCount": 2
+   }, {
+      "word": "retake",
+      "syllableCount": 2
+   }, {
+      "word": "sake",
+      "syllableCount": 1
+   }, {
+      "word": "you",
+      "syllableCount": 1
+   }, {
+      "word": "not",
+      "syllableCount": 1
+   }, {
+      "word": "to",
+      "syllableCount": 1
+   }, {
+      "word": "and",
+      "syllableCount": 1
+   }, {
+      "word": "we",
+      "syllableCount": 1
+   }, {
+      "word": "the",
+      "syllableCount": 1
+   }, {
+      "word": "that",
+      "syllableCount": 1
+   }, {
+      "word": "is",
+      "syllableCount": 1
+   }, {
+      "word": "in",
+      "syllableCount": 1
+   }, {
+      "word": "are",
+      "syllableCount": 1
+   }, {
+      "word": "for",
+      "syllableCount": 1
+   }, {
+      "word": "at",
+      "syllableCount": 1
+   }, {
+      "word": "can",
+      "syllableCount": 1
+   }, {
+      "word": "on",
+      "syllableCount": 1
+   }, {
+      "word": "this",
+      "syllableCount": 1
+   }, {
+      "word": "with",
+      "syllableCount": 1
+   }, {
+      "word": "of",
+      "syllableCount": 1
+   }, {
+      "word": "it",
+      "syllableCount": 1
+   }, {
+      "word": "good",
+      "syllableCount": 1
+   }, {
+      "word": "they",
+      "syllableCount": 1
+   }, {
+      "word": "but",
+      "syllableCount": 1
+   }, {
+      "word": "one",
+      "syllableCount": 1
+   }, {
+      "word": "as",
+      "syllableCount": 1
+   }, {
+      "word": "I",
+      "syllableCount": 1
+   }, {
+      "word": "your",
+      "syllableCount": 1
+   }, {
+      "word": "have",
+      "syllableCount": 1
+   }, {
+      "word": "shark",
+      "syllableCount": 1
+   }, {
+      "word": "shines",
+      "syllableCount": 1
+   }, {
+      "word": "shell",
+      "syllableCount": 1
+   }, {
+      "word": "shore",
+      "syllableCount": 1
+   }, {
+      "word": "shag",
+      "syllableCount": 1
+   }, {
+      "word": "shells",
+      "syllableCount": 1
+   }, {
+      "word": "shrug",
+      "syllableCount": 1
+   }, {
+      "word": "chase",
+      "syllableCount": 1
+   }, {
+      "word": "chick",
+      "syllableCount": 1
+   }, {
+      "word": "charm",
+      "syllableCount": 1
+   }, {
+      "word": "chill",
+      "syllableCount": 1
+   }, {
+      "word": "chew",
+      "syllableCount": 1
+   }, {
+      "word": "chair",
+      "syllableCount": 1
+   }, {
+      "word": "chat",
+      "syllableCount": 1
+   }, {
+      "word": "my",
+      "syllableCount": 1
+   }, {
+      "word": "some",
+      "syllableCount": 1
+   }, {
+      "word": "about",
+      "syllableCount": 2
+   }, {
+      "word": "her",
+      "syllableCount": 1
+   }, {
+      "word": "when",
+      "syllableCount": 1
+   }, {
+      "word": "if",
+      "syllableCount": 1
+   }, {
+      "word": "up",
+      "syllableCount": 1
+   }, {
+      "word": "do",
+      "syllableCount": 1
+   }, {
+      "word": "been",
+      "syllableCount": 1
+   }, {
+      "word": "cream",
+      "syllableCount": 1
+   }, {
+      "word": "steam",
+      "syllableCount": 1
+   }, {
+      "word": "stream",
+      "syllableCount": 1
+   }, {
+      "word": "seam",
+      "syllableCount": 1
+   }, {
+      "word": "gleam",
+      "syllableCount": 1
+   }, {
+      "word": "beam",
+      "syllableCount": 1
+   }, {
+      "word": "leap",
+      "syllableCount": 1
+   }, {
+      "word": "leak",
+      "syllableCount": 1
+   }, {
+      "word": "sleep",
+      "syllableCount": 1
+   }, {
+      "word": "heat",
+      "syllableCount": 1
+   }, {
+      "word": "seen",
+      "syllableCount": 1
+   }, {
+      "word": "feed",
+      "syllableCount": 1
+   }, {
+      "word": "wipe",
+      "syllableCount": 1
+   }, {
+      "word": "stripe",
+      "syllableCount": 1
+   }, {
+      "word": "pipe",
+      "syllableCount": 1
+   }, {
+      "word": "hike",
+      "syllableCount": 1
+   }, {
+      "word": "pike",
+      "syllableCount": 1
+   }, {
+      "word": "spike",
+      "syllableCount": 1
+   }, {
+      "word": "how",
+      "syllableCount": 1
+   }, {
+      "word": "bow",
+      "syllableCount": 1
+   }, {
+      "word": "brow",
+      "syllableCount": 1
+   }, {
+      "word": "now",
+      "syllableCount": 1
+   }, {
+      "word": "cow",
+      "syllableCount": 1
+   }, {
+      "word": "plow",
+      "syllableCount": 1
+   }, {
+      "word": "allow",
+      "syllableCount": 2
+   }, {
+      "word": "wow",
+      "syllableCount": 1
+   }, {
+      "word": "chow",
+      "syllableCount": 1
+   }, {
+      "word": "yoke",
+      "syllableCount": 1
+   }, {
+      "word": "drove",
+      "syllableCount": 1
+   }, {
+      "word": "spoke",
+      "syllableCount": 1
+   }, {
+      "word": "woke",
+      "syllableCount": 1
+   }, {
+      "word": "choke",
+      "syllableCount": 1
+   }, {
+      "word": "cove",
+      "syllableCount": 1
+   }, {
+      "word": "poke",
+      "syllableCount": 1
+   }, {
+      "word": "grove",
+      "syllableCount": 1
+   }, {
+      "word": "gloves",
+      "syllableCount": 1
+   }, {
+      "word": "loves",
+      "syllableCount": 1
+   }, {
+      "word": "glove",
+      "syllableCount": 1
+   }, {
+      "word": "dove",
+      "syllableCount": 1
+   }, {
+      "word": "shove",
+      "syllableCount": 1
+   }, {
+      "word": "shoved",
+      "syllableCount": 1
+   }, {
+      "word": "door",
+      "syllableCount": 1
+   }, {
+      "word": "indoors",
+      "syllableCount": 2
+   }, {
+      "word": "floors",
+      "syllableCount": 1
+   }, {
+      "word": "chores",
+      "syllableCount": 1
+   }, {
+      "word": "stores",
+      "syllableCount": 1
+   }, {
+      "word": "snores",
+      "syllableCount": 1
+   }, {
+      "word": "outdoors",
+      "syllableCount": 2
+   }, {
+      "word": "snowflake",
+      "syllableCount": 2
+   }, {
+      "word": "fireplace",
+      "syllableCount": 2
+   }, {
+      "word": "eyelid",
+      "syllableCount": 2
+   }, {
+      "word": "someone",
+      "syllableCount": 2
+   }, {
+      "word": "birthday",
+      "syllableCount": 2
+   }, {
+      "word": "toolhouse",
+      "syllableCount": 2
+   }, {
+      "word": "dollhouse",
+      "syllableCount": 2
+   }, {
+      "word": "moonlight",
+      "syllableCount": 2
+   }, {
+      "word": "snowplow",
+      "syllableCount": 2
+   }, {
+      "word": "icebox",
+      "syllableCount": 2
+   }, {
+      "word": "mailbox",
+      "syllableCount": 2
+   }, {
+      "word": "foxhole",
+      "syllableCount": 2
+   }, {
+      "word": "somehow",
+      "syllableCount": 2
+   }, {
+      "word": "anyway",
+      "syllableCount": 3
+   }, {
+      "word": "woodwork",
+      "syllableCount": 2
+   }, {
+      "word": "outrun",
+      "syllableCount": 2
+   }, {
+      "word": "get",
+      "syllableCount": 1
+   }, {
+      "word": "bet",
+      "syllableCount": 1
+   }, {
+      "word": "pet",
+      "syllableCount": 1
+   }, {
+      "word": "net",
+      "syllableCount": 1
+   }, {
+      "word": "wet",
+      "syllableCount": 1
+   }, {
+      "word": "vet",
+      "syllableCount": 1
+   }, {
+      "word": "fret",
+      "syllableCount": 1
+   }, {
+      "word": "piglet",
+      "syllableCount": 2
+   }, {
+      "word": "bad",
+      "syllableCount": 1
+   }, {
+      "word": "had",
+      "syllableCount": 1
+   }, {
+      "word": "dad",
+      "syllableCount": 1
+   }, {
+      "word": "sad",
+      "syllableCount": 1
+   }, {
+      "word": "tap",
+      "syllableCount": 1
+   }, {
+      "word": "mad",
+      "syllableCount": 1
+   }, {
+      "word": "lap",
+      "syllableCount": 1
+   }, {
+      "word": "rap",
+      "syllableCount": 1
+   }, {
+      "word": "what",
+      "syllableCount": 1
+   }, {
+      "word": "all",
+      "syllableCount": 1
+   }, {
+      "word": "were",
+      "syllableCount": 1
+   }, {
+      "word": "field",
+      "syllableCount": 1
+   }, {
+      "word": "turn",
+      "syllableCount": 1
+   }, {
+      "word": "afraid",
+      "syllableCount": 2
+   }, {
+      "word": "closed",
+      "syllableCount": 1
+   }, {
+      "word": "six",
+      "syllableCount": 1
+   }, {
+      "word": "fix",
+      "syllableCount": 1
+   }, {
+      "word": "pin",
+      "syllableCount": 1
+   }, {
+      "word": "rip",
+      "syllableCount": 1
+   }, {
+      "word": "tip",
+      "syllableCount": 1
+   }, {
+      "word": "sit",
+      "syllableCount": 1
+   }, {
+      "word": "him",
+      "syllableCount": 1
+   }, {
+      "word": "hill",
+      "syllableCount": 1
+   }, {
+      "word": "win",
+      "syllableCount": 1
+   }, {
+      "word": "bit",
+      "syllableCount": 1
+   }, {
+      "word": "log",
+      "syllableCount": 1
+   }, {
+      "word": "job",
+      "syllableCount": 1
+   }, {
+      "word": "flop",
+      "syllableCount": 1
+   }, {
+      "word": "jog",
+      "syllableCount": 1
+   }, {
+      "word": "off",
+      "syllableCount": 1
+   }, {
+      "word": "sand",
+      "syllableCount": 1
+   }, {
+      "word": "lost",
+      "syllableCount": 1
+   }, {
+      "word": "just",
+      "syllableCount": 1
+   }, {
+      "word": "past",
+      "syllableCount": 1
+   }, {
+      "word": "list",
+      "syllableCount": 1
+   }, {
+      "word": "band",
+      "syllableCount": 1
+   }, {
+      "word": "hand",
+      "syllableCount": 1
+   }, {
+      "word": "cast",
+      "syllableCount": 1
+   }, {
+      "word": "grand",
+      "syllableCount": 1
+   }, {
+      "word": "fed",
+      "syllableCount": 1
+   }, {
+      "word": "met",
+      "syllableCount": 1
+   }, {
+      "word": "them",
+      "syllableCount": 1
+   }, {
+      "word": "rest",
+      "syllableCount": 1
+   }, {
+      "word": "bend",
+      "syllableCount": 1
+   }, {
+      "word": "test",
+      "syllableCount": 1
+   }, {
+      "word": "went",
+      "syllableCount": 1
+   }, {
+      "word": "send",
+      "syllableCount": 1
+   }, {
+      "word": "us",
+      "syllableCount": 1
+   }, {
+      "word": "rub",
+      "syllableCount": 1
+   }, {
+      "word": "luck",
+      "syllableCount": 1
+   }, {
+      "word": "shut",
+      "syllableCount": 1
+   }, {
+      "word": "rust",
+      "syllableCount": 1
+   }, {
+      "word": "stuck",
+      "syllableCount": 1
+   }, {
+      "word": "bud",
+      "syllableCount": 1
+   }, {
+      "word": "kind",
+      "syllableCount": 1
+   }, {
+      "word": "child",
+      "syllableCount": 1
+   }, {
+      "word": "slide",
+      "syllableCount": 1
+   }, {
+      "word": "hide",
+      "syllableCount": 1
+   }, {
+      "word": "glide",
+      "syllableCount": 1
+   }, {
+      "word": "side",
+      "syllableCount": 1
+   }, {
+      "word": "pride",
+      "syllableCount": 1
+   }, {
+      "word": "wide",
+      "syllableCount": 1
+   }, {
+      "word": "tide",
+      "syllableCount": 1
+   }, {
+      "word": "bride",
+      "syllableCount": 1
+   }, {
+      "word": "stride",
+      "syllableCount": 1
+   }, {
+      "word": "told",
+      "syllableCount": 1
+   }, {
+      "word": "cold",
+      "syllableCount": 1
+   }, {
+      "word": "most",
+      "syllableCount": 1
+   }, {
+      "word": "both",
+      "syllableCount": 1
+   }, {
+      "word": "bold",
+      "syllableCount": 1
+   }, {
+      "word": "sold",
+      "syllableCount": 1
+   }, {
+      "word": "scold",
+      "syllableCount": 1
+   }, {
+      "word": "fold",
+      "syllableCount": 1
+   }, {
+      "word": "mold",
+      "syllableCount": 1
+   }, {
+      "word": "May",
+      "syllableCount": 1
+   }, {
+      "word": "rain",
+      "syllableCount": 1
+   }, {
+      "word": "say",
+      "syllableCount": 1
+   }, {
+      "word": "wait",
+      "syllableCount": 1
+   }, {
+      "word": "pay",
+      "syllableCount": 1
+   }, {
+      "word": "lay",
+      "syllableCount": 1
+   }, {
+      "word": "laid",
+      "syllableCount": 1
+   }, {
+      "word": "way",
+      "syllableCount": 1
+   }, {
+      "word": "bait",
+      "syllableCount": 1
+   }, {
+      "word": "need",
+      "syllableCount": 1
+   }, {
+      "word": "read",
+      "syllableCount": 1
+   }, {
+      "word": "deep",
+      "syllableCount": 1
+   }, {
+      "word": "eat",
+      "syllableCount": 1
+   }, {
+      "word": "keep",
+      "syllableCount": 1
+   }, {
+      "word": "team",
+      "syllableCount": 1
+   }, {
+      "word": "feet",
+      "syllableCount": 1
+   }, {
+      "word": "each",
+      "syllableCount": 1
+   }, {
+      "word": "seat",
+      "syllableCount": 1
+   }, {
+      "word": "weed",
+      "syllableCount": 1
+   }, {
+      "word": "boat",
+      "syllableCount": 1
+   }, {
+      "word": "row",
+      "syllableCount": 1
+   }, {
+      "word": "show",
+      "syllableCount": 1
+   }, {
+      "word": "coal",
+      "syllableCount": 1
+   }, {
+      "word": "coat",
+      "syllableCount": 1
+   }, {
+      "word": "slow",
+      "syllableCount": 1
+   }, {
+      "word": "own",
+      "syllableCount": 1
+   }, {
+      "word": "low",
+      "syllableCount": 1
+   }, {
+      "word": "road",
+      "syllableCount": 1
+   }, {
+      "word": "huge",
+      "syllableCount": 1
+   }, {
+      "word": "flute",
+      "syllableCount": 1
+   }, {
+      "word": "cute",
+      "syllableCount": 1
+   }, {
+      "word": "suit",
+      "syllableCount": 1
+   }, {
+      "word": "mute",
+      "syllableCount": 1
+   }, {
+      "word": "amuse",
+      "syllableCount": 2
+   }, {
+      "word": "chute",
+      "syllableCount": 1
+   }, {
+      "word": "fuse",
+      "syllableCount": 1
+   }, {
+      "word": "lute",
+      "syllableCount": 1
+   }, {
+      "word": "car",
+      "syllableCount": 1
+   }, {
+      "word": "hear",
+      "syllableCount": 1
+   }, {
+      "word": "bear",
+      "syllableCount": 1
+   }, {
+      "word": "war",
+      "syllableCount": 1
+   }, {
+      "word": "ear",
+      "syllableCount": 1
+   }, {
+      "word": "rear",
+      "syllableCount": 1
+   }, {
+      "word": "gear",
+      "syllableCount": 1
+   }, {
+      "word": "tear",
+      "syllableCount": 1
+   }, {
+      "word": "grass",
+      "syllableCount": 1
+   }, {
+      "word": "dress",
+      "syllableCount": 1
+   }, {
+      "word": "less",
+      "syllableCount": 1
+   }, {
+      "word": "pass",
+      "syllableCount": 1
+   }, {
+      "word": "glass",
+      "syllableCount": 1
+   }, {
+      "word": "class",
+      "syllableCount": 1
+   }, {
+      "word": "mess",
+      "syllableCount": 1
+   }, {
+      "word": "bass",
+      "syllableCount": 1
+   }, {
+      "word": "brass",
+      "syllableCount": 2
+   }, {
+      "word": "fall",
+      "syllableCount": 1
+   }, {
+      "word": "call",
+      "syllableCount": 1
+   }, {
+      "word": "hall",
+      "syllableCount": 1
+   }, {
+      "word": "wall",
+      "syllableCount": 1
+   }, {
+      "word": "stall",
+      "syllableCount": 1
+   }, {
+      "word": "gall",
+      "syllableCount": 1
+   }, {
+      "word": "rich",
+      "syllableCount": 1
+   }, {
+      "word": "change",
+      "syllableCount": 1
+   }, {
+      "word": "shop",
+      "syllableCount": 1
+   }, {
+      "word": "chest",
+      "syllableCount": 1
+   }, {
+      "word": "reach",
+      "syllableCount": 1
+   }, {
+      "word": "wish",
+      "syllableCount": 1
+   }, {
+      "word": "shape",
+      "syllableCount": 1
+   }, {
+      "word": "long",
+      "syllableCount": 1
+   }, {
+      "word": "ring",
+      "syllableCount": 1
+   }, {
+      "word": "thing",
+      "syllableCount": 1
+   }, {
+      "word": "song",
+      "syllableCount": 1
+   }, {
+      "word": "string",
+      "syllableCount": 1
+   }, {
+      "word": "king",
+      "syllableCount": 1
+   }, {
+      "word": "wing",
+      "syllableCount": 1
+   }, {
+      "word": "belong",
+      "syllableCount": 2
+   }, {
+      "word": "pong",
+      "syllableCount": 1
+   }, {
+      "word": "stick",
+      "syllableCount": 1
+   }, {
+      "word": "kick",
+      "syllableCount": 1
+   }, {
+      "word": "took",
+      "syllableCount": 1
+   }, {
+      "word": "track",
+      "syllableCount": 1
+   }, {
+      "word": "black",
+      "syllableCount": 1
+   }, {
+      "word": "neck",
+      "syllableCount": 1
+   }, {
+      "word": "pack",
+      "syllableCount": 1
+   }, {
+      "word": "snack",
+      "syllableCount": 1
+   }, {
+      "word": "lock",
+      "syllableCount": 1
+   }, {
+      "word": "sock",
+      "syllableCount": 1
+   }, {
+      "word": "sack",
+      "syllableCount": 1
+   }, {
+      "word": "he's",
+      "syllableCount": 1
+   }, {
+      "word": "we're",
+      "syllableCount": 1
+   }, {
+      "word": "I'm",
+      "syllableCount": 1
+   }, {
+      "word": "she's",
+      "syllableCount": 1
+   }, {
+      "word": "they're",
+      "syllableCount": 2
+   }, {
+      "word": "I'll",
+      "syllableCount": 1
+   }, {
+      "word": "you're",
+      "syllableCount": 1
+   }, {
+      "word": "that's",
+      "syllableCount": 1
+   }, {
+      "word": "there's",
+      "syllableCount": 1
+   }, {
+      "word": "what's",
+      "syllableCount": 1
+   }, {
+      "word": "grew",
+      "syllableCount": 1
+   }, {
+      "word": "room",
+      "syllableCount": 1
+   }, {
+      "word": "group",
+      "syllableCount": 1
+   }, {
+      "word": "flew",
+      "syllableCount": 1
+   }, {
+      "word": "food",
+      "syllableCount": 1
+   }, {
+      "word": "drew",
+      "syllableCount": 1
+   }, {
+      "word": "loom",
+      "syllableCount": 1
+   }, {
+      "word": "gloom",
+      "syllableCount": 1
+   }, {
+      "word": "bloom",
+      "syllableCount": 1
+   }, {
+      "word": "boom",
+      "syllableCount": 1
+   }, {
+      "word": "groom",
+      "syllableCount": 1
+   }, {
+      "word": "high",
+      "syllableCount": 1
+   }, {
+      "word": "night",
+      "syllableCount": 1
+   }, {
+      "word": "fight",
+      "syllableCount": 1
+   }, {
+      "word": "light",
+      "syllableCount": 1
+   }, {
+      "word": "sight",
+      "syllableCount": 1
+   }, {
+      "word": "bright",
+      "syllableCount": 1
+   }, {
+      "word": "might",
+      "syllableCount": 1
+   }, {
+      "word": "right",
+      "syllableCount": 1
+   }, {
+      "word": "arm",
+      "syllableCount": 1
+   }, {
+      "word": "far",
+      "syllableCount": 1
+   }, {
+      "word": "heart",
+      "syllableCount": 1
+   }, {
+      "word": "dark",
+      "syllableCount": 1
+   }, {
+      "word": "hard",
+      "syllableCount": 1
+   }, {
+      "word": "farm",
+      "syllableCount": 1
+   }, {
+      "word": "park",
+      "syllableCount": 1
+   }, {
+      "word": "start",
+      "syllableCount": 1
+   }, {
+      "word": "part",
+      "syllableCount": 1
+   }, {
+      "word": "are",
+      "syllableCount": 1
+   }, {
+      "word": "don't",
+      "syllableCount": 1
+   }, {
+      "word": "can't",
+      "syllableCount": 1
+   }, {
+      "word": "let's",
+      "syllableCount": 1
+   }, {
+      "word": "won't",
+      "syllableCount": 1
+   }, {
+      "word": "I've",
+      "syllableCount": 1
+   }, {
+      "word": "didn't",
+      "syllableCount": 2
+   }, {
+      "word": "wasn't",
+      "syllableCount": 2
+   }, {
+      "word": "couldn't",
+      "syllableCount": 2
+   }, {
+      "word": "doesn't",
+      "syllableCount": 2
+   }, {
+      "word": "wouldn't",
+      "syllableCount": 2
+   }, {
+      "word": "sew",
+      "syllableCount": 1
+   }, {
+      "word": "so",
+      "syllableCount": 1
+   }, {
+      "word": "sow",
+      "syllableCount": 1
+   }, {
+      "word": "two",
+      "syllableCount": 1
+   }, {
+      "word": "too",
+      "syllableCount": 1
+   }, {
+      "word": "there",
+      "syllableCount": 1
+   }, {
+      "word": "their",
+      "syllableCount": 1
+   }, {
+      "word": "asked",
+      "syllableCount": 1
+   }, {
+      "word": "doing",
+      "syllableCount": 2
+   }, {
+      "word": "called",
+      "syllableCount": 1
+   }, {
+      "word": "going",
+      "syllableCount": 2
+   }, {
+      "word": "looked",
+      "syllableCount": 1
+   }, {
+      "word": "playing",
+      "syllableCount": 2
+   }, {
+      "word": "started",
+      "syllableCount": 2
+   }, {
+      "word": "trying",
+      "syllableCount": 2
+   }, {
+      "word": "looking",
+      "syllableCount": 2
+   }, {
+      "word": "wanted",
+      "syllableCount": 2
+   }, {
+      "word": "soon",
+      "syllableCount": 1
+   }, {
+      "word": "came",
+      "syllableCount": 1
+   }, {
+      "word": "upon",
+      "syllableCount": 2
+   }, {
+      "word": "home",
+      "syllableCount": 1
+   }, {
+      "word": "first",
+      "syllableCount": 1
+   }, {
+      "word": "house",
+      "syllableCount": 1
+   }, {
+      "word": "box",
+      "syllableCount": 1
+   }, {
+      "word": "girl",
+      "syllableCount": 1
+   }, {
+      "word": "saw",
+      "syllableCount": 1
+   }, {
+      "word": "stand",
+      "syllableCount": 1
+   }, {
+      "word": "grandma",
+      "syllableCount": 2
+   }, {
+      "word": "sometimes",
+      "syllableCount": 2
+   }, {
+      "word": "herself",
+      "syllableCount": 2
+   }, {
+      "word": "somewhere",
+      "syllableCount": 2
+   }, {
+      "word": "classroom",
+      "syllableCount": 2
+   }, {
+      "word": "himself",
+      "syllableCount": 2
+   }, {
+      "word": "baseball",
+      "syllableCount": 2
+   }, {
+      "word": "softball",
+      "syllableCount": 2
+   }, {
+      "word": "kickball",
+      "syllableCount": 2
+   }, {
+      "word": "dropped",
+      "syllableCount": 1
+   }, {
+      "word": "putting",
+      "syllableCount": 2
+   }, {
+      "word": "stopped",
+      "syllableCount": 1
+   }, {
+      "word": "getting",
+      "syllableCount": 2
+   }, {
+      "word": "planned",
+      "syllableCount": 1
+   }, {
+      "word": "running",
+      "syllableCount": 2
+   }, {
+      "word": "slipped",
+      "syllableCount": 1
+   }, {
+      "word": "grabbed",
+      "syllableCount": 1
+   }, {
+      "word": "popping",
+      "syllableCount": 2
+   }, {
+      "word": "sitting",
+      "syllableCount": 2
+   }, {
+      "word": "saved",
+      "syllableCount": 1
+   }, {
+      "word": "giving",
+      "syllableCount": 2
+   }, {
+      "word": "liked",
+      "syllableCount": 1
+   }, {
+      "word": "taking",
+      "syllableCount": 2
+   }, {
+      "word": "used",
+      "syllableCount": 1
+   }, {
+      "word": "riding",
+      "syllableCount": 2
+   }, {
+      "word": "placed",
+      "syllableCount": 1
+   }, {
+      "word": "moving",
+      "syllableCount": 2
+   }, {
+      "word": "loved",
+      "syllableCount": 1
+   }, {
+      "word": "living",
+      "syllableCount": 2
+   }, {
+      "word": "girls",
+      "syllableCount": 1
+   }, {
+      "word": "boxes",
+      "syllableCount": 2
+   }, {
+      "word": "toys",
+      "syllableCount": 1
+   }, {
+      "word": "dishes",
+      "syllableCount": 2
+   }, {
+      "word": "times",
+      "syllableCount": 1
+   }, {
+      "word": "inches",
+      "syllableCount": 2
+   }, {
+      "word": "boys",
+      "syllableCount": 1
+   }, {
+      "word": "wishes",
+      "syllableCount": 2
+   }, {
+      "word": "days",
+      "syllableCount": 1
+   }, {
+      "word": "things",
+      "syllableCount": 1
+   }, {
+      "word": "ducks",
+      "syllableCount": 1
+   }, {
+      "word": "cows",
+      "syllableCount": 1
+   }, {
+      "word": "whales",
+      "syllableCount": 1
+   }, {
+      "word": "seals",
+      "syllableCount": 1
+   }, {
+      "word": "rabbits",
+      "syllableCount": 2
+   }, {
+      "word": "chickens",
+      "syllableCount": 2
+   }, {
+      "word": "zebras",
+      "syllableCount": 2
+   }, {
+      "word": "animals",
+      "syllableCount": 3
+   }, {
+      "word": "see",
+      "syllableCount": 1
+   }, {
+      "word": "dear",
+      "syllableCount": 1
+   }, {
+      "word": "deer",
+      "syllableCount": 1
+   }, {
+      "word": "meet",
+      "syllableCount": 1
+   }, {
+      "word": "meat",
+      "syllableCount": 1
+   }, {
+      "word": "road",
+      "syllableCount": 1
+   }, {
+      "word": "rode",
+      "syllableCount": 1
+   }, {
+      "word": "dye",
+      "syllableCount": 1
+   }, {
+      "word": "die",
+      "syllableCount": 1
+   }, {
+      "word": "aunt",
+      "syllableCount": 1
+   }, {
+      "word": "baby",
+      "syllableCount": 2
+   }, {
+      "word": "maybe",
+      "syllableCount": 2
+   }, {
+      "word": "bedroom",
+      "syllableCount": 2
+   }, {
+      "word": "lunchroom",
+      "syllableCount": 2
+   }, {
+      "word": "into",
+      "syllableCount": 2
+   }, {
+      "word": "something",
+      "syllableCount": 2
+   }, {
+      "word": "nobody",
+      "syllableCount": 3
+   }, {
+      "word": "doghouse",
+      "syllableCount": 2
+   }, {
+      "word": "inside",
+      "syllableCount": 2
+   }, {
+      "word": "school",
+      "syllableCount": 1
+   }, {
+      "word": "look",
+      "syllableCount": 1
+   }, {
+      "word": "could",
+      "syllableCount": 1
+   }, {
+      "word": "because",
+      "syllableCount": 2
+   }, {
+      "word": "run",
+      "syllableCount": 1
+   }, {
+      "word": "made",
+      "syllableCount": 1
+   }, {
+      "word": "find",
+      "syllableCount": 1
+   }, {
+      "word": "think",
+      "syllableCount": 1
+   }, {
+      "word": "four",
+      "syllableCount": 1
+   }, {
+      "word": "let",
+      "syllableCount": 1
+   }, {
+      "word": "red",
+      "syllableCount": 1
+   }, {
+      "word": "name",
+      "syllableCount": 1
+   }, {
+      "word": "back",
+      "syllableCount": 1
+   }, {
+      "word": "big",
+      "syllableCount": 1
+   }, {
+      "word": "color",
+      "syllableCount": 2
+   }, {
+      "word": "use",
+      "syllableCount": 1
+   }, {
+      "word": "bring",
+      "syllableCount": 1
+   }, {
+      "word": "next",
+      "syllableCount": 1
+   }, {
+      "word": "better",
+      "syllableCount": 2
+   }, {
+      "word": "leave",
+      "syllableCount": 1
+   }, {
+      "word": "tell",
+      "syllableCount": 1
+   }, {
+      "word": "never",
+      "syllableCount": 2
+   }, {
+      "word": "should",
+      "syllableCount": 1
+   }, {
+      "word": "best",
+      "syllableCount": 1
+   }, {
+      "word": "under",
+      "syllableCount": 2
+   }, {
+      "word": "present",
+      "syllableCount": 2
+   }, {
+      "word": "please",
+      "syllableCount": 1
+   }, {
+      "word": "also",
+      "syllableCount": 2
+   }, {
+      "word": "another",
+      "syllableCount": 3
+   }, {
+      "word": "must",
+      "syllableCount": 1
+   }, {
+      "word": "over",
+      "syllableCount": 2
+   }, {
+      "word": "end",
+      "syllableCount": 1
+   }, {
+      "word": "five",
+      "syllableCount": 1
+   }, {
+      "word": "only",
+      "syllableCount": 2
+   }, {
+      "word": "shall",
+      "syllableCount": 1
+   }, {
+      "word": "below",
+      "syllableCount": 2
+   }, {
+      "word": "glow",
+      "syllableCount": 1
+   }, {
+      "word": "snow",
+      "syllableCount": 1
+   }, {
+      "word": "follow",
+      "syllableCount": 2
+   }, {
+      "word": "throw",
+      "syllableCount": 1
+   }, {
+      "word": "elbow",
+      "syllableCount": 2
+   }, {
+      "word": "stow",
+      "syllableCount": 1
+   }, {
+      "word": "flow",
+      "syllableCount": 1
+   }, {
+      "word": "mow",
+      "syllableCount": 1
+   }, {
+      "word": "asleep",
+      "syllableCount": 2
+   }, {
+      "word": "without",
+      "syllableCount": 2
+   }, {
+      "word": "bedtime",
+      "syllableCount": 2
+   }, {
+      "word": "hotdog",
+      "syllableCount": 2
+   }, {
+      "word": "homesick",
+      "syllableCount": 2
+   }, {
+      "word": "tablecloth",
+      "syllableCount": 3
+   }, {
+      "word": "snowball",
+      "syllableCount": 2
+   }, {
+      "word": "goodbye",
+      "syllableCount": 2
+   }, {
+      "word": "dream",
+      "syllableCount": 1
+   }, {
+      "word": "score",
+      "syllableCount": 1
+   }, {
+      "word": "soft",
+      "syllableCount": 1
+   }, {
+      "word": "left",
+      "syllableCount": 1
+   }, {
+      "word": "scared",
+      "syllableCount": 1
+   }, {
+      "word": "scarf",
+      "syllableCount": 1
+   }, {
+      "word": "gift",
+      "syllableCount": 1
+   }, {
+      "word": "thank",
+      "syllableCount": 1
+   }, {
+      "word": "thick",
+      "syllableCount": 1
+   }, {
+      "word": "finish",
+      "syllableCount": 2
+   }, {
+      "word": "morning",
+      "syllableCount": 2
+   }, {
+      "word": "touch",
+      "syllableCount": 1
+   }, {
+      "word": "shadow",
+      "syllableCount": 2
+   }, {
+      "word": "smash",
+      "syllableCount": 1
+   }, {
+      "word": "tooth",
+      "syllableCount": 1
+   }, {
+      "word": "large",
+      "syllableCount": 2
+   }, {
+      "word": "page",
+      "syllableCount": 1
+   }, {
+      "word": "silly",
+      "syllableCount": 2
+   }, {
+      "word": "joke",
+      "syllableCount": 1
+   }, {
+      "word": "circle",
+      "syllableCount": 2
+   }, {
+      "word": "cents",
+      "syllableCount": 1
+   }, {
+      "word": "circus",
+      "syllableCount": 2
+   }, {
+      "word": "friends",
+      "syllableCount": 1
+   }, {
+      "word": "brushes",
+      "syllableCount": 3
+   }, {
+      "word": "fixes",
+      "syllableCount": 2
+   }, {
+      "word": "tries",
+      "syllableCount": 1
+   }, {
+      "word": "marches",
+      "syllableCount": 2
+   }, {
+      "word": "stitches",
+      "syllableCount": 2
+   }, {
+      "word": "rushes",
+      "syllableCount": 3
+   }, {
+      "word": "mixes",
+      "syllableCount": 2
+   }, {
+      "word": "parties",
+      "syllableCount": 2
+   }, {
+      "word": "stated",
+      "syllableCount": 2
+   }, {
+      "word": "starting",
+      "syllableCount": 2
+   }, {
+      "word": "smiled",
+      "syllableCount": 1
+   }, {
+      "word": "smiling",
+      "syllableCount": 2
+   }, {
+      "word": "cried",
+      "syllableCount": 1
+   }, {
+      "word": "crying",
+      "syllableCount": 1
+   }, {
+      "word": "planning",
+      "syllableCount": 2
+   }, {
+      "word": "hoped",
+      "syllableCount": 1
+   }, {
+      "word": "hoping",
+      "syllableCount": 2
+   }, {
+      "word": "hopped",
+      "syllableCount": 1
+   }, {
+      "word": "hopping",
+      "syllableCount": 2
+   }, {
+      "word": "smell",
+      "syllableCount": 1
+   }, {
+      "word": "together",
+      "syllableCount": 3
+   }, {
+      "word": "head",
+      "syllableCount": 1
+   }, {
+      "word": "ready",
+      "syllableCount": 2
+   }, {
+      "word": "instead",
+      "syllableCount": 2
+   }, {
+      "word": "fresh",
+      "syllableCount": 1
+   }, {
+      "word": "spelling",
+      "syllableCount": 2
+   }, {
+      "word": "else",
+      "syllableCount": 2
+   }, {
+      "word": "dead",
+      "syllableCount": 1
+   }, {
+      "word": "many",
+      "syllableCount": 2
+   }, {
+      "word": "seem",
+      "syllableCount": 1
+   }, {
+      "word": "week",
+      "syllableCount": 1
+   }, {
+      "word": "idea",
+      "syllableCount": 3
+   }, {
+      "word": "city",
+      "syllableCount": 2
+   }, {
+      "word": "lucky",
+      "syllableCount": 2
+   }, {
+      "word": "busy",
+      "syllableCount": 2
+   }, {
+      "word": "Halloween",
+      "syllableCount": 3
+   }, {
+      "word": "asleep",
+      "syllableCount": 2
+   }, {
+      "word": "secret",
+      "syllableCount": 2
+   }, {
+      "word": "began",
+      "syllableCount": 2
+   }, {
+      "word": "today",
+      "syllableCount": 2
+   }, {
+      "word": "camping",
+      "syllableCount": 2
+   }, {
+      "word": "aim",
+      "syllableCount": 1
+   }, {
+      "word": "Maine",
+      "syllableCount": 1
+   }, {
+      "word": "holiday",
+      "syllableCount": 3
+   }, {
+      "word": "crayon",
+      "syllableCount": 2
+   }, {
+      "word": "spray",
+      "syllableCount": 1
+   }, {
+      "word": "gold",
+      "syllableCount": 1
+   }, {
+      "word": "ago",
+      "syllableCount": 2
+   }, {
+      "word": "monster",
+      "syllableCount": 2
+   }, {
+      "word": "collar",
+      "syllableCount": 2
+   }, {
+      "word": "Ohio",
+      "syllableCount": 3
+   }, {
+      "word": "hello",
+      "syllableCount": 2
+   }, {
+      "word": "coach",
+      "syllableCount": 1
+   }, {
+      "word": "load",
+      "syllableCount": 1
+   }, {
+      "word": "why",
+      "syllableCount": 1
+   }, {
+      "word": "visit",
+      "syllableCount": 2
+   }, {
+      "word": "winter",
+      "syllableCount": 2
+   }, {
+      "word": "tight",
+      "syllableCount": 1
+   }, {
+      "word": "resource",
+      "syllableCount": 2
+   }, {
+      "word": "sparkle",
+      "syllableCount": 2
+   }, {
+      "word": "grieve",
+      "syllableCount": 1
+   }, {
+      "word": "janitor",
+      "syllableCount": 3
+   }, {
+      "word": "found",
+      "syllableCount": 1
+   }, {
+      "word": "until",
+      "syllableCount": 2
+   }, {
+      "word": "sure",
+      "syllableCount": 1
+   }, {
+      "word": "always",
+      "syllableCount": 2
+   }, {
+      "word": "hasn't",
+      "syllableCount": 1
+   }, {
+      "word": "almost",
+      "syllableCount": 2
+   }, {
+      "word": "alone",
+      "syllableCount": 2
+   }, {
+      "word": "hadn't",
+      "syllableCount": 2
+   }, {
+      "word": "angry",
+      "syllableCount": 2
+   }, {
+      "word": "hungry",
+      "syllableCount": 2
+   }, {
+      "word": "while",
+      "syllableCount": 1
+   }, {
+      "word": "was",
+      "syllableCount": 1
+   }, {
+      "word": "warm",
+      "syllableCount": 1
+   }, {
+      "word": "want",
+      "syllableCount": 1
+   }, {
+      "word": "watched",
+      "syllableCount": 2
+   }, {
+      "word": "wear",
+      "syllableCount": 1
+   }, {
+      "word": "whether",
+      "syllableCount": 2
+   }, {
+      "word": "whisper",
+      "syllableCount": 2
+   }, {
+      "word": "once",
+      "syllableCount": 1
+   }, {
+      "word": "chance",
+      "syllableCount": 1
+   }, {
+      "word": "face",
+      "syllableCount": 1
+   }, {
+      "word": "trick",
+      "syllableCount": 1
+   }, {
+      "word": "since",
+      "syllableCount": 1
+   }, {
+      "word": "erase",
+      "syllableCount": 2
+   }, {
+      "word": "wrong",
+      "syllableCount": 1
+   }, {
+      "word": "wrote",
+      "syllableCount": 1
+   }, {
+      "word": "listen",
+      "syllableCount": 2
+   }, {
+      "word": "Christmas",
+      "syllableCount": 2
+   }, {
+      "word": "knight",
+      "syllableCount": 1
+   }, {
+      "word": "knock",
+      "syllableCount": 1
+   }, {
+      "word": "wrap",
+      "syllableCount": 1
+   }, {
+      "word": "wrestle",
+      "syllableCount": 2
+   }, {
+      "word": "castle",
+      "syllableCount": 2
+   }, {
+      "word": "disgrace",
+      "syllableCount": 2
+   }, {
+      "word": "disregard",
+      "syllableCount": 3
+   }, {
+      "word": "dishonor",
+      "syllableCount": 3
+   }, {
+      "word": "dispose",
+      "syllableCount": 2
+   }, {
+      "word": "discard",
+      "syllableCount": 2
+   }, {
+      "word": "displaced",
+      "syllableCount": 2
+   }, {
+      "word": "displays",
+      "syllableCount": 2
+   }, {
+      "word": "disbelief",
+      "syllableCount": 3
+   }, {
+      "word": "disarm",
+      "syllableCount": 2
+   }, {
+      "word": "display",
+      "syllableCount": 2
+   }, {
+      "word": "disrepair",
+      "syllableCount": 3
+   }, {
+      "word": "dismiss",
+      "syllableCount": 2
+   }, {
+      "word": "disable",
+      "syllableCount": 3
+   }, {
+      "word": "happen",
+      "syllableCount": 2
+   }, {
+      "word": "pretty",
+      "syllableCount": 2
+   }, {
+      "word": "letter",
+      "syllableCount": 2
+   }, {
+      "word": "hurry",
+      "syllableCount": 2
+   }, {
+      "word": "million",
+      "syllableCount": 3
+   }, {
+      "word": "lesson",
+      "syllableCount": 2
+   }, {
+      "word": "put",
+      "syllableCount": 1
+   }, {
+      "word": "enjoy",
+      "syllableCount": 2
+   }, {
+      "word": "point",
+      "syllableCount": 1
+   }, {
+      "word": "voice",
+      "syllableCount": 1
+   }, {
+      "word": "pull",
+      "syllableCount": 1
+   }, {
+      "word": "noise",
+      "syllableCount": 1
+   }, {
+      "word": "choice",
+      "syllableCount": 1
+   }, {
+      "word": "study",
+      "syllableCount": 2
+   }, {
+      "word": "such",
+      "syllableCount": 1
+   }, {
+      "word": "due",
+      "syllableCount": 1
+   }, {
+      "word": "move",
+      "syllableCount": 1
+   }, {
+      "word": "truck",
+      "syllableCount": 1
+   }, {
+      "word": "Sunday",
+      "syllableCount": 2
+   }, {
+      "word": "glue",
+      "syllableCount": 1
+   }, {
+      "word": "clue",
+      "syllableCount": 1
+   }, {
+      "word": "lose",
+      "syllableCount": 1
+   }, {
+      "word": "movie",
+      "syllableCount": 2
+   }, {
+      "word": "walking",
+      "syllableCount": 2
+   }, {
+      "word": "talk",
+      "syllableCount": 1
+   }, {
+      "word": "drawing",
+      "syllableCount": 2
+   }, {
+      "word": "fault",
+      "syllableCount": 1
+   }, {
+      "word": "thaw",
+      "syllableCount": 1
+   }, {
+      "word": "haunted",
+      "syllableCount": 2
+   }, {
+      "word": "cause",
+      "syllableCount": 1
+   }, {
+      "word": "thought",
+      "syllableCount": 1
+   }, {
+      "word": "again",
+      "syllableCount": 2
+   }, {
+      "word": "said",
+      "syllableCount": 1
+   }, {
+      "word": "believe",
+      "syllableCount": 2
+   }, {
+      "word": "tried",
+      "syllableCount": 1
+   }, {
+      "word": "died",
+      "syllableCount": 1
+   }, {
+      "word": "Friday",
+      "syllableCount": 2
+   }, {
+      "word": "Saturday",
+      "syllableCount": 3
+   }, {
+      "word": "surprise",
+      "syllableCount": 2
+   }, {
+      "word": "survey",
+      "syllableCount": 2
+   }, {
+      "word": "survive",
+      "syllableCount": 2
+   }, {
+      "word": "surge",
+      "syllableCount": 2
+   }, {
+      "word": "surgery",
+      "syllableCount": 3
+   }, {
+      "word": "surplus",
+      "syllableCount": 2
+   }, {
+      "word": "surfing",
+      "syllableCount": 2
+   }, {
+      "word": "surviving",
+      "syllableCount": 3
+   }, {
+      "word": "surrounds",
+      "syllableCount": 2
+   }, {
+      "word": "surname",
+      "syllableCount": 2
+   }, {
+      "word": "survivor",
+      "syllableCount": 3
+   }, {
+      "word": "unhappy",
+      "syllableCount": 3
+   }, {
+      "word": "unsafe",
+      "syllableCount": 2
+   }, {
+      "word": "unlucky",
+      "syllableCount": 3
+   }, {
+      "word": "restart",
+      "syllableCount": 2
+   }, {
+      "word": "rewrite",
+      "syllableCount": 2
+   }, {
+      "word": "replay",
+      "syllableCount": 2
+   }, {
+      "word": "reread",
+      "syllableCount": 2
+   }, {
+      "word": "untie",
+      "syllableCount": 2
+   }, {
+      "word": "unfold",
+      "syllableCount": 2
+   }, {
+      "word": "unwrap",
+      "syllableCount": 2
+   }, {
+      "word": "unpack",
+      "syllableCount": 2
+   }, {
+      "word": "repay",
+      "syllableCount": 2
+   }, {
+      "word": "refill",
+      "syllableCount": 2
+   }, {
+      "word": "repaint",
+      "syllableCount": 2
+   }, {
+      "word": "careful",
+      "syllableCount": 2
+   }, {
+      "word": "beautiful",
+      "syllableCount": 3
+   }, {
+      "word": "wonderful",
+      "syllableCount": 3
+   }, {
+      "word": "really",
+      "syllableCount": 3
+   }, {
+      "word": "finally",
+      "syllableCount": 3
+   }, {
+      "word": "sadness",
+      "syllableCount": 2
+   }, {
+      "word": "happiness",
+      "syllableCount": 3
+   }, {
+      "word": "helpful",
+      "syllableCount": 2
+   }, {
+      "word": "graceful",
+      "syllableCount": 2
+   }, {
+      "word": "sadly",
+      "syllableCount": 2
+   }, {
+      "word": "lively",
+      "syllableCount": 2
+   }, {
+      "word": "happily",
+      "syllableCount": 3
+   }, {
+      "word": "kindness",
+      "syllableCount": 2
+   }, {
+      "word": "sickness",
+      "syllableCount": 2
+   }, {
+      "word": "heard",
+      "syllableCount": 1
+   }, {
+      "word": "word",
+      "syllableCount": 1
+   }, {
+      "word": "fur",
+      "syllableCount": 1
+   }, {
+      "word": "search",
+      "syllableCount": 1
+   }, {
+      "word": "third",
+      "syllableCount": 1
+   }, {
+      "word": "dirt",
+      "syllableCount": 1
+   }, {
+      "word": "Thursday",
+      "syllableCount": 2
+   }, {
+      "word": "world",
+      "syllableCount": 1
+   }, {
+      "word": "America",
+      "syllableCount": 4
+   }, {
+      "word": "pair",
+      "syllableCount": 1
+   }, {
+      "word": "near",
+      "syllableCount": 1
+   }, {
+      "word": "year",
+      "syllableCount": 1
+   }, {
+      "word": "stereo",
+      "syllableCount": 3
+   }, {
+      "word": "fair",
+      "syllableCount": 1
+   }, {
+      "word": "fear",
+      "syllableCount": 1
+   }, {
+      "word": "clear",
+      "syllableCount": 1
+   }, {
+      "word": "steer",
+      "syllableCount": 2
+   }, {
+      "word": "afternoon",
+      "syllableCount": 3
+   }, {
+      "word": "homework",
+      "syllableCount": 3
+   }, {
+      "word": "outside",
+      "syllableCount": 2
+   }, {
+      "word": "backyard",
+      "syllableCount": 3
+   }, {
+      "word": "popcorn",
+      "syllableCount": 2
+   }, {
+      "word": "patchwork",
+      "syllableCount": 2
+   }, {
+      "word": "how's",
+      "syllableCount": 1
+   }, {
+      "word": "it's",
+      "syllableCount": 1
+   }, {
+      "word": "haven't",
+      "syllableCount": 2
+   }, {
+      "word": "aren't",
+      "syllableCount": 2
+   }, {
+      "word": "they've",
+      "syllableCount": 1
+   }, {
+      "word": "you'll",
+      "syllableCount": 1
+   }, {
+      "word": "they'll",
+      "syllableCount": 1
+   }, {
+      "word": "we'll",
+      "syllableCount": 1
+   }, {
+      "word": "isn't",
+      "syllableCount": 1
+   }, {
+      "word": "who'll",
+      "syllableCount": 1
+   }, {
+      "word": "he'll",
+      "syllableCount": 1
+   }, {
+      "word": "what'll",
+      "syllableCount": 1
+   }, {
+      "word": "travel",
+      "syllableCount": 2
+   }, {
+      "word": "dollar",
+      "syllableCount": 2
+   }, {
+      "word": "nickel",
+      "syllableCount": 2
+   }, {
+      "word": "final",
+      "syllableCount": 2
+   }, {
+      "word": "special",
+      "syllableCount": 2
+   }, {
+      "word": "real",
+      "syllableCount": 2
+   }, {
+      "word": "being",
+      "syllableCount": 2
+   }, {
+      "word": "laugh",
+      "syllableCount": 1
+   }, {
+      "word": "Wednesday",
+      "syllableCount": 3
+   }, {
+      "word": "remarked",
+      "syllableCount": 2
+   }, {
+      "word": "remark",
+      "syllableCount": 2
+   }, {
+      "word": "review",
+      "syllableCount": 2
+   }, {
+      "word": "recess",
+      "syllableCount": 2
+   }, {
+      "word": "remain",
+      "syllableCount": 2
+   }, {
+      "word": "reduce",
+      "syllableCount": 2
+   }, {
+      "word": "report",
+      "syllableCount": 2
+   }, {
+      "word": "remove",
+      "syllableCount": 2
+   }, {
+      "word": "replace",
+      "syllableCount": 2
+   }, {
+      "word": "recall",
+      "syllableCount": 2
+   }, {
+      "word": "recycle",
+      "syllableCount": 3
+   }, {
+      "word": "remind",
+      "syllableCount": 2
+   }, {
+      "word": "respect",
+      "syllableCount": 2
+   }, {
+      "word": "record",
+      "syllableCount": 2
+   }, {
+      "word": "returned",
+      "syllableCount": 2
+   }, {
+      "word": "Mercury",
+      "syllableCount": 3
+   }, {
+      "word": "Venus",
+      "syllableCount": 2
+   }, {
+      "word": "Mars",
+      "syllableCount": 1
+   }, {
+      "word": "Saturn",
+      "syllableCount": 2
+   }, {
+      "word": "Uranus",
+      "syllableCount": 3
+   }, {
+      "word": "Jupiter",
+      "syllableCount": 3
+   }, {
+      "word": "jump",
+      "syllableCount": 1
+   }, {
+      "word": "thank",
+      "syllableCount": 1
+   }, {
+      "word": "ask",
+      "syllableCount": 1
+   }, {
+      "word": "goes",
+      "syllableCount": 1
+   }, {
+      "word": "small",
+      "syllableCount": 1
+   }, {
+      "word": "help",
+      "syllableCount": 1
+   }, {
+      "word": "green",
+      "syllableCount": 1
+   }, {
+      "word": "buy",
+      "syllableCount": 1
+   }, {
+      "word": "yellow",
+      "syllableCount": 2
+   }, {
+      "word": "clean",
+      "syllableCount": 1
+   }, {
+      "word": "gave",
+      "syllableCount": 1
+   }, {
+      "word": "ride",
+      "syllableCount": 1
+   }, {
+      "word": "full",
+      "syllableCount": 1
+   }, {
+      "word": "sing",
+      "syllableCount": 1
+   }, {
+      "word": "hold",
+      "syllableCount": 1
+   }, {
+      "word": "longer",
+      "syllableCount": 2
+   }, {
+      "word": "carry",
+      "syllableCount": 2
+   }, {
+      "word": "eight",
+      "syllableCount": 1
+   }, {
+      "word": "funny",
+      "syllableCount": 2
+   }, {
+      "word": "grow",
+      "syllableCount": 1
+   }, {
+      "word": "happy",
+      "syllableCount": 2
+   }, {
+      "word": "cut",
+      "syllableCount": 1
+   }, {
+      "word": "round",
+      "syllableCount": 1
+   }, {
+      "word": "set",
+      "syllableCount": 1
+   }, {
+      "word": "anything",
+      "syllableCount": 3
+   }, {
+      "word": "wash",
+      "syllableCount": 1
+   }, {
+      "word": "around",
+      "syllableCount": 2
+   }, {
+      "word": "early",
+      "syllableCount": 2
+   }, {
+      "word": "love",
+      "syllableCount": 1
+   }, {
+      "word": "along",
+      "syllableCount": 2
+   }, {
+      "word": "hope",
+      "syllableCount": 1
+   }, {
+      "word": "yesterday",
+      "syllableCount": 3
+   }, {
+      "word": "fine",
+      "syllableCount": 1
+   }, {
+      "word": "delighted",
+      "syllableCount": 3
+   }, {
+      "word": "lightning",
+      "syllableCount": 2
+   }, {
+      "word": "slightly",
+      "syllableCount": 2
+   }, {
+      "word": "lightly",
+      "syllableCount": 2
+   }, {
+      "word": "slight",
+      "syllableCount": 1
+   }, {
+      "word": "fright",
+      "syllableCount": 1
+   }, {
+      "word": "tighten",
+      "syllableCount": 2
+   }, {
+      "word": "height",
+      "syllableCount": 1
+   }, {
+      "word": "delight",
+      "syllableCount": 2
+   }, {
+      "word": "nights",
+      "syllableCount": 1
+   }, {
+      "word": "lights",
+      "syllableCount": 1
+   }, {
+      "word": "unsure",
+      "syllableCount": 2
+   }, {
+      "word": "uneven",
+      "syllableCount": 3
+   }, {
+      "word": "unzip",
+      "syllableCount": 2
+   }, {
+      "word": "undone",
+      "syllableCount": 2
+   }, {
+      "word": "unlock",
+      "syllableCount": 2
+   }, {
+      "word": "unscrew",
+      "syllableCount": 2
+   }, {
+      "word": "untrue",
+      "syllableCount": 2
+   }, {
+      "word": "unusual",
+      "syllableCount": 4
+   }, {
+      "word": "unseen",
+      "syllableCount": 2
+   }, {
+      "word": "uncooked",
+      "syllableCount": 2
+   }, {
+      "word": "unjust",
+      "syllableCount": 2
+   }, {
+      "word": "uncommon",
+      "syllableCount": 3
+   }, {
+      "word": "measured",
+      "syllableCount": 2
+   }, {
+      "word": "measure",
+      "syllableCount": 2
+   }, {
+      "word": "pleasure",
+      "syllableCount": 2
+   }, {
+      "word": "measurements",
+      "syllableCount": 3
+   }, {
+      "word": "measurement",
+      "syllableCount": 3
+   }, {
+      "word": "displeasure",
+      "syllableCount": 3
+   }, {
+      "word": "treasures",
+      "syllableCount": 2
+   }, {
+      "word": "measures",
+      "syllableCount": 2
+   }, {
+      "word": "freeway",
+      "syllableCount": 2
+   }, {
+      "word": "expressway",
+      "syllableCount": 3
+   }, {
+      "word": "astray",
+      "syllableCount": 2
+   }, {
+      "word": "everyday",
+      "syllableCount": 4
+   }, {
+      "word": "prepay",
+      "syllableCount": 2
+   }, {
+      "word": "pray",
+      "syllableCount": 1
+   }, {
+      "word": "throughway",
+      "syllableCount": 2
+   }, {
+      "word": "driveway",
+      "syllableCount": 3
+   }, {
+      "word": "portray",
+      "syllableCount": 2
+   }, {
+      "word": "betray",
+      "syllableCount": 2
+   }, {
+      "word": "sway",
+      "syllableCount": 1
+   }, {
+      "word": "essay",
+      "syllableCount": 2
+   }, {
+      "word": "relay",
+      "syllableCount": 2
+   }, {
+      "word": "delay",
+      "syllableCount": 2
+   }, {
+      "word": "myself",
+      "syllableCount": 2
+   }, {
+      "word": "asleep",
+      "syllableCount": 2
+   }, {
+      "word": "Sunday",
+      "syllableCount": 2
+   }, {
+      "word": "afternoon",
+      "syllableCount": 3
+   }, {
+      "word": "homework",
+      "syllableCount": 3
+   }, {
+      "word": "everybody",
+      "syllableCount": 5
+   }, {
+      "word": "noontime",
+      "syllableCount": 2
+   }, {
+      "word": "sandbox",
+      "syllableCount": 2
+   }, {
+      "word": "overnight",
+      "syllableCount": 3
+   }, {
+      "word": "watchdog",
+      "syllableCount": 2
+   }, {
+      "word": "typewriter",
+      "syllableCount": 4
+   }, {
+      "word": "checkout",
+      "syllableCount": 2
+   }, {
+      "word": "cupboard",
+      "syllableCount": 2
+   }, {
+      "word": "nowhere",
+      "syllableCount": 2
+   }, {
+      "word": "patchwork",
+      "syllableCount": 2
+   }, {
+      "word": "cardboard",
+      "syllableCount": 2
+   }, {
+      "word": "bandwagon",
+      "syllableCount": 3
+   }, {
+      "word": "saltwater",
+      "syllableCount": 3
+   }, {
+      "word": "workshop",
+      "syllableCount": 2
+   }, {
+      "word": "surfboard",
+      "syllableCount": 2
+   }, {
+      "word": "hayfield",
+      "syllableCount": 2
+   }, {
+      "word": "scratch",
+      "syllableCount": 1
+   }, {
+      "word": "square",
+      "syllableCount": 1
+   }, {
+      "word": "street",
+      "syllableCount": 1
+   }, {
+      "word": "throat",
+      "syllableCount": 1
+   }, {
+      "word": "squeeze",
+      "syllableCount": 2
+   }, {
+      "word": "squirm",
+      "syllableCount": 1
+   }, {
+      "word": "squirt",
+      "syllableCount": 1
+   }, {
+      "word": "scramble",
+      "syllableCount": 2
+   }, {
+      "word": "scrub",
+      "syllableCount": 1
+   }, {
+      "word": "thrill",
+      "syllableCount": 1
+   }, {
+      "word": "strange",
+      "syllableCount": 1
+   }, {
+      "word": "scream",
+      "syllableCount": 1
+   }, {
+      "word": "strength",
+      "syllableCount": 1
+   }, {
+      "word": "strike",
+      "syllableCount": 1
+   }, {
+      "word": "squeal",
+      "syllableCount": 2
+   }, {
+      "word": "threat",
+      "syllableCount": 1
+   }, {
+      "word": "deal",
+      "syllableCount": 1
+   }, {
+      "word": "needed",
+      "syllableCount": 2
+   }, {
+      "word": "spelling",
+      "syllableCount": 2
+   }, {
+      "word": "east",
+      "syllableCount": 1
+   }, {
+      "word": "feelings",
+      "syllableCount": 2
+   }, {
+      "word": "tea",
+      "syllableCount": 1
+   }, {
+      "word": "keeping",
+      "syllableCount": 2
+   }, {
+      "word": "beneath",
+      "syllableCount": 2
+   }, {
+      "word": "agree",
+      "syllableCount": 2
+   }, {
+      "word": "suggested",
+      "syllableCount": 3
+   }, {
+      "word": "method",
+      "syllableCount": 2
+   }, {
+      "word": "feature",
+      "syllableCount": 2
+   }, {
+      "word": "metal",
+      "syllableCount": 2
+   }, {
+      "word": "disease",
+      "syllableCount": 2
+   }, {
+      "word": "empty",
+      "syllableCount": 2
+   }, {
+      "word": "mine",
+      "syllableCount": 1
+   }, {
+      "word": "smile",
+      "syllableCount": 1
+   }, {
+      "word": "drive",
+      "syllableCount": 1
+   }, {
+      "word": "size",
+      "syllableCount": 1
+   }, {
+      "word": "blind",
+      "syllableCount": 1
+   }, {
+      "word": "arrived",
+      "syllableCount": 2
+   }, {
+      "word": "decide",
+      "syllableCount": 2
+   }, {
+      "word": "civil",
+      "syllableCount": 2
+   }, {
+      "word": "divide",
+      "syllableCount": 2
+   }, {
+      "word": "fifty",
+      "syllableCount": 2
+   }, {
+      "word": "liquid",
+      "syllableCount": 2
+   }, {
+      "word": "solid",
+      "syllableCount": 2
+   }, {
+      "word": "include",
+      "syllableCount": 2
+   }, {
+      "word": "plus",
+      "syllableCount": 1
+   }, {
+      "word": "operate",
+      "syllableCount": 3
+   }, {
+      "word": "broke",
+      "syllableCount": 1
+   }, {
+      "word": "upset",
+      "syllableCount": 2
+   }, {
+      "word": "tune",
+      "syllableCount": 1
+   }, {
+      "word": "June",
+      "syllableCount": 1
+   }, {
+      "word": "floating",
+      "syllableCount": 2
+   }, {
+      "word": "plume",
+      "syllableCount": 1
+   }, {
+      "word": "honor",
+      "syllableCount": 2
+   }, {
+      "word": "smoke",
+      "syllableCount": 1
+   }, {
+      "word": "conflict",
+      "syllableCount": 2
+   }, {
+      "word": "polish",
+      "syllableCount": 2
+   }, {
+      "word": "swallow",
+      "syllableCount": 2
+   }, {
+      "word": "loop",
+      "syllableCount": 1
+   }, {
+      "word": "wounded",
+      "syllableCount": 2
+   }, {
+      "word": "shoot",
+      "syllableCount": 1
+   }, {
+      "word": "booth",
+      "syllableCount": 1
+   }, {
+      "word": "mood",
+      "syllableCount": 1
+   }, {
+      "word": "broom",
+      "syllableCount": 1
+   }, {
+      "word": "boost",
+      "syllableCount": 1
+   }, {
+      "word": "fooling",
+      "syllableCount": 2
+   }, {
+      "word": "smooth",
+      "syllableCount": 1
+   }, {
+      "word": "bloomed",
+      "syllableCount": 1
+   }, {
+      "word": "souvenir",
+      "syllableCount": 3
+   }, {
+      "word": "routine",
+      "syllableCount": 2
+   }, {
+      "word": "loose",
+      "syllableCount": 1
+   }, {
+      "word": "troop",
+      "syllableCount": 1
+   }, {
+      "word": "carved",
+      "syllableCount": 1
+   }, {
+      "word": "harm",
+      "syllableCount": 1
+   }, {
+      "word": "farther",
+      "syllableCount": 2
+   }, {
+      "word": "barked",
+      "syllableCount": 1
+   }, {
+      "word": "alarm",
+      "syllableCount": 2
+   }, {
+      "word": "chart",
+      "syllableCount": 1
+   }, {
+      "word": "starved",
+      "syllableCount": 1
+   }, {
+      "word": "harder",
+      "syllableCount": 2
+   }, {
+      "word": "parked",
+      "syllableCount": 1
+   }, {
+      "word": "smartest",
+      "syllableCount": 2
+   }, {
+      "word": "charge",
+      "syllableCount": 2
+   }, {
+      "word": "guard",
+      "syllableCount": 1
+   }, {
+      "word": "argument",
+      "syllableCount": 3
+   }, {
+      "word": "garbage",
+      "syllableCount": 2
+   }, {
+      "word": "harsh",
+      "syllableCount": 1
+   }, {
+      "word": "parts",
+      "syllableCount": 1
+   }, {
+      "word": "harbor",
+      "syllableCount": 2
+   }, {
+      "word": "pour",
+      "syllableCount": 1
+   }, {
+      "word": "orbit",
+      "syllableCount": 2
+   }, {
+      "word": "fourth",
+      "syllableCount": 1
+   }, {
+      "word": "source",
+      "syllableCount": 1
+   }, {
+      "word": "sports",
+      "syllableCount": 1
+   }, {
+      "word": "forward",
+      "syllableCount": 2
+   }, {
+      "word": "force",
+      "syllableCount": 1
+   }, {
+      "word": "order",
+      "syllableCount": 2
+   }, {
+      "word": "wore",
+      "syllableCount": 1
+   }, {
+      "word": "support",
+      "syllableCount": 2
+   }, {
+      "word": "sore",
+      "syllableCount": 1
+   }, {
+      "word": "anymore",
+      "syllableCount": 3
+   }, {
+      "word": "ignore",
+      "syllableCount": 2
+   }, {
+      "word": "portrait",
+      "syllableCount": 2
+   }, {
+      "word": "border",
+      "syllableCount": 2
+   }, {
+      "word": "course",
+      "syllableCount": 1
+   }, {
+      "word": "cared",
+      "syllableCount": 1
+   }, {
+      "word": "unfair",
+      "syllableCount": 2
+   }, {
+      "word": "rarely",
+      "syllableCount": 2
+   }, {
+      "word": "stared",
+      "syllableCount": 1
+   }, {
+      "word": "dared",
+      "syllableCount": 1
+   }, {
+      "word": "glare",
+      "syllableCount": 1
+   }, {
+      "word": "barely",
+      "syllableCount": 2
+   }, {
+      "word": "farewell",
+      "syllableCount": 3
+   }, {
+      "word": "staircase",
+      "syllableCount": 2
+   }, {
+      "word": "everywhere",
+      "syllableCount": 4
+   }, {
+      "word": "declare",
+      "syllableCount": 2
+   }, {
+      "word": "therefore",
+      "syllableCount": 3
+   }, {
+      "word": "despair",
+      "syllableCount": 2
+   }, {
+      "word": "prepared",
+      "syllableCount": 2
+   }, {
+      "word": "beware",
+      "syllableCount": 2
+   }, {
+      "word": "repair",
+      "syllableCount": 2
+   }, {
+      "word": "curve",
+      "syllableCount": 1
+   }, {
+      "word": "learned",
+      "syllableCount": 1
+   }, {
+      "word": "curly",
+      "syllableCount": 2
+   }, {
+      "word": "purse",
+      "syllableCount": 1
+   }, {
+      "word": "further",
+      "syllableCount": 2
+   }, {
+      "word": "urgent",
+      "syllableCount": 2
+   }, {
+      "word": "burning",
+      "syllableCount": 2
+   }, {
+      "word": "hurried",
+      "syllableCount": 2
+   }, {
+      "word": "earned",
+      "syllableCount": 1
+   }, {
+      "word": "purpose",
+      "syllableCount": 2
+   }, {
+      "word": "surface",
+      "syllableCount": 2
+   }, {
+      "word": "overheard",
+      "syllableCount": 3
+   }, {
+      "word": "rehearse",
+      "syllableCount": 2
+   }, {
+      "word": "current",
+      "syllableCount": 2
+   }, {
+      "word": "research",
+      "syllableCount": 2
+   }, {
+      "word": "ground",
+      "syllableCount": 1
+   }, {
+      "word": "frown",
+      "syllableCount": 1
+   }, {
+      "word": "downtown",
+      "syllableCount": 2
+   }, {
+      "word": "bounced",
+      "syllableCount": 1
+   }, {
+      "word": "council",
+      "syllableCount": 2
+   }, {
+      "word": "counter",
+      "syllableCount": 2
+   }, {
+      "word": "background",
+      "syllableCount": 2
+   }, {
+      "word": "bound",
+      "syllableCount": 1
+   }, {
+      "word": "amount",
+      "syllableCount": 2
+   }, {
+      "word": "county",
+      "syllableCount": 2
+   }, {
+      "word": "thousand",
+      "syllableCount": 2
+   }, {
+      "word": "allowance",
+      "syllableCount": 3
+   }, {
+      "word": "discount",
+      "syllableCount": 2
+   }, {
+      "word": "countless",
+      "syllableCount": 2
+   }, {
+      "word": "rebound",
+      "syllableCount": 2
+   }, {
+      "word": "surrounded",
+      "syllableCount": 3
+   }, {
+      "word": "astounding",
+      "syllableCount": 3
+   }, {
+      "word": "boiled",
+      "syllableCount": 1
+   }, {
+      "word": "annoyed",
+      "syllableCount": 2
+   }, {
+      "word": "choices",
+      "syllableCount": 2
+   }, {
+      "word": "poison",
+      "syllableCount": 2
+   }, {
+      "word": "joining",
+      "syllableCount": 2
+   }, {
+      "word": "spoiled",
+      "syllableCount": 1
+   }, {
+      "word": "voices",
+      "syllableCount": 2
+   }, {
+      "word": "destroyed",
+      "syllableCount": 2
+   }, {
+      "word": "pointing",
+      "syllableCount": 2
+   }, {
+      "word": "avoided",
+      "syllableCount": 3
+   }, {
+      "word": "enjoying",
+      "syllableCount": 3
+   }, {
+      "word": "voyage",
+      "syllableCount": 2
+   }, {
+      "word": "appointed",
+      "syllableCount": 3
+   }, {
+      "word": "poisonous",
+      "syllableCount": 3
+   }, {
+      "word": "foil",
+      "syllableCount": 1
+   }, {
+      "word": "loyal",
+      "syllableCount": 2
+   }, {
+      "word": "noisy",
+      "syllableCount": 2
+   }, {
+      "word": "disappointed",
+      "syllableCount": 4
+   }, {
+      "word": "shelves",
+      "syllableCount": 1
+   }, {
+      "word": "teeth",
+      "syllableCount": 1
+   }, {
+      "word": "feet",
+      "syllableCount": 1
+   }, {
+      "word": "series",
+      "syllableCount": 2
+   }, {
+      "word": "halves",
+      "syllableCount": 1
+   }, {
+      "word": "crises",
+      "syllableCount": 2
+   }, {
+      "word": "adventures",
+      "syllableCount": 3
+   }, {
+      "word": "privileges",
+      "syllableCount": 4
+   }, {
+      "word": "classs",
+      "syllableCount": 1
+   }, {
+      "word": "owners",
+      "syllableCount": 2
+   }, {
+      "word": "children's",
+      "syllableCount": 2
+   }, {
+      "word": "city's",
+      "syllableCount": 2
+   }, {
+      "word": "classes",
+      "syllableCount": 1
+   }, {
+      "word": "country's",
+      "syllableCount": 2
+   }, {
+      "word": "mount",
+      "syllableCount": 1
+   }, {
+      "word": "January",
+      "syllableCount": 4
+   }, {
+      "word": "route",
+      "syllableCount": 1
+   }, {
+      "word": "road",
+      "syllableCount": 1
+   }, {
+      "word": "Friday",
+      "syllableCount": 2
+   }, {
+      "word": "pound",
+      "syllableCount": 1
+   }, {
+      "word": "avenue",
+      "syllableCount": 3
+   }, {
+      "word": "December",
+      "syllableCount": 3
+   }, {
+      "word": "teaspoon",
+      "syllableCount": 2
+   }, {
+      "word": "Saturday",
+      "syllableCount": 3
+   }, {
+      "word": "Wednesday",
+      "syllableCount": 3
+   }, {
+      "word": "highway",
+      "syllableCount": 2
+   }, {
+      "word": "September",
+      "syllableCount": 3
+   }, {
+      "word": "Parkway",
+      "syllableCount": 2
+   }, {
+      "word": "Sunday",
+      "syllableCount": 2
+   }, {
+      "word": "Monday",
+      "syllableCount": 2
+   }, {
+      "word": "weighs",
+      "syllableCount": 1
+   }, {
+      "word": "freight",
+      "syllableCount": 1
+   }, {
+      "word": "eighteen",
+      "syllableCount": 2
+   }, {
+      "word": "receive",
+      "syllableCount": 2
+   }, {
+      "word": "weird",
+      "syllableCount": 1
+   }, {
+      "word": "seize",
+      "syllableCount": 1
+   }, {
+      "word": "either",
+      "syllableCount": 2
+   }, {
+      "word": "fierce",
+      "syllableCount": 1
+   }, {
+      "word": "relief",
+      "syllableCount": 2
+   }, {
+      "word": "pierce",
+      "syllableCount": 1
+   }, {
+      "word": "achieve",
+      "syllableCount": 2
+   }, {
+      "word": "eighth",
+      "syllableCount": 1
+   }, {
+      "word": "tiny",
+      "syllableCount": 2
+   }, {
+      "word": "hockey",
+      "syllableCount": 2
+   }, {
+      "word": "heavy",
+      "syllableCount": 2
+   }, {
+      "word": "already",
+      "syllableCount": 3
+   }, {
+      "word": "company",
+      "syllableCount": 3
+   }, {
+      "word": "country",
+      "syllableCount": 2
+   }, {
+      "word": "ability",
+      "syllableCount": 4
+   }, {
+      "word": "steady",
+      "syllableCount": 2
+   }, {
+      "word": "industry",
+      "syllableCount": 3
+   }, {
+      "word": "activity",
+      "syllableCount": 4
+   }, {
+      "word": "unused",
+      "syllableCount": 3
+   }, {
+      "word": "dislike",
+      "syllableCount": 2
+   }, {
+      "word": "unclean",
+      "syllableCount": 2
+   }, {
+      "word": "unheard",
+      "syllableCount": 2
+   }, {
+      "word": "disagree",
+      "syllableCount": 3
+   }, {
+      "word": "disabled",
+      "syllableCount": 3
+   }, {
+      "word": "unkind",
+      "syllableCount": 2
+   }, {
+      "word": "unfriendly",
+      "syllableCount": 3
+   }, {
+      "word": "unable",
+      "syllableCount": 3
+   }, {
+      "word": "disobey",
+      "syllableCount": 3
+   }, {
+      "word": "uncertain",
+      "syllableCount": 3
+   }, {
+      "word": "undecided",
+      "syllableCount": 4
+   }, {
+      "word": "dishonest",
+      "syllableCount": 3
+   }, {
+      "word": "disadvantage",
+      "syllableCount": 4
+   }, {
+      "word": "distrust",
+      "syllableCount": 2
+   }, {
+      "word": "unknown",
+      "syllableCount": 2
+   }, {
+      "word": "unlike",
+      "syllableCount": 2
+   }, {
+      "word": "nonstop",
+      "syllableCount": 2
+   }, {
+      "word": "replaced",
+      "syllableCount": 2
+   }, {
+      "word": "inactive",
+      "syllableCount": 3
+   }, {
+      "word": "incorrect",
+      "syllableCount": 3
+   }, {
+      "word": "rethink",
+      "syllableCount": 2
+   }, {
+      "word": "nonfat",
+      "syllableCount": 2
+   }, {
+      "word": "retell",
+      "syllableCount": 2
+   }, {
+      "word": "return",
+      "syllableCount": 2
+   }, {
+      "word": "incomplete",
+      "syllableCount": 3
+   }, {
+      "word": "nonfiction",
+      "syllableCount": 3
+   }, {
+      "word": "nonsense",
+      "syllableCount": 3
+   }, {
+      "word": "indirect",
+      "syllableCount": 3
+   }, {
+      "word": "independent",
+      "syllableCount": 4
+   }, {
+      "word": "invisible",
+      "syllableCount": 4
+   }, {
+      "word": "nonprofit",
+      "syllableCount": 3
+   }, {
+      "word": "redo",
+      "syllableCount": 2
+   }, {
+      "word": "relocate",
+      "syllableCount": 3
+   }, {
+      "word": "worried",
+      "syllableCount": 2
+   }, {
+      "word": "ugliest",
+      "syllableCount": 3
+   }, {
+      "word": "funnier",
+      "syllableCount": 3
+   }, {
+      "word": "easily",
+      "syllableCount": 3
+   }, {
+      "word": "heavier",
+      "syllableCount": 3
+   }, {
+      "word": "earlier",
+      "syllableCount": 3
+   }, {
+      "word": "tiniest",
+      "syllableCount": 3
+   }, {
+      "word": "supplied",
+      "syllableCount": 2
+   }, {
+      "word": "luckily",
+      "syllableCount": 3
+   }, {
+      "word": "relied",
+      "syllableCount": 2
+   }, {
+      "word": "activities",
+      "syllableCount": 4
+   }, {
+      "word": "countries",
+      "syllableCount": 2
+   }, {
+      "word": "scurried",
+      "syllableCount": 2
+   }, {
+      "word": "prettier",
+      "syllableCount": 3
+   }, {
+      "word": "readily",
+      "syllableCount": 3
+   }, {
+      "word": "carried",
+      "syllableCount": 2
+   }, {
+      "word": "addition",
+      "syllableCount": 3
+   }, {
+      "word": "lovable",
+      "syllableCount": 3
+   }, {
+      "word": "endless",
+      "syllableCount": 2
+   }, {
+      "word": "handful",
+      "syllableCount": 2
+   }, {
+      "word": "plentiful",
+      "syllableCount": 3
+   }, {
+      "word": "breathless",
+      "syllableCount": 2
+   }, {
+      "word": "solution",
+      "syllableCount": 3
+   }, {
+      "word": "function",
+      "syllableCount": 2
+   }, {
+      "word": "stillness",
+      "syllableCount": 2
+   }, {
+      "word": "information",
+      "syllableCount": 4
+   }, {
+      "word": "celebration",
+      "syllableCount": 4
+   }, {
+      "word": "capable",
+      "syllableCount": 3
+   }, {
+      "word": "available",
+      "syllableCount": 4
+   }, {
+      "word": "believable",
+      "syllableCount": 4
+   }, {
+      "word": "careless",
+      "syllableCount": 2
+   }, {
+      "word": "reusable",
+      "syllableCount": 3
+   }, {
+      "word": "forgiveness",
+      "syllableCount": 3
+   }, {
+      "word": "power",
+      "syllableCount": 2
+   }, {
+      "word": "corner",
+      "syllableCount": 2
+   }, {
+      "word": "danger",
+      "syllableCount": 2
+   }, {
+      "word": "labor",
+      "syllableCount": 2
+   }, {
+      "word": "motor",
+      "syllableCount": 2
+   }, {
+      "word": "hunger",
+      "syllableCount": 2
+   }, {
+      "word": "horror",
+      "syllableCount": 2
+   }, {
+      "word": "finger",
+      "syllableCount": 2
+   }, {
+      "word": "regular",
+      "syllableCount": 3
+   }, {
+      "word": "cellar",
+      "syllableCount": 2
+   }, {
+      "word": "handle",
+      "syllableCount": 2
+   }, {
+      "word": "personal",
+      "syllableCount": 3
+   }, {
+      "word": "usual",
+      "syllableCount": 3
+   }, {
+      "word": "actual",
+      "syllableCount": 3
+   }, {
+      "word": "example",
+      "syllableCount": 3
+   }, {
+      "word": "possible",
+      "syllableCount": 3
+   }, {
+      "word": "single",
+      "syllableCount": 2
+   }, {
+      "word": "several",
+      "syllableCount": 3
+   }, {
+      "word": "national",
+      "syllableCount": 3
+   }, {
+      "word": "trouble",
+      "syllableCount": 2
+   }, {
+      "word": "dial",
+      "syllableCount": 2
+   }, {
+      "word": "equal",
+      "syllableCount": 2
+   }, {
+      "word": "jingle",
+      "syllableCount": 2
+   }, {
+      "word": "pollen",
+      "syllableCount": 2
+   }, {
+      "word": "reason",
+      "syllableCount": 2
+   }, {
+      "word": "burden",
+      "syllableCount": 2
+   }, {
+      "word": "horizon",
+      "syllableCount": 3
+   }, {
+      "word": "orphan",
+      "syllableCount": 2
+   }, {
+      "word": "sudden",
+      "syllableCount": 2
+   }, {
+      "word": "eleven",
+      "syllableCount": 3
+   }, {
+      "word": "button",
+      "syllableCount": 2
+   }, {
+      "word": "slogan",
+      "syllableCount": 2
+   }, {
+      "word": "golden",
+      "syllableCount": 2
+   }, {
+      "word": "stepped",
+      "syllableCount": 1
+   }, {
+      "word": "entered",
+      "syllableCount": 2
+   }, {
+      "word": "reaching",
+      "syllableCount": 2
+   }, {
+      "word": "allowing",
+      "syllableCount": 3
+   }, {
+      "word": "argued",
+      "syllableCount": 2
+   }, {
+      "word": "speaking",
+      "syllableCount": 2
+   }, {
+      "word": "reading",
+      "syllableCount": 2
+   }, {
+      "word": "unfolding",
+      "syllableCount": 3
+   }, {
+      "word": "closing",
+      "syllableCount": 2
+   }, {
+      "word": "hugged",
+      "syllableCount": 2
+   }, {
+      "word": "belonged",
+      "syllableCount": 2
+   }, {
+      "word": "divided",
+      "syllableCount": 3
+   }, {
+      "word": "determined",
+      "syllableCount": 3
+   }, {
+      "word": "rewarding",
+      "syllableCount": 3
+   }, {
+      "word": "occurred",
+      "syllableCount": 2
+   }, {
+      "word": "controlled",
+      "syllableCount": 2
+   }, {
+      "word": "injured",
+      "syllableCount": 2
+   }, {
+      "word": "permitting",
+      "syllableCount": 3
+   }, {
+      "word": "practicing",
+      "syllableCount": 3
+   }, {
+      "word": "often",
+      "syllableCount": 2
+   }, {
+      "word": "climbed",
+      "syllableCount": 2
+   }, {
+      "word": "fasten",
+      "syllableCount": 2
+   }, {
+      "word": "crumbs",
+      "syllableCount": 1
+   }, {
+      "word": "soften",
+      "syllableCount": 2
+   }, {
+      "word": "thumb",
+      "syllableCount": 1
+   }, {
+      "word": "doubt",
+      "syllableCount": 1
+   }, {
+      "word": "honest",
+      "syllableCount": 2
+   }, {
+      "word": "rhyme",
+      "syllableCount": 1
+   }, {
+      "word": "answer",
+      "syllableCount": 2
+   }, {
+      "word": "column",
+      "syllableCount": 2
+   }, {
+      "word": "numb",
+      "syllableCount": 1
+   }, {
+      "word": "glisten",
+      "syllableCount": 2
+   }, {
+      "word": "hasten",
+      "syllableCount": 2
+   }, {
+      "word": "we've",
+      "syllableCount": 1
+   }, {
+      "word": "you'd",
+      "syllableCount": 1
+   }, {
+      "word": "you've",
+      "syllableCount": 1
+   }, {
+      "word": "she'd",
+      "syllableCount": 1
+   }, {
+      "word": "shouldn't",
+      "syllableCount": 2
+   }, {
+      "word": "weren't",
+      "syllableCount": 2
+   }, {
+      "word": "we'd",
+      "syllableCount": 1
+   }, {
+      "word": "hadn't",
+      "syllableCount": 2
+   }, {
+      "word": "they'd",
+      "syllableCount": 1
+   }, {
+      "word": "I'd",
+      "syllableCount": 1
+   }, {
+      "word": "piece",
+      "syllableCount": 1
+   }, {
+      "word": "peace",
+      "syllableCount": 1
+   }, {
+      "word": "peddle",
+      "syllableCount": 2
+   }, {
+      "word": "bury",
+      "syllableCount": 2
+   }, {
+      "word": "members",
+      "syllableCount": 2
+   }, {
+      "word": "suppose",
+      "syllableCount": 2
+   }, {
+      "word": "except",
+      "syllableCount": 2
+   }, {
+      "word": "problem",
+      "syllableCount": 2
+   }, {
+      "word": "shallow",
+      "syllableCount": 2
+   }, {
+      "word": "stubborn",
+      "syllableCount": 2
+   }, {
+      "word": "logger",
+      "syllableCount": 2
+   }, {
+      "word": "object",
+      "syllableCount": 2
+   }, {
+      "word": "pattern",
+      "syllableCount": 2
+   }, {
+      "word": "captive",
+      "syllableCount": 2
+   }, {
+      "word": "publish",
+      "syllableCount": 2
+   }, {
+      "word": "tractor",
+      "syllableCount": 2
+   }, {
+      "word": "servant",
+      "syllableCount": 2
+   }, {
+      "word": "hidden",
+      "syllableCount": 2
+   }, {
+      "word": "major",
+      "syllableCount": 2
+   }, {
+      "word": "cedar",
+      "syllableCount": 2
+   }, {
+      "word": "spiders",
+      "syllableCount": 2
+   }, {
+      "word": "ruler",
+      "syllableCount": 2
+   }, {
+      "word": "motive",
+      "syllableCount": 2
+   }, {
+      "word": "raven",
+      "syllableCount": 2
+   }, {
+      "word": "super",
+      "syllableCount": 2
+   }, {
+      "word": "pilot",
+      "syllableCount": 2
+   }, {
+      "word": "silent",
+      "syllableCount": 2
+   }, {
+      "word": "native",
+      "syllableCount": 2
+   }, {
+      "word": "rivals",
+      "syllableCount": 2
+   }, {
+      "word": "solar",
+      "syllableCount": 2
+   }, {
+      "word": "bison",
+      "syllableCount": 2
+   }, {
+      "word": "legal",
+      "syllableCount": 2
+   }, {
+      "word": "humor",
+      "syllableCount": 2
+   }, {
+      "word": "moment",
+      "syllableCount": 2
+   }, {
+      "word": "nature",
+      "syllableCount": 2
+   }, {
+      "word": "virus",
+      "syllableCount": 2
+   }, {
+      "word": "difficult",
+      "syllableCount": 3
+   }, {
+      "word": "probably",
+      "syllableCount": 3
+   }, {
+      "word": "beginning",
+      "syllableCount": 3
+   }, {
+      "word": "direction",
+      "syllableCount": 3
+   }, {
+      "word": "discover",
+      "syllableCount": 3
+   }, {
+      "word": "excellent",
+      "syllableCount": 3
+   }, {
+      "word": "important",
+      "syllableCount": 3
+   }, {
+      "word": "imagine",
+      "syllableCount": 3
+   }, {
+      "word": "energy",
+      "syllableCount": 3
+   }, {
+      "word": "remember",
+      "syllableCount": 3
+   }, {
+      "word": "dangerous",
+      "syllableCount": 3
+   }, {
+      "word": "government",
+      "syllableCount": 3
+   }, {
+      "word": "interest",
+      "syllableCount": 3
+   }, {
+      "word": "becoming",
+      "syllableCount": 3
+   }, {
+      "word": "description",
+      "syllableCount": 3
+   }, {
+      "word": "engineer",
+      "syllableCount": 3
+   }, {
+      "word": "across",
+      "syllableCount": 2
+   }, {
+      "word": "above",
+      "syllableCount": 2
+   }, {
+      "word": "brought",
+      "syllableCount": 1
+   }, {
+      "word": "horse",
+      "syllableCount": 1
+   }, {
+      "word": "land",
+      "syllableCount": 1
+   }, {
+      "word": "number",
+      "syllableCount": 2
+   }, {
+      "word": "done",
+      "syllableCount": 1
+   }, {
+      "word": "yet",
+      "syllableCount": 1
+   }, {
+      "word": "yard",
+      "syllableCount": 1
+   }, {
+      "word": "shoes",
+      "syllableCount": 1
+   }, {
+      "word": "even",
+      "syllableCount": 2
+   }, {
+      "word": "cover",
+      "syllableCount": 2
+   }, {
+      "word": "line",
+      "syllableCount": 1
+   }, {
+      "word": "state",
+      "syllableCount": 1
+   }, {
+      "word": "few",
+      "syllableCount": 1
+   }, {
+      "word": "life",
+      "syllableCount": 1
+   }, {
+      "word": "window",
+      "syllableCount": 2
+   }, {
+      "word": "street",
+      "syllableCount": 1
+   }, {
+      "word": "matter",
+      "syllableCount": 2
+   }, {
+      "word": "large",
+      "syllableCount": 2
+   }, {
+      "word": "harmless",
+      "syllableCount": 2
+   }, {
+      "word": "hopeless",
+      "syllableCount": 2
+   }, {
+      "word": "unless",
+      "syllableCount": 2
+   }, {
+      "word": "reckless",
+      "syllableCount": 2
+   }, {
+      "word": "priceless",
+      "syllableCount": 2
+   }, {
+      "word": "speechless",
+      "syllableCount": 2
+   }, {
+      "word": "regardless",
+      "syllableCount": 3
+   }, {
+      "word": "useless",
+      "syllableCount": 2
+   }, {
+      "word": "shapeless",
+      "syllableCount": 2
+   }, {
+      "word": "homeless",
+      "syllableCount": 2
+   }, {
+      "word": "weightless",
+      "syllableCount": 2
+   }, {
+      "word": "valueless",
+      "syllableCount": 3
+   }, {
+      "word": "restless",
+      "syllableCount": 2
+   }, {
+      "word": "sound",
+      "syllableCount": 1
+   }, {
+      "word": "wound",
+      "syllableCount": 1
+   }, {
+      "word": "surround",
+      "syllableCount": 2
+   }, {
+      "word": "compound",
+      "syllableCount": 2
+   }, {
+      "word": "campground",
+      "syllableCount": 2
+   }, {
+      "word": "snowbound",
+      "syllableCount": 2
+   }, {
+      "word": "mound",
+      "syllableCount": 1
+   }, {
+      "word": "spellbound",
+      "syllableCount": 2
+   }, {
+      "word": "distraught",
+      "syllableCount": 2
+   }, {
+      "word": "disguise",
+      "syllableCount": 2
+   }, {
+      "word": "dismissal",
+      "syllableCount": 3
+   }, {
+      "word": "discovered",
+      "syllableCount": 3
+   }, {
+      "word": "disaster",
+      "syllableCount": 3
+   }, {
+      "word": "displace",
+      "syllableCount": 2
+   }, {
+      "word": "displayed",
+      "syllableCount": 2
+   }, {
+      "word": "dismayed",
+      "syllableCount": 2
+   }, {
+      "word": "dispute",
+      "syllableCount": 2
+   }, {
+      "word": "district",
+      "syllableCount": 2
+   }, {
+      "word": "distort",
+      "syllableCount": 2
+   }, {
+      "word": "discolor",
+      "syllableCount": 3
+   }, {
+      "word": "displease",
+      "syllableCount": 2
+   }, {
+      "word": "understand",
+      "syllableCount": 3
+   }, {
+      "word": "understood",
+      "syllableCount": 3
+   }, {
+      "word": "underneath",
+      "syllableCount": 3
+   }, {
+      "word": "underpass",
+      "syllableCount": 3
+   }, {
+      "word": "undertake",
+      "syllableCount": 3
+   }, {
+      "word": "understandable",
+      "syllableCount": 5
+   }, {
+      "word": "underwear",
+      "syllableCount": 3
+   }, {
+      "word": "underestimate",
+      "syllableCount": 5
+   }, {
+      "word": "undercover",
+      "syllableCount": 4
+   }, {
+      "word": "underside",
+      "syllableCount": 3
+   }, {
+      "word": "underrated",
+      "syllableCount": 4
+   }, {
+      "word": "undertook",
+      "syllableCount": 3
+   }, {
+      "word": "transportation",
+      "syllableCount": 4
+   }, {
+      "word": "nation",
+      "syllableCount": 2
+   }, {
+      "word": "migration",
+      "syllableCount": 3
+   }, {
+      "word": "duration",
+      "syllableCount": 3
+   }, {
+      "word": "vocation",
+      "syllableCount": 3
+   }, {
+      "word": "population",
+      "syllableCount": 4
+   }, {
+      "word": "examination",
+      "syllableCount": 5
+   }, {
+      "word": "situation",
+      "syllableCount": 4
+   }, {
+      "word": "operation",
+      "syllableCount": 4
+   }, {
+      "word": "location",
+      "syllableCount": 3
+   }, {
+      "word": "relaxation",
+      "syllableCount": 4
+   }, {
+      "word": "decoration",
+      "syllableCount": 4
+   }, {
+      "word": "happiest",
+      "syllableCount": 3
+   }, {
+      "word": "busiest",
+      "syllableCount": 3
+   }, {
+      "word": "prettiest",
+      "syllableCount": 3
+   }, {
+      "word": "funniest",
+      "syllableCount": 3
+   }, {
+      "word": "heaviest",
+      "syllableCount": 3
+   }, {
+      "word": "healthiest",
+      "syllableCount": 3
+   }, {
+      "word": "laziest",
+      "syllableCount": 3
+   }, {
+      "word": "windiest",
+      "syllableCount": 3
+   }, {
+      "word": "trickiest",
+      "syllableCount": 3
+   }, {
+      "word": "chilliest",
+      "syllableCount": 3
+   }, {
+      "word": "driest",
+      "syllableCount": 2
+   }, {
+      "word": "angriest",
+      "syllableCount": 3
+   }, {
+      "word": "scariest",
+      "syllableCount": 3
+   }, {
+      "word": "sunniest",
+      "syllableCount": 3
+   }, {
+      "word": "iciest",
+      "syllableCount": 3
+   }, {
+      "word": "dirtiest",
+      "syllableCount": 3
+   }, {
+      "word": "silliest",
+      "syllableCount": 3
+   }, {
+      "word": "friendship",
+      "syllableCount": 2
+   }, {
+      "word": "fully",
+      "syllableCount": 2
+   }, {
+      "word": "hopefully",
+      "syllableCount": 3
+   }, {
+      "word": "truthfully",
+      "syllableCount": 3
+   }, {
+      "word": "playfully",
+      "syllableCount": 3
+   }, {
+      "word": "beautifully",
+      "syllableCount": 4
+   }, {
+      "word": "painfully",
+      "syllableCount": 3
+   }, {
+      "word": "cheerfully",
+      "syllableCount": 4
+   }, {
+      "word": "watchfully",
+      "syllableCount": 3
+   }, {
+      "word": "gleefully",
+      "syllableCount": 3
+   }, {
+      "word": "wishfully",
+      "syllableCount": 3
+   }, {
+      "word": "delightfully",
+      "syllableCount": 4
+   }, {
+      "word": "forcefully",
+      "syllableCount": 3
+   }, {
+      "word": "pitifully",
+      "syllableCount": 4
+   }, {
+      "word": "harmless",
+      "syllableCount": 2
+   }, {
+      "word": "upset",
+      "syllableCount": 2
+   }, {
+      "word": "anymore",
+      "syllableCount": 3
+   }, {
+      "word": "overheard",
+      "syllableCount": 3
+   }, {
+      "word": "downtown",
+      "syllableCount": 2
+   }, {
+      "word": "background",
+      "syllableCount": 2
+   }, {
+      "word": "countless",
+      "syllableCount": 2
+   }, {
+      "word": "highway",
+      "syllableCount": 2
+   }, {
+      "word": "Sunday",
+      "syllableCount": 2
+   }, {
+      "word": "inactive",
+      "syllableCount": 3
+   }, {
+      "word": "blackmail",
+      "syllableCount": 2
+   }, {
+      "word": "blackboard",
+      "syllableCount": 2
+   }, {
+      "word": "understand",
+      "syllableCount": 3
+   }, {
+      "word": "tightrope",
+      "syllableCount": 2
+   }, {
+      "word": "buttercup",
+      "syllableCount": 3
+   }, {
+      "word": "understood",
+      "syllableCount": 3
+   }, {
+      "word": "homeless",
+      "syllableCount": 2
+   }, {
+      "word": "underpass",
+      "syllableCount": 3
+   }, {
+      "word": "underground",
+      "syllableCount": 3
+   }, {
+      "word": "undertake",
+      "syllableCount": 3
+   }, {
+      "word": "weightless",
+      "syllableCount": 2
+   }, {
+      "word": "valueless",
+      "syllableCount": 3
+   }, {
+      "word": "snowbound",
+      "syllableCount": 2
+   }, {
+      "word": "spellbound",
+      "syllableCount": 2
+   }, {
+      "word": "underrated",
+      "syllableCount": 4
+   }]
+}
