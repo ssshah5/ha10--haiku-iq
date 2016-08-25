@@ -16,12 +16,19 @@
     var currentThemeName = "{{theme.theme}}";
     var currentThemePhotoURL = "{{theme.photoURL}}";
 
-    window.addEventListener("load", function(event) {
-      var bodyContainer = document.getElementById('body-container');
-      var currentBackground = bodyContainer.style.background;
+    document.body.style.overflow = "hidden";
 
-      document.body.style.overflow = "hidden";
+    var bodyContainer = document.getElementById('body-container');
+    // var currentBackground = bodyContainer.style.background;
+    bodyContainer.style.background = "rgba(255, 255, 255, 0.5)";
 
+    function setBodyContainerSize(h, w) {
+      bodyContainer.style.height = h + "px";
+      bodyContainer.style.width = w + "px";
+      //bodyContainer.style.background-size = vWidth + "px" + vHeight + "px";
+    };
+
+    function getViewportSize() {
       // Get the viewport dimensions
       var vHeight, vWidth;
       if (document.compatMode === 'BackCompat') {
@@ -32,11 +39,25 @@
           vWidth = document.documentElement.clientWidth;
       }
 
-      bodyContainer.style.width = vWidth + "px";
-      bodyContainer.style.height = vHeight + "px";
-      bodyContainer.style.background = "rgba(255, 255, 255, 0.5)";
-      var themePhoto = currentThemePhotoURL + "/" + vWidth + "x" + vHeight;
+      return { vHeight: vHeight, vWidth: vWidth };
+    };
+
+    window.addEventListener("load", function(event) {
+      var vSize = getViewportSize();
+      setBodyContainerSize(vSize.vHeight, vSize.vWidth);
+      
+      // set background image for body
+      var themePhoto = currentThemePhotoURL + "/" + vSize.vWidth + "x" + vSize.vHeight;
       document.body.style.background = "url(" + themePhoto + ")";
+
+    });
+
+
+    window.addEventListener("resize", function(event) {
+      var vSize = getViewportSize();
+      setBodyContainerSize(vSize.vHeight, vSize.vWidth);
+
+
     });
   </script>
 </body>
