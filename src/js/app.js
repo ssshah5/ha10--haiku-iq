@@ -15,7 +15,7 @@
   };
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
-    var generateTable, getWordsAPI, dictionaryButton = document.getElementById('dictionary');
+    var generateTable, getWordsAPI, curLine, dictionaryButton = document.getElementById('dictionary');
 
     // Mean to console.log out, so disabling
     console.log('Hello World'); // eslint-disable-line no-console
@@ -129,6 +129,8 @@
           wordButton = document.createElement('button');
           wordButton.className = 'word-button';
           wordButton.innerHTML = apiWords[i * rowNum + j].word;
+          wordButton.setAttribute('data-syl', apiWords[i * rowNum + j].syllableCount);
+
           cell.id = '' + i + j;
           cell.appendChild(wordButton);
           row.appendChild(cell);
@@ -137,6 +139,39 @@
       // add the row to the end of the table body
         tblBody.appendChild(row);
       }
+
+      curLine = 1;
+
+      wordTable.addEventListener('click', function (e) {
+        var button, word, line, syl, sylAdd, totalSyl;
+
+        if (e.target.type === 'submit') {
+          button = e.target;
+          word = button.innerHTML;
+          line = document.getElementById('poemLine' + curLine);
+          line.value = line.value + word + ' ';
+
+          sylAdd = button.getAttribute('data-syl');
+          syl = document.getElementById('syl' + curLine);
+          syl.innerHTML = parseInt(syl.innerHTML, 10) + parseInt(sylAdd, 10);
+
+          if (curLine === 1 || curLine === 3) {
+            totalSyl = '5';
+          }
+          else {
+            totalSyl = '7';
+          }
+
+          if (syl.innerHTML === totalSyl) {
+            syl.style.color = 'green';
+            syl.style.fontWeight = 'bold';
+            curLine = curLine + 1;
+          }
+          else if (syl.innerHTML > totalSyl) {
+            syl.style.color = 'red';
+          }
+        }
+      });
 
       // put the <tbody> in the <table>
       wordTable.appendChild(tblBody);

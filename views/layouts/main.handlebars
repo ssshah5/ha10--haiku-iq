@@ -6,8 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-  {{{body}}}
+<body id="body">
+  <div id='body-container'>
+    {{{body}}}
+  </div>
+
   <script src="/js/app.js"></script>
+  <script type="text/javascript">
+    var currentThemeName = "{{theme.theme}}";
+    var currentThemePhotoURL = "{{theme.photoURL}}";
+
+    window.addEventListener("load", function(event) {
+      var bodyContainer = document.getElementById('body-container');
+      var currentBackground = bodyContainer.style.background;
+
+      document.body.style.overflow = "hidden";
+
+      // Get the viewport dimensions
+      var vHeight, vWidth;
+      if (document.compatMode === 'BackCompat') {
+        vHeight = document.body.clientHeight;
+        vWidth = document.body.clientWidth;
+      } else {
+          vHeight = document.documentElement.clientHeight;
+          vWidth = document.documentElement.clientWidth;
+      }
+
+      bodyContainer.style.width = vWidth + "px";
+      bodyContainer.style.height = vHeight + "px";
+      bodyContainer.style.background = "rgba(255, 255, 255, 0.5)";
+      var themePhoto = currentThemePhotoURL + "/" + vWidth + "x" + vHeight;
+      document.body.style.background = "url(" + themePhoto + ")";
+    });
+  </script>
 </body>
 </html>

@@ -62,7 +62,7 @@ $spans: (
 }
 
 .word-button {
-  background-color: transparent;
+  background-color: color('warm-white');
   border-color: $button-border-color;
   border-radius: 15px;
   overflow: hidden;
@@ -150,6 +150,14 @@ legend {
   height: 1px;
   overflow: hidden;
   width: 1px;
+}
+
+aside {
+  p {
+    &.haiku-info {
+      padding-top: 15px;
+    }
+  }
 }
 
 body {

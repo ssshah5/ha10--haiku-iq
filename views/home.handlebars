@@ -1,5 +1,5 @@
 <header class='header'>
-  <h1 class='theme'>{{theme}}</h1>
+  <h1 class='theme'>{{theme.theme}}</h1>
 </header>
 <main class='main'>
   <fieldset>
@@ -7,13 +7,16 @@
 
   <ul id='poem'>
     <li id='line1' class='five-syl'>
-      <input type="text" class="poemline" placeholder="five syllables here" name="poemLine1"></input>
+      <input type="text" id="poemLine1" class="poemline" placeholder="five syllables here" name="poemLine1"></input>
+      <text id='syl1' class='syllable'>0</text>
     </li>
     <li id='line2' class='seven-syl'>
-      <input type="text" class="poemline" placeholder="now, seven syllables typed" name="poemLine2"></input>
+      <input type="text" id="poemLine2" class="poemline" placeholder="now, seven syllables typed" name="poemLine2"></input>
+      <text id='syl2' class='syllable'>0</text>
     </li>
     <li id='line3' class='five-syl'>
-      <input type="text" class="poemline" placeholder="five more syllables" name="poemLine3"></input>
+      <input type="text" id="poemLine3" class="poemline" placeholder="five more syllables" name="poemLine3"></input>
+      <text id='syl3' class='syllable'>0</text>
     </li>
   </ul>
   </fieldset>
@@ -31,6 +34,6 @@
 <div class='info-popup' id='info-popup'>
   <div class='info-content'>
     <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close'/>
-    <p>This is info about haikus.</p>
+    {{> haikuInfo}}
   </div>
 </div>
