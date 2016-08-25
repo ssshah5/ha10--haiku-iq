@@ -121,7 +121,7 @@
         button = e.target;
         word = button.innerHTML;
 
-        line = document.getElementById('poemLine' + curLine);
+        line = document.getElementById('poemLineWord' + curLine);
 
         sylAdd = button.getAttribute('data-syl');
         syl = document.getElementById('syl' + curLine);
@@ -133,9 +133,9 @@
         };
 
         lines[curLine - 1].push(wordObj);
-        line.value = '';
+        line.textContent = '';
         for (i = 0; i < lines[curLine - 1].length; i++) {
-          line.value = line.value + lines[curLine - 1][i].word + ' ';
+          line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
         }
 
         if (curLine === 1 || curLine === 3) {
