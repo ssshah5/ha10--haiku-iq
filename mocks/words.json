@@ -2,315 +2,315 @@
    "themed": [{
       "word": "hat",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "jug",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "mug",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "man",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "pan",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "van",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "pot",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "men",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "hen",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "sun",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "gun",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "boy",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "cowboy",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "sip",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "corn",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "me",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "she",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "chips",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "sheep",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "bike",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "ripe",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "stove",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "doors",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "butterfly",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "spaceship",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "firemen",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "bobcat",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "raindrop",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "daylight",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "seashore",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "seashells",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "daytime",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "rocket",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "sunset",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "jet",
       "syllableCount": 1,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "carpet",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "map",
       "syllableCount": 1,
-      "theme": "buildings"
+      "theme": "Buildings"
    }, {
       "word": "dog",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "fog",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "pond",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "egg",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "mud",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "train",
       "syllableCount": 1,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "coast",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "soup",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "pear",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "ball",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "tall",
       "syllableCount": 1,
-      "theme": "buildings"
+      "theme": "Buildings"
    }, {
       "word": "mall",
       "syllableCount": 1,
-      "theme": "buildings"
+      "theme": "Buildings"
    }, {
       "word": "ship",
       "syllableCount": 1,
-      "theme": "buildings"
+      "theme": "Buildings"
    }, {
       "word": "fish",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "clock",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "seesaw",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "sea",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "family",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "sister",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "grandmother",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "grandfather",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "uncle",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "father",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "brother",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "notebook",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "snowball",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "book",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "mother",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "people",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "water",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "springtime",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "raincoat",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "snowstorm",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "landmark",
       "syllableCount": 2,
-      "theme": "buildings"
+      "theme": "Buildings"
    }, {
       "word": "aircraft",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "kickball",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "handlebars",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "seashell",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "drink",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "dragon",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "drum",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "bank",
       "syllableCount": 1,
@@ -318,219 +318,219 @@
    }, {
       "word": "cheese",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "chain",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "jam",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "pencil",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "orange",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "jeans",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "jelly",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "flies",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "crackers",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "ladies",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "fried",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "frying",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "breakfast",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "feather",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "bread",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "video",
       "syllableCount": 3,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "trail",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "socks",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "toast",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "picnic",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "sprout",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "tropical",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "whale",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "wheel",
       "syllableCount": 1,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "whip",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "jacket",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "police",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "bucket",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "ticket",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "locker",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "knife",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "knee",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "rabbit",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "balloon",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "ladder",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "puddle",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "hammer",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "cookie",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "foot",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "royal",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "oil",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "summer",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "straw",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "claws",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "chalk",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "stalk",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "lawn",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "sauce",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "friend",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "surfboard",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "surf",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "nurse",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "turkey",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "hair",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "stairs",
       "syllableCount": 1,
@@ -538,519 +538,519 @@
    }, {
       "word": "everybody",
       "syllableCount": 5,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "everyone",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "anyone",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "backpack",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "saucepan",
       "syllableCount": 3,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "wagon",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "garden",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "sugar",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "paper",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "animal",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "lemon",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "squirrel",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "farmer",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "reader",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "player",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "visitor",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "sailor",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "finalist",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "painter",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "waiter",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "hunter",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "inventor",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "violinist",
       "syllableCount": 4,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "tourist",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "caterpillar",
       "syllableCount": 4,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "cousin",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "chocolate",
       "syllableCount": 3,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "dinosaur",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "clothes",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "Earth",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "planets",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "astronauts",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "myself",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "woman",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "weather",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "fire",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "flights",
       "syllableCount": 1,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "treasure",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "treasurer",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "outside",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "backyard",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "popcorn",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "everyone",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "anyone",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "boatman",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "housecoat",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "grasshoppers",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "upstairs",
       "syllableCount": 2,
-      "theme": "buildling"
+      "theme": "Buildings"
    }, {
       "word": "snowman",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "meatloaf",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "sunflower",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "backpack",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "overcast",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "salesperson",
       "syllableCount": 4,
-      "theme": "person"
+      "theme": "People"
    }, {
       "word": "meatballs",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "woodpecker",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "starship",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "strawberry",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "skyscraper",
       "syllableCount": 3,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "queen",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "elevator",
       "syllableCount": 4,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "coffee",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "television",
       "syllableCount": 4,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "wild",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "prize",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "library",
       "syllableCount": 3,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "husband",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "thunder",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "raccoon",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "roofs",
       "syllableCount": 1,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "coop",
       "syllableCount": 1,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "stoop",
       "syllableCount": 1,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "hardware",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "radar",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "yourself",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "tornado",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "dairy",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "airplanes",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "software",
       "syllableCount": 2,
-      "theme": "technology"
+      "theme": "Technology"
    }, {
       "word": "pearl",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "turtle",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "furniture",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "scout",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "mountain",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "counselor",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "employer",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "employee",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "elves",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "mice",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "calves",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "women",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "geese",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "scissors",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "oxen",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "knives",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "thieves",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "teams",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "players",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "birds",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "wolfs",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "horses",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "groups",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "students",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "trees",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "parents",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "cousins",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "teachers",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "aunts",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "friends",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "doctor",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "governor",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "President",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "ceiling",
       "syllableCount": 2,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "reindeer",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "neighbor",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "chief",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "windshield",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "thief",
       "syllableCount": 1,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "money",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "valley",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "monkey",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "honey",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "families",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "enemies",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "libraries",
       "syllableCount": 3,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "calendar",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "officer",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "director",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "master",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "table",
       "syllableCount": 2,
@@ -1058,163 +1058,163 @@
    }, {
       "word": "jungle",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "bottle",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "hospital",
       "syllableCount": 3,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "candle",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "kitchen",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "human",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "season",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "oven",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "canyon",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "lamb",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "comb",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "tomb",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "plains",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "planes",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "pedal",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "stake",
       "syllableCount": 1,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "steak",
       "syllableCount": 1,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "berry",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "dinner",
       "syllableCount": 2,
-      "theme": "food"
+      "theme": "Food"
    }, {
       "word": "cotton",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "shelter",
       "syllableCount": 2,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "bloodhound",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "hound",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "yourself",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "staircase",
       "syllableCount": 2,
-      "theme": "building"
+      "theme": "Buildings"
    }, {
       "word": "windshield",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "pocketknife",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "pocketbook",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "snowflakes",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "earmuffs",
       "syllableCount": 2,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "airman",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "anchorman",
       "syllableCount": 3,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "stepladder",
       "syllableCount": 3,
-      "theme": "objects"
+      "theme": "Objects"
    }, {
       "word": "mistletoe",
       "syllableCount": 3,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "campground",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "greyhound",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "layman",
       "syllableCount": 2,
-      "theme": "people"
+      "theme": "People"
    }, {
       "word": "mangrove",
       "syllableCount": 2,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "cat",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }, {
       "word": "rat",
       "syllableCount": 1,
-      "theme": "nature"
+      "theme": "Nature"
    }],
    "notThemed": [{
       "word": "sat",
