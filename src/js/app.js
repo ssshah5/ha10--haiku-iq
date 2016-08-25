@@ -4,7 +4,13 @@
   var infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
       closeButton = document.getElementById('close'),
-      wordTable = document.getElementById('word-table');
+      wordTable = document.getElementById('word-table'),
+      title = document.getElementById('theme'),
+      random;
+
+  random = Math.random() * 10 - 5;
+
+  title.style.transform = 'rotate(' + random + 'deg)';
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
@@ -210,6 +216,8 @@
           wordButton.setAttribute('data-syl', apiWords[i * rowNum + j].syllableCount);
 
           cell.id = '' + i + j;
+          random = Math.random() * 10 - 5;
+          cell.style.transform = 'rotate(' + random + 'deg)';
           cell.appendChild(wordButton);
           row.appendChild(cell);
         }
