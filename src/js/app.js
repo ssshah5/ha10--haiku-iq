@@ -186,7 +186,7 @@
     };
 
     generateTable = function generateTableFunc() {
-      var tableBody = document.getElementById('table-body'), rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
+      var tableBody = document.getElementById('table-body'), rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, apiWords, wordButton;
 
       if (tableBody) {
         tableBody.remove();
@@ -212,8 +212,8 @@
 
           wordButton = document.createElement('button');
           wordButton.className = 'word-button';
-          wordButton.innerHTML = apiWords[i * rowNum + j].word;
-          wordButton.setAttribute('data-syl', apiWords[i * rowNum + j].syllableCount);
+          wordButton.innerHTML = apiWords[i * columnNum + j].word;
+          wordButton.setAttribute('data-syl', apiWords[i * columnNum + j].syllableCount);
 
           cell.id = '' + i + j;
           random = Math.random() * 10 - 5;
