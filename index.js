@@ -64,6 +64,26 @@ app.get('/themes', (req, res) => {
   res.end();
 });
 
+app.get('/theme', (req, res) => {
+  const themeObj = wordsAPI.getSingleTheme();
+
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(themeObj));
+  res.end();
+});
+
+app.get('/theme/:requestedTheme', (req, res) => {
+  const themeObj = wordsAPI.getSingleTheme(req.params.requestedTheme);
+
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(themeObj));
+  res.end();
+});
+
 app.get('/definition/:word', (req, res) => {
   definitionAPI.getDefinition(req, res, req.params.word);
 });
