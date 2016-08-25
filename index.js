@@ -22,11 +22,38 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+const generateRandomNumber = (maxNumber) => {
+  const number = Math.floor(Math.random() * maxNumber);
+
+  return number;
+};
+
 app.get('/', (req, res) => {
   res.render('home',
     { theme: 'myAwesomeTheme' }
   );
 });
+
+const getWords = () => {
+  const themedNumber = 5;
+  const notThemedNumber = 15;
+  const themedValues = mockWords.themed;
+  const notThemedValues = mockWords.notThemed;
+  const returnArray = [];
+
+
+  for (let i = 0; i < themedNumber; i++) {
+    const index = generateRandomNumber(themedValues.length);
+    returnArray.push(themedValues[index]);
+  }
+
+  for (let i = 0; i < notThemedNumber; i++) {
+    const index = generateRandomNumber(notThemedValues.length);
+    returnArray.push(notThemedValues[index]);
+  }
+
+  return returnArray;
+};
 
 app.get('/words', (req, res) => {
   res.writeHead(200, {
@@ -39,33 +66,6 @@ app.get('/words', (req, res) => {
 app.get('/image', (req, res) => {
   res.send('Image is here');
 });
-
-function getWords(){
-    var themedNumber = 5;
-    var notThemedNumber = 15;
-
-    var themedValues = mockWords.themed;
-    var notThemedValues = mockWords.notThemed;
-
-    var returnArray = [];
-
-
-    for (var i=0; i<themedNumber; i++){
-        var index = generateRandomNumber(themedValues.length);
-        returnArray.push(themedValues[index]);
-    }
-
-        for (var i=0; i<notThemedNumber; i++){
-        var index = generateRandomNumber(notThemedValues.length);
-        returnArray.push(notThemedValues[index]);
-    }
-    return returnArray;
-}
-
-function generateRandomNumber(max_number){
-    var number = Math.floor(Math.random() * max_number);
-    return number;
-}
 
 //////////////////////////////
 // Start the server
