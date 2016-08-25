@@ -10,7 +10,8 @@ const path = require('path');
 
 const appEnv = require('./lib/env');
 
-const mockWords = require('./mocks/words.json');
+const wordsAPI = require('./lib/wordsAPI');
+const definitionAPI = require('./lib/definitionAPI');
 
 //////////////////////////////
 // App Variables
@@ -28,45 +29,43 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const generateRandomNumber = (maxNumber) => {
-  const number = Math.floor(Math.random() * maxNumber);
-
-  return number;
-};
-
 app.get('/', (req, res) => {
   res.render('home',
     { theme: 'myAwesomeTheme' }
   );
 });
 
-const getWords = () => {
-  const themedNumber = 5;
-  const notThemedNumber = 15;
-  const themedValues = mockWords.themed;
-  const notThemedValues = mockWords.notThemed;
-  const returnArray = [];
-
-
-  for (let i = 0; i < themedNumber; i++) {
-    const index = generateRandomNumber(themedValues.length);
-    returnArray.push(themedValues[index]);
-  }
-
-  for (let i = 0; i < notThemedNumber; i++) {
-    const index = generateRandomNumber(notThemedValues.length);
-    returnArray.push(notThemedValues[index]);
-  }
-
-  return returnArray;
-};
-
 app.get('/words', (req, res) => {
   res.writeHead(200, {
     'content-type': 'application/json',
   });
-  res.write(JSON.stringify(getWords()));
+  res.write(JSON.stringify(wordsAPI.getWords()));
   res.end();
+});
+
+
+app.get('/words/:theme', (req, res) => {
+  let list = wordsAPI.getThemedList(req.params.theme);
+
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(list));
+  res.end();
+});
+
+app.get('/themes', (req, res) => {
+  let list = wordsAPI.getThemeList();
+
+  res.writeHead(200, {
+    'content-type': 'application/json',
+  });
+  res.write(JSON.stringify(list));
+  res.end();
+});
+
+app.get('/definition/:word', (req, res) => {
+  let definition = definitionAPI.getDefinition(req, res, req.params.word);
 });
 
 app.get('/image', (req, res) => {
