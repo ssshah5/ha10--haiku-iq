@@ -3,7 +3,8 @@
 
   var infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close');
+      closeButton = document.getElementById('close'),
+      wordTable = document.getElementById('word-table');
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
@@ -25,7 +26,7 @@
     getWordsAPI = function getWordsAPIFunc() {
       var wordList = [
         {
-          'word': 'hat',
+          'word': 'squirrel',
           'syllableCount': 1,
         },
         {
@@ -57,11 +58,11 @@
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'butterfly',
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'complicated',
           'syllableCount': 1,
         },
         {
@@ -179,14 +180,10 @@
     };
 
     generateTable = function generateTableFunc() {
-      var rowNum = 4, columnNum = 5, body, tbl, tblBody, row, cell, i, j, apiWords, wordButton;
+      var rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
 
       apiWords = getWordsAPI();
 
-      body = document.getElementById('body-container');
-
-      // creates a <table> element and a <tbody> element
-      tbl = document.createElement('table');
       tblBody = document.createElement('tbody');
 
       // creating all cells
@@ -201,6 +198,7 @@
           cell = document.createElement('td');
 
           wordButton = document.createElement('button');
+          wordButton.className = 'word-button';
           wordButton.innerHTML = apiWords[i * rowNum + j].word;
           wordButton.setAttribute('data-syl', apiWords[i * rowNum + j].syllableCount);
 
@@ -218,10 +216,10 @@
       });
 
       // put the <tbody> in the <table>
-      tbl.appendChild(tblBody);
+      wordTable.appendChild(tblBody);
 
       // appends <table> into <body>
-      body.appendChild(tbl);
+      // body.appendChild(tbl);
     };
 
     // Add event listeners
