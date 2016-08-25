@@ -109,11 +109,18 @@
     };
 
     generateTable = function generateTableFunc() {
-      var rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
+      var tableBody = document.getElementById('table-body'), rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
+
+      if (tableBody) {
+        tableBody.remove();
+
+        return;
+      }
 
       apiWords = getWordsAPI();
 
       tblBody = document.createElement('tbody');
+      tblBody.id = 'table-body';
 
       // creating all cells
       for (i = 0; i < rowNum; i++) {
