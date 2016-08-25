@@ -20,9 +20,6 @@
     dictionaryButton = document.getElementById('dictionary');
     undoButton = document.getElementById('undo');
 
-    // Mean to console.log out, so disabling
-    console.log('Hello World'); // eslint-disable-line no-console
-
     getWordsAPI = function getWordsAPIFunc() {
       var wordList = [
         {
