@@ -3,7 +3,8 @@
 
   var infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close');
+      closeButton = document.getElementById('close'),
+      wordTable = document.getElementById('word-table');
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
@@ -108,14 +109,11 @@
     };
 
     generateTable = function generateTableFunc() {
-      var rowNum = 4, columnNum = 5, body, tbl, tblBody, row, cell, i, j, apiWords, wordButton;
+      var rowNum = 4, columnNum = 5, tblBody, body, row, cell, i, j, apiWords, wordButton;
 
       apiWords = getWordsAPI();
 
       body = document.getElementsByTagName('body')[0];
-
-      // creates a <table> element and a <tbody> element
-      tbl = document.createElement('table');
       tblBody = document.createElement('tbody');
 
       // creating all cells
@@ -141,7 +139,7 @@
       }
 
       // put the <tbody> in the <table>
-      tbl.appendChild(tblBody);
+      wordTable.appendChild(tblBody);
 
       // appends <table> into <body>
       body.appendChild(tbl);
