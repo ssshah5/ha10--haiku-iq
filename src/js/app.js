@@ -3,7 +3,8 @@
 
   var infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close');
+      closeButton = document.getElementById('close'),
+      wordTable = document.getElementById('word-table');
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
@@ -14,7 +15,7 @@
   };
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
-    var generateTable, getWordsAPI, dictionaryButton = document.getElementById('dictionary');
+    var generateTable, getWordsAPI, curLine, dictionaryButton = document.getElementById('dictionary');
 
     // Mean to console.log out, so disabling
     console.log('Hello World'); // eslint-disable-line no-console
@@ -22,7 +23,7 @@
     getWordsAPI = function getWordsAPIFunc() {
       var wordList = [
         {
-          'word': 'hat',
+          'word': 'squirrel',
           'syllableCount': 1,
         },
         {
@@ -54,11 +55,11 @@
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'butterfly',
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'complicated',
           'syllableCount': 1,
         },
         {
@@ -108,14 +109,10 @@
     };
 
     generateTable = function generateTableFunc() {
-      var rowNum = 4, columnNum = 5, body, tbl, tblBody, row, cell, i, j, apiWords, wordButton;
+      var rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
 
       apiWords = getWordsAPI();
 
-      body = document.getElementsByTagName('body')[0];
-
-      // creates a <table> element and a <tbody> element
-      tbl = document.createElement('table');
       tblBody = document.createElement('tbody');
 
       // creating all cells
@@ -130,7 +127,10 @@
           cell = document.createElement('td');
 
           wordButton = document.createElement('button');
+          wordButton.className = 'word-button';
           wordButton.innerHTML = apiWords[i * rowNum + j].word;
+          wordButton.setAttribute('data-syl', apiWords[i * rowNum + j].syllableCount);
+
           cell.id = '' + i + j;
           cell.appendChild(wordButton);
           row.appendChild(cell);
@@ -140,11 +140,44 @@
         tblBody.appendChild(row);
       }
 
+      curLine = 1;
+
+      wordTable.addEventListener('click', function (e) {
+        var button, word, line, syl, sylAdd, totalSyl;
+
+        if (e.target.type === 'submit') {
+          button = e.target;
+          word = button.innerHTML;
+          line = document.getElementById('poemLine' + curLine);
+          line.value = line.value + word + ' ';
+
+          sylAdd = button.getAttribute('data-syl');
+          syl = document.getElementById('syl' + curLine);
+          syl.innerHTML = parseInt(syl.innerHTML, 10) + parseInt(sylAdd, 10);
+
+          if (curLine === 1 || curLine === 3) {
+            totalSyl = '5';
+          }
+          else {
+            totalSyl = '7';
+          }
+
+          if (syl.innerHTML === totalSyl) {
+            syl.style.color = 'green';
+            syl.style.fontWeight = 'bold';
+            curLine = curLine + 1;
+          }
+          else if (syl.innerHTML > totalSyl) {
+            syl.style.color = 'red';
+          }
+        }
+      });
+
       // put the <tbody> in the <table>
-      tbl.appendChild(tblBody);
+      wordTable.appendChild(tblBody);
 
       // appends <table> into <body>
-      body.appendChild(tbl);
+      // body.appendChild(tbl);
     };
 
     // Add event listeners
