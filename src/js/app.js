@@ -112,7 +112,7 @@
 
       apiWords = getWordsAPI();
 
-      body = document.getElementsByTagName('body')[0];
+      body = document.getElementById('body-container');
 
       // creates a <table> element and a <tbody> element
       tbl = document.createElement('table');
