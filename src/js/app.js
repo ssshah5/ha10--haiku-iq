@@ -5,11 +5,11 @@
       infoButton = document.getElementById('info'),
       closeButton = document.getElementById('close');
 
-  infoButton.onclick = function () {
+  infoButton.onclick = () => {
     infoBox.style.display = 'block';
   };
 
-  closeButton.onclick = function () {
+  closeButton.onclick = () => {
     infoBox.style.display = 'none';
   };
 
