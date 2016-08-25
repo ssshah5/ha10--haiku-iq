@@ -126,7 +126,22 @@ aside {
   }
 }
 
+.bg-img {
+  height: auto;
+  left: 0;
+  min-height: 100%;
+  min-width: 1024px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
 body {
   background: color('neutral-white', 40);
   font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', HelvLightIBM, Arial, sans-serif;
+}
+
+html {
+  background-size: cover;
 }

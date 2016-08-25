@@ -19,13 +19,11 @@
     document.body.style.overflow = "hidden";
 
     var bodyContainer = document.getElementById('body-container');
-    // var currentBackground = bodyContainer.style.background;
     bodyContainer.style.background = "rgba(255, 255, 255, 0.5)";
 
     function setBodyContainerSize(h, w) {
       bodyContainer.style.height = h + "px";
       bodyContainer.style.width = w + "px";
-      //bodyContainer.style.background-size = vWidth + "px" + vHeight + "px";
     };
 
     function getViewportSize() {
@@ -43,12 +41,20 @@
     };
 
     window.addEventListener("load", function(event) {
+
+      // Create a background Image
+      var bgImg = document.createElement('img');
+      bgImg.alt = "background image";
+      bgImg.className = "bg-img";
+
       var vSize = getViewportSize();
       setBodyContainerSize(vSize.vHeight, vSize.vWidth);
       
       // set background image for body
-      var themePhoto = currentThemePhotoURL + "/" + vSize.vWidth + "x" + vSize.vHeight;
-      document.body.style.background = "url(" + themePhoto + ")";
+      var themePhoto = currentThemePhotoURL + "/800x600";
+      bgImg.src = themePhoto;
+
+      document.body.insertBefore(bgImg, document.body.firstChild);
 
     });
 
