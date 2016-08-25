@@ -23,7 +23,7 @@
     getWordsAPI = function getWordsAPIFunc() {
       var wordList = [
         {
-          'word': 'hat',
+          'word': 'squirrel',
           'syllableCount': 1,
         },
         {
@@ -55,11 +55,11 @@
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'butterfly',
           'syllableCount': 1,
         },
         {
-          'word': 'sat',
+          'word': 'complicated',
           'syllableCount': 1,
         },
         {
@@ -109,11 +109,10 @@
     };
 
     generateTable = function generateTableFunc() {
-      var rowNum = 4, columnNum = 5, tblBody, body, row, cell, i, j, apiWords, wordButton;
+      var rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, apiWords, wordButton;
 
       apiWords = getWordsAPI();
 
-      body = document.getElementsByTagName('body')[0];
       tblBody = document.createElement('tbody');
 
       // creating all cells
@@ -128,6 +127,7 @@
           cell = document.createElement('td');
 
           wordButton = document.createElement('button');
+          wordButton.className = 'word-button';
           wordButton.innerHTML = apiWords[i * rowNum + j].word;
           cell.id = '' + i + j;
           cell.appendChild(wordButton);
@@ -142,7 +142,7 @@
       wordTable.appendChild(tblBody);
 
       // appends <table> into <body>
-      body.appendChild(tbl);
+      // body.appendChild(tbl);
     };
 
     // Add event listeners
