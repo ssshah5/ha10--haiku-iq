@@ -21,24 +21,6 @@ $spans: (
   )
 );
 
-@media (min-height: 699px) {
-  .word-button {
-    height: 30px;
-  }
-}
-
-@media (min-width: 400px) {
-  .word-button {
-    width: 70px;
-  }
-}
-
-@media (min-width: 600px) {
-  .word-button {
-    width: 100px;
-  }
-}
-
 @function span($span) {
   @return ($span * $column) + (($span - 1) * $gutter);
 }
@@ -69,6 +51,7 @@ $spans: (
 .word-button {
   background-color: color('warm-white');
   border: 0;
+  box-shadow: 2px 2px 2px color('black');
   overflow: hidden;
 }
 
@@ -131,10 +114,6 @@ table {
   border-collapse: separate;
   border-spacing: 8px;
   margin: 0 auto;
-}
-
-td {
-  box-shadow: 2px 2px 2px color('black');
 }
 
 //////////////////////////////////
