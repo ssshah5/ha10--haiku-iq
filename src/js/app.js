@@ -211,7 +211,7 @@
         tblBody.appendChild(row);
       }
 
-      tbl.addEventListener('click', function (e) {
+      wordTable.addEventListener('click', function (e) {
         wordListener(e);
       });
 
