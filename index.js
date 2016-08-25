@@ -45,7 +45,7 @@ app.get('/words', (req, res) => {
 
 
 app.get('/words/:theme', (req, res) => {
-  let list = wordsAPI.getThemedList(req.params.theme);
+  const list = wordsAPI.getThemedList(req.params.theme);
 
   res.writeHead(200, {
     'content-type': 'application/json',
@@ -55,7 +55,7 @@ app.get('/words/:theme', (req, res) => {
 });
 
 app.get('/themes', (req, res) => {
-  let list = wordsAPI.getThemeList();
+  const list = wordsAPI.getThemeList();
 
   res.writeHead(200, {
     'content-type': 'application/json',
@@ -65,7 +65,7 @@ app.get('/themes', (req, res) => {
 });
 
 app.get('/definition/:word', (req, res) => {
-  let definition = definitionAPI.getDefinition(req, res, req.params.word);
+  definitionAPI.getDefinition(req, res, req.params.word);
 });
 
 app.get('/image', (req, res) => {
