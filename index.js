@@ -30,8 +30,9 @@ app.set('view engine', 'handlebars');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
+  const theme = wordsAPI.getSingleTheme();
   res.render('home',
-    { theme: 'myAwesomeTheme' }
+    { theme }
   );
 });
 
