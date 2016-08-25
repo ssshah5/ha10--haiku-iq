@@ -118,6 +118,14 @@ legend {
   width: 1px;
 }
 
+aside {
+  p {
+    &.haiku-info {
+      padding-top: 15px;
+    }
+  }
+}
+
 body {
   background: color('neutral-white', 40);
   font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', HelvLightIBM, Arial, sans-serif;

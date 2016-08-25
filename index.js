@@ -17,7 +17,13 @@ const mockWords = require('./mocks/words.json');
 //////////////////////////////
 const app = express();
 
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+// Create `ExpressHandlebars` instance with a default layout.
+const hbs = exphbs.create({
+  defaultLayout: 'main',
+  partialsDir: ['views/partials/'],
+});
+
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
