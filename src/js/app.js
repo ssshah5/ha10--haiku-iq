@@ -11,7 +11,13 @@
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
       closeButton = document.getElementById('close'),
-      wordTable = document.getElementById('word-table');
+      wordTable = document.getElementById('word-table'),
+      title = document.getElementById('theme'),
+      random;
+
+  random = Math.random() * 10 - 5;
+
+  title.style.transform = 'rotate(' + random + 'deg)';
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
@@ -44,7 +50,7 @@
   };
 
   generateTable = function generateTableFunc() {
-    var tableBody = document.getElementById('table-body'), rowNum = 4, columnNum = 5, tblBody, row, cell, i, j, wordButton;
+    var tableBody = document.getElementById('table-body'), rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, wordButton;
 
     if (tableBody) {
       tableBody.remove();
@@ -69,10 +75,12 @@
 
         wordButton = document.createElement('button');
         wordButton.className = 'word-button';
-        wordButton.innerHTML = window.apiWords[i * rowNum + j].word;
-        wordButton.setAttribute('data-syl', window.apiWords[i * rowNum + j].syllableCount);
+        wordButton.innerHTML = window.apiWords[i * columnNum + j].word;
+        wordButton.setAttribute('data-syl', window.apiWords[i * columnNum + j].syllableCount);
 
         cell.id = '' + i + j;
+        random = Math.random() * 10 - 5;
+        cell.style.transform = 'rotate(' + random + 'deg)';
         cell.appendChild(wordButton);
         row.appendChild(cell);
       }

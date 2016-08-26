@@ -22,24 +22,6 @@ $spans: (
   )
 );
 
-@media (min-height: 699px) {
-  .word-button {
-    height: 30px;
-  }
-}
-
-@media (min-width: 400px) {
-  .word-button {
-    width: 70px;
-  }
-}
-
-@media (min-width: 600px) {
-  .word-button {
-    width: 100px;
-  }
-}
-
 @function span($span) {
   @return ($span * $column) + (($span - 1) * $gutter);
 }
@@ -59,22 +41,25 @@ $spans: (
 .theme {
   font-size: 32px;
   overflow-wrap: break-word;
-  padding: 10vh 15px;
+  padding: 10vh;
+}
+
+.magnet {
+  background-color: color('warm-white');
+  box-shadow: 2px 2px 2px color('black');
 }
 
 .word-button {
   background-color: color('warm-white');
-  border-color: $button-border-color;
-  border-radius: 15px;
+  border: 0;
+  box-shadow: 2px 2px 2px color('black');
   overflow: hidden;
-
 }
 
 .table-style {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  width: 400px;
 }
 
 .footer {
@@ -124,6 +109,12 @@ $spans: (
 .close-icon {
   float: right;
   width: 30px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 8px;
+  margin: 0 auto;
 }
 
 //////////////////////////////////
