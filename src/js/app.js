@@ -232,7 +232,7 @@
         wordTable.style.pointerEvents = 'none';
       }
 
-      if (parseInt(syl.innerHTML) === totalSyl) {
+      if (parseInt(syl.innerHTML, 10) === totalSyl) {
         if (curLine !== 3) {
           curLine = curLine + 1;
         }
