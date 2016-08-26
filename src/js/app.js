@@ -10,7 +10,7 @@
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close'),
+      closeInfoDialogButton = document.getElementById('close'),
       wordTable = document.getElementById('word-table'),
       title = document.getElementById('theme'),
       newWordsButton = document.getElementById('new-words'),
@@ -22,9 +22,11 @@
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
+    infoButton.blur();
+    closeInfoDialogButton.focus();
   };
 
-  closeButton.onclick = function () {
+  closeInfoDialogButton.onclick = function () {
     infoBox.style.display = 'none';
   };
 
@@ -35,8 +37,9 @@
   // AJAX call to update words
   getWords = function () {
     return new Promise(function (resolve, reject) { // eslint-disable-line
-      var req = new XMLHttpRequest();
-      req.open('GET', '/words');
+      var req = new XMLHttpRequest(),
+          URL = '/words/' + title.innerText;
+      req.open('GET', URL);
 
       req.onreadystatechange = function () {
         if (req.readyState === 4 && req.status === 200) {
