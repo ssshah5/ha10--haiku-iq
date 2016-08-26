@@ -1,7 +1,7 @@
 (function app() {
   'use strict';
 
-  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame,
+  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame, closeInfoDialog,
       curLine = 1,
       line1 = new Array(),
       line2 = new Array(),
@@ -22,22 +22,18 @@
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
-  };
-
-  infoButton.onkeypress = function (e) {
-    if (e.charCode === 13) {
-      closeInfoDialogButton.focus();
-    }
-  };
-
-  infoBox.onkeypress = function (e) {
-    if (e.charCode === 27) {
-      infoBox.style.display = 'none';
-    }
+    infoButton.blur();
+    closeInfoDialogButton.focus();
   };
 
   closeInfoDialogButton.onclick = function () {
     infoBox.style.display = 'none';
+  };
+
+  closeInfoDialog = function closeInfoDialogFunction(e) {
+    if (e.charCode === 27) {
+      infoBox.style.display = 'none';
+    }
   };
 
   startNewGame = function startNewGameFunction() {
@@ -196,5 +192,6 @@
     dictionaryButton.addEventListener('click', startNewGame);
     undoButton.addEventListener('click', undoListener);
     newWordsButton.addEventListener('click', getWordsGenerateTable);
+    infoBox.addEventListener('keydown', closeInfoDialog);
   });
 }());
