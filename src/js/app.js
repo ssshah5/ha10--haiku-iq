@@ -1,34 +1,42 @@
 (function app() {
   'use strict';
 
-  var generateTable, wordListener, undoListener, dictionaryButton, undoButton, getWords,
+  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame,
       curLine = 1,
       lines = [[], [], []],
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close'),
+      closeInfoDialogButton = document.getElementById('close'),
       wordTable = document.getElementById('word-table'),
       title = document.getElementById('theme'),
-      random;
-
-  random = Math.random() * 10 - 5;
+      newWordsButton = document.getElementById('new-words'),
+      dictionaryButton = document.getElementById('dictionary'),
+      undoButton = document.getElementById('undo'),
+      random = Math.random() * 10 - 5;
 
   title.style.transform = 'rotate(' + random + 'deg)';
 
   infoButton.onclick = function () {
     infoBox.style.display = 'block';
+    infoButton.blur();
+    closeInfoDialogButton.focus();
   };
 
-  closeButton.onclick = function () {
+  closeInfoDialogButton.onclick = function () {
     infoBox.style.display = 'none';
+  };
+
+  startNewGame = function startNewGameFunction() {
+    window.location.reload();
   };
 
   // AJAX call to update words
   getWords = function () {
     return new Promise(function (resolve, reject) { // eslint-disable-line
-      var req = new XMLHttpRequest();
-      req.open('GET', '/words');
+      var req = new XMLHttpRequest(),
+          URL = '/words/' + title.innerText;
+      req.open('GET', URL);
 
       req.onreadystatechange = function () {
         if (req.readyState === 4 && req.status === 200) {
@@ -46,14 +54,26 @@
     });
   };
 
+  getWordsGenerateTable = function getWordsGenerateTableFunction() {
+    getWords().then(
+      function (response) {
+        window.apiWords = JSON.parse(response);
+        generateTable();
+      },
+      function (error) {
+        console.error('Failed!', error);
+      }
+    );
+  };
+
   generateTable = function generateTableFunc() {
     var tableBody = document.getElementById('table-body'), rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, wordButton;
 
     if (tableBody) {
       tableBody.remove();
-
-      return;
     }
+
+    getWords();
 
     tblBody = document.createElement('tbody');
     tblBody.id = 'table-body';
@@ -86,21 +106,20 @@
       tblBody.appendChild(row);
     }
 
-    wordTable.addEventListener('click', function (e) {
-      wordListener(e);
-    });
+    wordTable.addEventListener('click', wordListener);
+
+    // wordTable.addEventListener('click', function (e) {
+    //  wordListener(e);
+    // });
 
     // put the <tbody> in the <table>
     wordTable.appendChild(tblBody);
-
-    // appends <table> into <body>
-    // body.appendChild(tbl);
   };
 
   undoListener = function undoListenerFunc() {
-    var line, syl, curSyl;
+    var line, i, allButtons, syl, curSyl, totalSyl, warningDiv;
 
-    if (lines[curLine - 1].length === 0) {
+    if (lines[curLine - 1].length === 1) {
       line = document.getElementById('poemLineWord' + curLine);
       line.style.display = '';
     }
@@ -121,10 +140,39 @@
 
     line = document.getElementById('poemLine' + curLine);
     line.removeChild(line.lastChild);
+
+    // for (i = 0; i < lines[curLine - 1].length; i++) {
+    //   line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
+    // }
+
+    if (curLine === 1 || curLine === 3) {
+      totalSyl = '5';
+    }
+    else {
+      totalSyl = '7';
+    }
+
+    if (syl.innerHTML < totalSyl) {
+      warningDiv = document.getElementById('warning-div');
+      warningDiv.style.display = 'none';
+
+      wordTable = document.getElementById('word-table');
+      wordTable.style.pointerEvents = 'auto';
+
+      undoButton = document.getElementById('undo');
+      undoButton.style.backgroundColor = '';
+      undoButton.style.boxShadow = '';
+      undoButton.style.transform = 'rotate(0deg)';
+
+      allButtons = document.getElementsByClassName('word-button');
+      for (i = 0; i < allButtons.length; i++) {
+        allButtons[i].style.backgroundColor = '#fdfbfb';
+      }
+    }
   };
 
   wordListener = function wordListenerFunc(e) {
-    var button, word, line, syl, sylAdd, wordObj, totalSyl, newButton, test;
+    var poem, button, newButton, test, allButtons, word, i, line, syl, sylAdd, wordObj, totalSyl, warning, warningDiv;
 
     if (e.target.type === 'submit') {
       button = e.target;
@@ -164,6 +212,43 @@
         totalSyl = '7';
       }
 
+      if (syl.innerHTML > totalSyl) {
+        poem = document.getElementById('poem-container');
+
+        if (!document.getElementById('warning-div')) {
+          warningDiv = document.createElement('div');
+          warningDiv.id = 'warning-div';
+          warningDiv.style.transform = 'rotate(-8deg)';
+
+          warning = document.createElement('span');
+          warning.innerHTML = 'Uh oh! That\'s too many syllables!';
+          warning.style.backgroundColor = '#fdfbfb';
+          warning.style.boxShadow = '2px 2px 2px black';
+          warning.style.fontWeight = 'bold';
+          warning.style.padding = '3px';
+
+          warningDiv.appendChild(warning);
+          poem.appendChild(warningDiv);
+        }
+        else {
+          warningDiv = document.getElementById('warning-div');
+          warningDiv.style.display = 'block';
+        }
+
+        allButtons = document.getElementsByClassName('word-button');
+        for (i = 0; i < allButtons.length; i++) {
+          allButtons[i].style.backgroundColor = 'gray';
+        }
+
+        undoButton = document.getElementById('undo');
+        undoButton.style.backgroundColor = '#fdfbfb';
+        undoButton.style.boxShadow = '2px 2px 2px black';
+        undoButton.style.transform = 'rotate(15deg)';
+
+        wordTable = document.getElementById('word-table');
+        wordTable.style.pointerEvents = 'none';
+      }
+
       if (syl.innerHTML === totalSyl) {
         if (curLine !== 3) {
           curLine = curLine + 1;
@@ -176,22 +261,12 @@
   };
 
   // being execution
-  getWords().then(
-    function (response) {
-      window.apiWords = JSON.parse(response);
-      generateTable();
-    },
-    function (error) {
-      console.error('Failed!', error);
-    }
-  );
+  getWordsGenerateTable();
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
-    dictionaryButton = document.getElementById('dictionary');
-    undoButton = document.getElementById('undo');
-
     // Add event listeners
-    dictionaryButton.addEventListener('click', generateTable);
+    dictionaryButton.addEventListener('click', startNewGame);
     undoButton.addEventListener('click', undoListener);
+    newWordsButton.addEventListener('click', getWordsGenerateTable);
   });
 }());

@@ -38,10 +38,13 @@ $spans: (
   }
 }
 
+.header {
+  padding: 10vh;
+}
+
 .theme {
   font-size: 32px;
   overflow-wrap: break-word;
-  padding: 10vh;
 }
 
 .magnet {
@@ -74,7 +77,7 @@ $spans: (
 }
 
 .right-footer {
-  margin-left: 50%;
+  margin-left: 40%;
   padding-right: 2%;
   text-align: right;
 }
@@ -83,7 +86,7 @@ $spans: (
   float: left;
   padding-left: 2%;
   text-align: left;
-  width: 50%;
+  width: 60%;
 }
 
 .info-popup {
@@ -187,4 +190,28 @@ html {
 
 #word-table {
   background-color: rgba(0, 0, 0,.2);
+}
+
+@media (max-width: 320px) {
+  .footer-icon {
+    width: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .word-button {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .poemline {
+    font-size: .9em;
+  }
+}
+
+@media (max-width: 320px) {
+  .poemline {
+    font-size: .8em;
+  }
 }
