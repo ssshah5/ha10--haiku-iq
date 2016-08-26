@@ -5,35 +5,33 @@
   <fieldset id='fs'>
     <legend>Haiku poem lines</legend>
 
-  <ul id='poem'>
-    <li id='line1' class='five-syl'>
-      <input type="text" id="poemLine1" class="poemline" placeholder="five syllables here" name="poemLine1" disabled="true"></input>
-      <text id='syl1' class='syllable'>0</text>
-    </li>
-    <li id='line2' class='seven-syl'>
-      <input type="text" id="poemLine2" class="poemline" placeholder="now, seven syllables typed" name="poemLine2" disabled="true"></input>
-      <text id='syl2' class='syllable'>0</text>
-    </li>
-    <li id='line3' class='five-syl'>
-      <input type="text" id="poemLine3" class="poemline" placeholder="five more syllables" name="poemLine3" disabled="true"></input>
-      <text id='syl3' class='syllable'>0</text>
-    </li>
-  </ul>
-  </fieldset>
-  <div class="table-style"><table id="word-table"></table></div>
+  <div class="poem-container">
+    <div id="poemLine1" class="poemline"><span id="poemLineWord1">five syllables start</span>
+      <div id="syl1" class="syllable">0</div>
+    </div>
+    <div id="poemLine3" class="poemline"><span id="poemLineWord2">then seven more. On a roll</span>
+      <div id="syl2" class="syllable">0</div>
+    </div>
+    <div id="poemLine3" class="poemline"><span id="poemLineWord3">with five to finish</span>
+      <div id="syl3" class="syllable">0</div>
+    </div>
+  </div>
+  <div class="table-style">
+    <table id="word-table"></table>
+  </div>
 </main>
 <footer class='footer'>
   <div class='left-footer'>
-    <input type='image' src='/images/catalog/catalog_32.svg' name='Dictionary' class='footer-icon' id='dictionary'/>
-    <input type='image' src='/images/reset/reset_32.svg' name='Undo' class='footer-icon' id='undo'/>
+    <input type='image' src='/images/catalog/catalog_32.svg' name='New game' alt='New game' title = 'New game' class='footer-icon' id='dictionary'/>
+    <input type='image' src='/images/reset/reset_32.svg' name='Undo' alt='Undo' title='Undo' class='footer-icon' id='undo'/>
+    <input type='image' src='/images/new-words/forward_32.svg' name='New words' alt='New words' title='New words' class='footer-icon' id='new-words'/>
   </div>
   <div class='right-footer'>
-    <input type='image' src='/images/get-information/get-information_32.svg' name='Info' class='footer-icon' id='info'/>
+    <input type='image' src='/images/get-information/get-information_32.svg' name='Info' class='footer-icon' id='info' />
   </div>
 </footer>
 <div class='info-popup' id='info-popup'>
   <div class='info-content'>
-    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close'/>
-    {{> haikuInfo}}
+    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close' /> {{> haikuInfo}}
   </div>
 </div>
