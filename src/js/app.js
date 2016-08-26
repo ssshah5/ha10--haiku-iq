@@ -12,6 +12,7 @@
       wordTable = document.getElementById('word-table'),
       finishBox = document.getElementById('finish-popup'),
       finishButton = document.getElementById('finish-button'),
+      finishRestartButton = document.getElementById('finish-restart-img'),
       emojiFinish = document.getElementById('emoji-finish'),
       title = document.getElementById('theme'),
       newWordsButton = document.getElementById('new-words'),
@@ -308,5 +309,6 @@
     dictionaryButton.addEventListener('click', startNewGame);
     undoButton.addEventListener('click', undoListener);
     newWordsButton.addEventListener('click', getWordsGenerateTable);
+    finishRestartButton.addEventListener('click', startNewGame);
   });
 }());
