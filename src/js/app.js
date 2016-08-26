@@ -19,7 +19,6 @@
       newWordsButton = document.getElementById('new-words'),
       dictionaryButton = document.getElementById('dictionary'),
       undoButton = document.getElementById('undo'),
-      tableBody = document.getElementById('table-body'),
       random = Math.random() * 10 - 5;
 
   title.style.transform = 'rotate(' + random + 'deg)';
@@ -39,9 +38,6 @@
   };
 
   finishButton.onclick = function () {
-    if (tableBody) {
-      tableBody.remove();
-    }
     showFinish();
   };
 
@@ -113,7 +109,7 @@
   };
 
   generateTable = function generateTableFunc() {
-    var rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, wordButton;
+    var tableBody = document.getElementById('table-body'), rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, wordButton;
 
     if (tableBody) {
       tableBody.remove();
