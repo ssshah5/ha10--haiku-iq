@@ -106,9 +106,11 @@
       tblBody.appendChild(row);
     }
 
-    wordTable.addEventListener('click', function (e) {
-      wordListener(e);
-    });
+    wordTable.addEventListener('click', wordListener);
+
+    // wordTable.addEventListener('click', function (e) {
+    //  wordListener(e);
+    // });
 
     // put the <tbody> in the <table>
     wordTable.appendChild(tblBody);
