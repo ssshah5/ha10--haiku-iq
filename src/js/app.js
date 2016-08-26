@@ -37,8 +37,9 @@
   // AJAX call to update words
   getWords = function () {
     return new Promise(function (resolve, reject) { // eslint-disable-line
-      var req = new XMLHttpRequest();
-      req.open('GET', '/words');
+      var req = new XMLHttpRequest(),
+          URL = '/words/' + title.innerText;
+      req.open('GET', URL);
 
       req.onreadystatechange = function () {
         if (req.readyState === 4 && req.status === 200) {
