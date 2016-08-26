@@ -9,6 +9,7 @@ $button-border-color: lighten(color('blue'), 20%);
 
 $default-color: rgb(0, 0, 0);
 $opaque: rgba(0, 0, 0, .4);
+$opaque1: rgba(0, 0, 0, .2);
 
 $spans: (
   'header': (
@@ -188,8 +189,8 @@ html {
   background-size: cover;
 }
 
-#word-table {
-  background-color: rgba(0, 0, 0,.2);
+.word-table {
+  background-color: $opaque1;
 }
 
 @media (max-width: 320px) {
