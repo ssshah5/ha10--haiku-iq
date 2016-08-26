@@ -4,6 +4,7 @@
 $grid: 1;
 $column: 60px;
 $gutter: 20px;
+$base-font: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', HelvLightIBM, Arial, sans-serif;
 $button-border-color: lighten(color('blue'), 20%);
 
 $default-color: rgb(0, 0, 0);
@@ -123,18 +124,30 @@ table {
   background: transparent;
   border: 0;
   border-bottom: 1px solid color('warm-gray', 20);
+  font-family: Courier New, Courier, monospace;
+  font-size: 1em;
+  font-weight: bold;
   line-height: 2.5em;
-  margin: 0;
+  margin: auto;
+  min-height: 2.5em;
   min-width: 250px;
   outline: 0;
   padding: 2px 10px;
   text-decoration-line: underline 1px;
+  width: 75%;
 
   &:focus {
     background: color('warm-gray', 10);
     border-radius: 2px;
     outline: none;
   }
+
+}
+
+.syllable {
+  float: right;
+  font-family: $base-font;
+  font-weight: bold;
 }
 
 legend {
@@ -164,7 +177,7 @@ aside {
 
 body {
   background: color('neutral-white', 40);
-  font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', HelvLightIBM, Arial, sans-serif;
+  font-family: $base-font;
 }
 
 html {
