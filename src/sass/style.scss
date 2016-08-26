@@ -9,6 +9,7 @@ $button-border-color: lighten(color('blue'), 20%);
 
 $default-color: rgb(0, 0, 0);
 $opaque: rgba(0, 0, 0, .4);
+$opaque1: rgba(0, 0, 0, .2);
 
 $spans: (
   'header': (
@@ -38,21 +39,26 @@ $spans: (
   }
 }
 
+.header {
+  padding: 10vh;
+}
+
 .theme {
   font-size: 32px;
   overflow-wrap: break-word;
-  padding: 10vh;
 }
 
 .magnet {
   background-color: color('warm-white');
   box-shadow: 2px 2px 2px color('black');
+  padding: 5px;
 }
 
 .word-button {
   background-color: color('warm-white');
   border: 0;
   box-shadow: 2px 2px 2px color('black');
+  line-height: 16px;
   overflow: hidden;
 }
 
@@ -222,4 +228,32 @@ body {
 
 html {
   background-size: cover;
+}
+
+.word-table {
+  background-color: $opaque1;
+}
+
+@media (max-width: 320px) {
+  .footer-icon {
+    width: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .word-button {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .poemline {
+    font-size: .9em;
+  }
+}
+
+@media (max-width: 320px) {
+  .poemline {
+    font-size: .8em;
+  }
 }

@@ -46,12 +46,11 @@ app.get('/words', (req, res) => {
 
 
 app.get('/words/:theme', (req, res) => {
-  const list = wordsAPI.getThemedList(req.params.theme);
-
+  const theme = req.params.theme;
   res.writeHead(200, {
     'content-type': 'application/json',
   });
-  res.write(JSON.stringify(list));
+  res.write(JSON.stringify(wordsAPI.getWords(theme)));
   res.end();
 });
 
