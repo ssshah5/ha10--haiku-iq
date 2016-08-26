@@ -1,7 +1,7 @@
 (function app() {
   'use strict';
 
-  var generateTable, wordListener, undoListener, dictionaryButton, undoButton, getWords,
+  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable,
       curLine = 1,
       line1 = new Array(),
       line2 = new Array(),
@@ -13,9 +13,10 @@
       closeButton = document.getElementById('close'),
       wordTable = document.getElementById('word-table'),
       title = document.getElementById('theme'),
-      random;
-
-  random = Math.random() * 10 - 5;
+      newWordsButton = document.getElementById('new-words'),
+      dictionaryButton = document.getElementById('dictionary'),
+      undoButton = document.getElementById('undo'),
+      random = Math.random() * 10 - 5;
 
   title.style.transform = 'rotate(' + random + 'deg)';
 
@@ -49,14 +50,26 @@
     });
   };
 
+  getWordsGenerateTable = function getWordsGenerateTableFunction() {
+    getWords().then(
+      function (response) {
+        window.apiWords = JSON.parse(response);
+        generateTable();
+      },
+      function (error) {
+        console.error('Failed!', error);
+      }
+    );
+  };
+
   generateTable = function generateTableFunc() {
     var tableBody = document.getElementById('table-body'), rowNum = 5, columnNum = 4, tblBody, row, cell, i, j, wordButton;
 
     if (tableBody) {
       tableBody.remove();
-
-      return;
     }
+
+    getWords();
 
     tblBody = document.createElement('tbody');
     tblBody.id = 'table-body';
@@ -94,9 +107,6 @@
 
     // put the <tbody> in the <table>
     wordTable.appendChild(tblBody);
-
-    // appends <table> into <body>
-    // body.appendChild(tbl);
   };
 
   undoListener = function undoListenerFunc() {
@@ -162,22 +172,12 @@
   };
 
   // being execution
-  getWords().then(
-    function (response) {
-      window.apiWords = JSON.parse(response);
-      generateTable();
-    },
-    function (error) {
-      console.error('Failed!', error);
-    }
-  );
+  getWordsGenerateTable();
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
-    dictionaryButton = document.getElementById('dictionary');
-    undoButton = document.getElementById('undo');
-
     // Add event listeners
     dictionaryButton.addEventListener('click', generateTable);
     undoButton.addEventListener('click', undoListener);
+    newWordsButton.addEventListener('click', getWordsGenerateTable);
   });
 }());
