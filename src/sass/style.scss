@@ -9,6 +9,7 @@ $button-border-color: lighten(color('blue'), 20%);
 
 $default-color: rgb(0, 0, 0);
 $opaque: rgba(0, 0, 0, .4);
+$opaque1: rgba(0, 0, 0, .2);
 
 $spans: (
   'header': (
@@ -50,7 +51,7 @@ $spans: (
 .magnet {
   background-color: color('warm-white');
   box-shadow: 2px 2px 2px color('black');
-  padding: 3px;
+  padding: 5px;
 }
 
 .word-button {
@@ -188,6 +189,10 @@ html {
   background-size: cover;
 }
 
+.word-table {
+  background-color: $opaque1;
+}
+
 @media (max-width: 320px) {
   .footer-icon {
     width: 40px;
@@ -211,4 +216,3 @@ html {
     font-size: .8em;
   }
 }
-
