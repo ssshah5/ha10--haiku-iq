@@ -10,7 +10,7 @@
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeButton = document.getElementById('close'),
+      closeInfoDialogButton = document.getElementById('close'),
       wordTable = document.getElementById('word-table'),
       title = document.getElementById('theme'),
       newWordsButton = document.getElementById('new-words'),
@@ -24,7 +24,19 @@
     infoBox.style.display = 'block';
   };
 
-  closeButton.onclick = function () {
+  infoButton.onkeypress = function (e) {
+    if (e.charCode === 13) {
+      closeInfoDialogButton.focus();
+    }
+  };
+
+  infoBox.onkeypress = function (e) {
+    if (e.charCode === 27) {
+      infoBox.style.display = 'none';
+    }
+  };
+
+  closeInfoDialogButton.onclick = function () {
     infoBox.style.display = 'none';
   };
 
