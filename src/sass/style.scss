@@ -239,6 +239,20 @@ html {
   background-color: $opaque1;
 }
 
+@media (max-width: 414px) {
+  .finish-msg {
+    bottom: 260px;
+    position: relative;
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  .poemline {
+    font-size: .9em;
+  }
+}
+
 @media (max-width: 320px) {
   .footer-icon {
     width: 40px;
@@ -252,20 +266,6 @@ html {
 
   .word-button {
     font-size: .8em;
-  }
-}
-
-@media (max-width: 375px) {
-  .poemline {
-    font-size: .9em;
-  }
-}
-
-@media (max-width: 414px) {
-  .finish-msg {
-    bottom: 260px;
-    position: relative;
-    width: 90%;
   }
 }
 
