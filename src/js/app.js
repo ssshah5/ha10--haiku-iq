@@ -1,7 +1,7 @@
 (function app() {
   'use strict';
 
-  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable,
+  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame,
       curLine = 1,
       line1 = new Array(),
       line2 = new Array(),
@@ -26,6 +26,10 @@
 
   closeButton.onclick = function () {
     infoBox.style.display = 'none';
+  };
+
+  startNewGame = function() startNewGameFunction() {
+    window.location.reload();
   };
 
   // AJAX call to update words
@@ -177,7 +181,7 @@
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
     // Add event listeners
-    dictionaryButton.addEventListener('click', generateTable);
+    dictionaryButton.addEventListener('click', startNewGame);
     undoButton.addEventListener('click', undoListener);
     newWordsButton.addEventListener('click', getWordsGenerateTable);
   });
