@@ -3,7 +3,7 @@
 
   var generateTable, wordListener, undoListener, dictionaryButton, undoButton, getWords,
       curLine = 1,
-      lines = [[],[],[]],
+      lines = [[], [], []],
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
@@ -98,9 +98,9 @@
   };
 
   undoListener = function undoListenerFunc() {
-    var line, i, syl, curSyl;
+    var line, syl, curSyl;
 
-    if (lines[curLine -1].length === 0) {
+    if (lines[curLine - 1].length === 0) {
       line = document.getElementById('poemLineWord' + curLine);
       line.style.display = '';
     }
@@ -113,7 +113,6 @@
     if (lines[curLine - 1].length === 0 && curLine !== 1) {
       curLine = curLine - 1;
     }
-    
     syl = document.getElementById('syl' + curLine);
     curSyl = lines[curLine - 1][lines[curLine - 1].length - 1].syl;
     syl.innerHTML = parseInt(syl.innerHTML, 10) - curSyl;
@@ -125,19 +124,19 @@
   };
 
   wordListener = function wordListenerFunc(e) {
-    var button, word, i, line, syl, sylAdd, wordObj, totalSyl;
+    var button, word, line, syl, sylAdd, wordObj, totalSyl, newButton, test;
 
     if (e.target.type === 'submit') {
       button = e.target;
       word = button.innerHTML;
 
       line = document.getElementById('poemLineWord' + curLine);
-      
+
       // use tiles in haiku
-      var newButton = button.cloneNode();
-      var test = document.getElementById('poemLine' + curLine);
+      newButton = button.cloneNode();
+      test = document.getElementById('poemLine' + curLine);
       newButton.innerText = word;
-      var random = Math.random() * 10 - 5;
+      random = Math.random() * 10 - 5;
       newButton.style.transform = 'rotate(' + random + 'deg)';
       newButton.style.margin = '6px';
       test.appendChild(newButton);
@@ -152,9 +151,8 @@
       };
 
       lines[curLine - 1].push(wordObj);
-      
       line.style.display = 'none';
-      
+
       // for (i = 0; i < lines[curLine - 1].length; i++) {
       //   line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
       // }
