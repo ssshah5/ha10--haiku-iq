@@ -139,13 +139,13 @@
     }
 
     if (curLine === 1 || curLine === 3) {
-      totalSyl = '5';
+      totalSyl = 5;
     }
     else {
-      totalSyl = '7';
+      totalSyl = 7;
     }
 
-    if (syl.innerHTML < totalSyl) {
+    if (parseInt(syl.innerHTML, 10) <= totalSyl) {
       warningDiv = document.getElementById('warning-div');
       warningDiv.style.display = 'none';
 
@@ -156,7 +156,6 @@
       undoButton.style.backgroundColor = '';
       undoButton.style.boxShadow = '';
       undoButton.style.transform = 'rotate(0deg)';
-
 
       allButtons = document.getElementsByClassName('word-button');
       for (i = 0; i < allButtons.length; i++) {
@@ -190,13 +189,13 @@
       }
 
       if (curLine === 1 || curLine === 3) {
-        totalSyl = '5';
+        totalSyl = 5;
       }
       else {
-        totalSyl = '7';
+        totalSyl = 7;
       }
 
-      if (syl.innerHTML > totalSyl) {
+      if (parseInt(syl.innerHTML, 10) > totalSyl) {
         poem = document.getElementById('poem-container');
 
         if (!document.getElementById('warning-div')) {
@@ -233,7 +232,7 @@
         wordTable.style.pointerEvents = 'none';
       }
 
-      if (syl.innerHTML === totalSyl) {
+      if (parseInt(syl.innerHTML) === totalSyl) {
         if (curLine !== 3) {
           curLine = curLine + 1;
         }
