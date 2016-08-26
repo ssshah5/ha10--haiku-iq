@@ -192,7 +192,7 @@
       }
 
       if (syl.innerHTML > totalSyl) {
-        poem = document.getElementById('fs');
+        poem = document.getElementById('poem-container');
 
         if (!document.getElementById('warning-div')) {
           warningDiv = document.createElement('div');
