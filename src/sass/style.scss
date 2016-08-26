@@ -38,10 +38,13 @@ $spans: (
   }
 }
 
+.header {
+  padding: 10vh;
+}
+
 .theme {
   font-size: 32px;
   overflow-wrap: break-word;
-  padding: 10vh;
 }
 
 .magnet {
@@ -197,8 +200,15 @@ html {
   }
 }
 
+@media (max-width: 375px) {
+  .poemline {
+    font-size: .9em;
+  }
+}
+
 @media (max-width: 320px) {
   .poemline {
     font-size: .8em;
   }
 }
+
