@@ -114,16 +114,18 @@
       tblBody.appendChild(row);
     }
 
-    wordTable.addEventListener('click', function (e) {
-      wordListener(e);
-    });
+    wordTable.addEventListener('click', wordListener);
+
+    // wordTable.addEventListener('click', function (e) {
+    //  wordListener(e);
+    // });
 
     // put the <tbody> in the <table>
     wordTable.appendChild(tblBody);
   };
 
   undoListener = function undoListenerFunc() {
-    var line, i, syl, curSyl;
+    var line, i, allButtons, syl, curSyl, totalSyl, warningDiv;
 
     if (lines[curLine - 1].length === 0 && curLine !== 1) {
       curLine = curLine - 1;
@@ -140,10 +142,36 @@
     for (i = 0; i < lines[curLine - 1].length; i++) {
       line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
     }
+
+    if (curLine === 1 || curLine === 3) {
+      totalSyl = '5';
+    }
+    else {
+      totalSyl = '7';
+    }
+
+    if (syl.innerHTML < totalSyl) {
+      warningDiv = document.getElementById('warning-div');
+      warningDiv.style.display = 'none';
+
+      wordTable = document.getElementById('word-table');
+      wordTable.style.pointerEvents = 'auto';
+
+      undoButton = document.getElementById('undo');
+      undoButton.style.backgroundColor = '';
+      undoButton.style.boxShadow = '';
+      undoButton.style.transform = 'rotate(0deg)';
+
+
+      allButtons = document.getElementsByClassName('word-button');
+      for (i = 0; i < allButtons.length; i++) {
+        allButtons[i].style.backgroundColor = '#fdfbfb';
+      }
+    }
   };
 
   wordListener = function wordListenerFunc(e) {
-    var button, word, i, line, syl, sylAdd, wordObj, totalSyl;
+    var poem, button, allButtons, word, i, line, syl, sylAdd, wordObj, totalSyl, warning, warningDiv;
 
     if (e.target.type === 'submit') {
       button = e.target;
@@ -171,6 +199,43 @@
       }
       else {
         totalSyl = '7';
+      }
+
+      if (syl.innerHTML > totalSyl) {
+        poem = document.getElementById('poem-container');
+
+        if (!document.getElementById('warning-div')) {
+          warningDiv = document.createElement('div');
+          warningDiv.id = 'warning-div';
+          warningDiv.style.transform = 'rotate(-8deg)';
+
+          warning = document.createElement('span');
+          warning.innerHTML = 'Uh oh! That\'s too many syllables!';
+          warning.style.backgroundColor = '#fdfbfb';
+          warning.style.boxShadow = '2px 2px 2px black';
+          warning.style.fontWeight = 'bold';
+          warning.style.padding = '3px';
+
+          warningDiv.appendChild(warning);
+          poem.appendChild(warningDiv);
+        }
+        else {
+          warningDiv = document.getElementById('warning-div');
+          warningDiv.style.display = 'block';
+        }
+
+        allButtons = document.getElementsByClassName('word-button');
+        for (i = 0; i < allButtons.length; i++) {
+          allButtons[i].style.backgroundColor = 'gray';
+        }
+
+        undoButton = document.getElementById('undo');
+        undoButton.style.backgroundColor = '#fdfbfb';
+        undoButton.style.boxShadow = '2px 2px 2px black';
+        undoButton.style.transform = 'rotate(15deg)';
+
+        wordTable = document.getElementById('word-table');
+        wordTable.style.pointerEvents = 'none';
       }
 
       if (syl.innerHTML === totalSyl) {
