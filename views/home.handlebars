@@ -16,8 +16,13 @@
       <div id="syl3" class="syllable">0</div>
     </div>
   </div>
-  <div id="finish-button" class="finish-button"><input type="image" src="/images/data-quality/data-quality_32.svg" alt="Finish"/></div>
-  <div class="table-style">
+  <div id="finish-button" class="finish-button">
+    <input type="image" src="/images/data-quality/data-quality_32.svg" alt="Finish"/>
+    <div id="finish-label">
+      <label id="finish-label" class="finish-label">Finish!</label>
+    </div>
+  </div>
+  <div id="table-style" class="table-style">
     <table class="word-table" id="word-table"></table>
   </div>
   <div id="finish-msg" class="finish-msg">
@@ -36,13 +41,13 @@
 </footer>
 <div class='popup info-popup' id='info-popup'>
   <div class='content info-content'>
-    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close-info' autofocus /> 
+    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close-info' autofocus />
     {{> haikuInfo}}
   </div>
 </div>
 <div class='popup finish-popup' id='finish-popup'>
   <div class='content finish-content'>
-    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close-finish' /> 
+    <input type='image' src='/images/close/close_32.svg' name='CloseInfo' class='close-icon' id='close-finish' />
     {{> completion}}
    </div>
  </div>

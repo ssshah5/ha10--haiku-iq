@@ -137,12 +137,17 @@ $spans: (
   margin-top: 5px;
 
   input {
-    // background: url('/images/data-quality/data-quality_32.png') no-repeat fixed center;
     background-color: color('green', 10);
     border-radius: 5px;
     padding: 5px;
     width: 40px;
   }
+}
+
+.finish-label {
+  background-color: color('green', 10);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .finish-msg {
