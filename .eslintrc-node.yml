@@ -1,2 +1,6 @@
 extends:
   - punchcard
+
+"rules": {
+  "no-param-reassign": 0
+}
