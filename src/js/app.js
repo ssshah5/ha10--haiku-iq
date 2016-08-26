@@ -10,6 +10,7 @@
       closeInfoDialogButton = document.getElementById('close-info'),
       closeFinishButton = document.getElementById('close-finish'),
       wordTable = document.getElementById('word-table'),
+      tableStlye = document.getElementById('table-style'),
       finishBox = document.getElementById('finish-popup'),
       finishButton = document.getElementById('finish-button'),
       finishRestartButton = document.getElementById('finish-restart-img'),
@@ -50,10 +51,12 @@
 
   showFinishButton = function showFinishButtonFunc() {
     finishButton.style.display = 'block';
+    tableStlye.style.marginTop = '10px';
   };
 
   hideFinishButton = function hideFinishButtonFunc() {
     finishButton.style.display = 'none';
+    tableStlye.style.marginTop = '40px';
   };
 
   // Process the completion of a game
@@ -67,6 +70,7 @@
     emojiFinish.textContent = emoji[index];
 
     finishMsg.style.display = 'block';
+
     hideFinishButton();
 
     // finishBox.style.display = 'block';
