@@ -113,7 +113,7 @@
 
     lines[curLine - 1].pop();
     line = document.getElementById('poemLineWord' + curLine);
-    line.value = '';
+    line.textContent = '';
 
     for (i = 0; i < lines[curLine - 1].length; i++) {
       line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
