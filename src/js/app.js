@@ -64,6 +64,7 @@
     // creating all cells
     for (i = 0; i < rowNum; i++) {
       // creates a table row
+
       row = document.createElement('tr');
 
       for (j = 0; j < columnNum; j++) {
@@ -111,11 +112,11 @@
     syl.innerHTML = parseInt(syl.innerHTML, 10) - curSyl;
 
     lines[curLine - 1].pop();
-    line = document.getElementById('poemLine' + curLine);
-    line.value = '';
+    line = document.getElementById('poemLineWord' + curLine);
+    line.textContent = '';
 
     for (i = 0; i < lines[curLine - 1].length; i++) {
-      line.value = line.value + lines[curLine - 1][i].word + ' ';
+      line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
     }
   };
 
@@ -126,7 +127,7 @@
       button = e.target;
       word = button.innerHTML;
 
-      line = document.getElementById('poemLine' + curLine);
+      line = document.getElementById('poemLineWord' + curLine);
 
       sylAdd = button.getAttribute('data-syl');
       syl = document.getElementById('syl' + curLine);
@@ -138,9 +139,9 @@
       };
 
       lines[curLine - 1].push(wordObj);
-      line.value = '';
+      line.textContent = '';
       for (i = 0; i < lines[curLine - 1].length; i++) {
-        line.value = line.value + lines[curLine - 1][i].word + ' ';
+        line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
       }
 
       if (curLine === 1 || curLine === 3) {
