@@ -146,13 +146,13 @@
     // }
 
     if (curLine === 1 || curLine === 3) {
-      totalSyl = '5';
+      totalSyl = 5;
     }
     else {
-      totalSyl = '7';
+      totalSyl = 7;
     }
 
-    if (syl.innerHTML < totalSyl) {
+    if (parseInt(syl.innerHTML, 10) <= totalSyl) {
       warningDiv = document.getElementById('warning-div');
       warningDiv.style.display = 'none';
 
@@ -206,13 +206,13 @@
       // }
 
       if (curLine === 1 || curLine === 3) {
-        totalSyl = '5';
+        totalSyl = 5;
       }
       else {
-        totalSyl = '7';
+        totalSyl = 7;
       }
 
-      if (syl.innerHTML > totalSyl) {
+      if (parseInt(syl.innerHTML, 10) > totalSyl) {
         poem = document.getElementById('poem-container');
 
         if (!document.getElementById('warning-div')) {
@@ -249,7 +249,7 @@
         wordTable.style.pointerEvents = 'none';
       }
 
-      if (syl.innerHTML === totalSyl) {
+      if (parseInt(syl.innerHTML, 10) === totalSyl) {
         if (curLine !== 3) {
           curLine = curLine + 1;
         }
