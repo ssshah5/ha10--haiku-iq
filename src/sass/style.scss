@@ -38,15 +38,19 @@ $spans: (
   }
 }
 
+.header {
+  padding: 10vh;
+}
+
 .theme {
   font-size: 32px;
   overflow-wrap: break-word;
-  padding: 10vh;
 }
 
 .magnet {
   background-color: color('warm-white');
   box-shadow: 2px 2px 2px color('black');
+  padding: 3px;
 }
 
 .word-button {
@@ -183,3 +187,28 @@ body {
 html {
   background-size: cover;
 }
+
+@media (max-width: 320px) {
+  .footer-icon {
+    width: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .word-button {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .poemline {
+    font-size: .9em;
+  }
+}
+
+@media (max-width: 320px) {
+  .poemline {
+    font-size: .8em;
+  }
+}
+
