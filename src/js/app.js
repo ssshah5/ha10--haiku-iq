@@ -3,10 +3,7 @@
 
   var generateTable, wordListener, undoListener, dictionaryButton, undoButton, getWords,
       curLine = 1,
-      line1 = new Array(),
-      line2 = new Array(),
-      line3 = new Array(),
-      lines = [line1, line2, line3],
+      lines = [[],[],[]],
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
@@ -103,21 +100,28 @@
   undoListener = function undoListenerFunc() {
     var line, i, syl, curSyl;
 
+    if (lines[curLine -1].length === 0) {
+      line = document.getElementById('poemLineWord' + curLine);
+      line.style.display = '';
+    }
+
+    if (lines[0].length === 0) {
+      // nothing else to undo;
+      return;
+    }
+
     if (lines[curLine - 1].length === 0 && curLine !== 1) {
       curLine = curLine - 1;
     }
-
+    
     syl = document.getElementById('syl' + curLine);
     curSyl = lines[curLine - 1][lines[curLine - 1].length - 1].syl;
     syl.innerHTML = parseInt(syl.innerHTML, 10) - curSyl;
 
     lines[curLine - 1].pop();
-    line = document.getElementById('poemLineWord' + curLine);
-    line.textContent = '';
 
-    for (i = 0; i < lines[curLine - 1].length; i++) {
-      line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
-    }
+    line = document.getElementById('poemLine' + curLine);
+    line.removeChild(line.lastChild);
   };
 
   wordListener = function wordListenerFunc(e) {
@@ -128,6 +132,15 @@
       word = button.innerHTML;
 
       line = document.getElementById('poemLineWord' + curLine);
+      
+      // use tiles in haiku
+      var newButton = button.cloneNode();
+      var test = document.getElementById('poemLine' + curLine);
+      newButton.innerText = word;
+      var random = Math.random() * 10 - 5;
+      newButton.style.transform = 'rotate(' + random + 'deg)';
+      newButton.style.margin = '6px';
+      test.appendChild(newButton);
 
       sylAdd = button.getAttribute('data-syl');
       syl = document.getElementById('syl' + curLine);
@@ -139,10 +152,12 @@
       };
 
       lines[curLine - 1].push(wordObj);
-      line.textContent = '';
-      for (i = 0; i < lines[curLine - 1].length; i++) {
-        line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
-      }
+      
+      line.style.display = 'none';
+      
+      // for (i = 0; i < lines[curLine - 1].length; i++) {
+      //   line.textContent = line.textContent + lines[curLine - 1][i].word + ' ';
+      // }
 
       if (curLine === 1 || curLine === 3) {
         totalSyl = '5';

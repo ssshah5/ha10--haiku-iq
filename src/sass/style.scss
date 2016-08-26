@@ -47,6 +47,7 @@ $spans: (
 .magnet {
   background-color: color('warm-white');
   box-shadow: 2px 2px 2px color('black');
+  padding: 5px;
 }
 
 .word-button {
@@ -182,4 +183,8 @@ body {
 
 html {
   background-size: cover;
+}
+
+#word-table {
+  background-color: rgba(0, 0, 0,.2);
 }
