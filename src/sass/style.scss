@@ -246,6 +246,10 @@ html {
 }
 
 @media (max-width: 320px) {
+  .poemline {
+    font-size: .8em;
+  }
+
   .word-button {
     font-size: .8em;
   }
@@ -257,8 +261,11 @@ html {
   }
 }
 
-@media (max-width: 320px) {
-  .poemline {
-    font-size: .8em;
+@media (max-width: 414px) {
+  .finish-msg {
+    bottom: 260px;
+    position: relative;
+    width: 90%;
   }
 }
+
