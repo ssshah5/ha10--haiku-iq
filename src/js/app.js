@@ -28,7 +28,7 @@
     infoBox.style.display = 'none';
   };
 
-  startNewGame = function() startNewGameFunction() {
+  startNewGame = function startNewGameFunction() {
     window.location.reload();
   };
 
