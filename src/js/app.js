@@ -1,14 +1,18 @@
 (function app() {
   'use strict';
 
-  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame,
+  var generateTable, wordListener, undoListener, getWords, getWordsGenerateTable, startNewGame, showFinish, showFinishButton, hideFinishButton,
       curLine = 1,
       lines = [[], [], []],
 
       infoBox = document.getElementById('info-popup'),
       infoButton = document.getElementById('info'),
-      closeInfoDialogButton = document.getElementById('close'),
+      closeInfoDialogButton = document.getElementById('close-info'),
+      closeFinishButton = document.getElementById('close-finish'),
       wordTable = document.getElementById('word-table'),
+      finishBox = document.getElementById('finish-popup'),
+      finishButton = document.getElementById('finish-button'),
+      emojiFinish = document.getElementById('emoji-finish'),
       title = document.getElementById('theme'),
       newWordsButton = document.getElementById('new-words'),
       dictionaryButton = document.getElementById('dictionary'),
@@ -27,8 +31,41 @@
     infoBox.style.display = 'none';
   };
 
+  closeFinishButton.onclick = function () {
+    finishBox.style.display = 'none';
+  };
+
+  finishButton.onclick = function () {
+    showFinish();
+  };
+
   startNewGame = function startNewGameFunction() {
     window.location.reload();
+  };
+
+  showFinishButton = function showFinishButtonFunc() {
+    finishButton.style.display = 'block';
+  };
+
+  hideFinishButton = function hideFinishButtonFunc() {
+    finishButton.style.display = 'none';
+  };
+
+  // Process the completion of a game
+  showFinish = function showFinishFunc() {
+    // Show a random fun emoji
+    var emoji = ['⁽(◍˃̵͈̑ᴗ˂̵͈̑)⁽', '(ﾉ^∇^)ﾉﾟ', '⌒°(❛ᴗ❛)°⌒', 'ヽ(^。^)丿', 'ヽ༼>ل͜<༽ﾉ',
+      'ヾ(●・◇・●)ノ', '٩(⚙ᴗ⚙)۶', '✧٩(•́⌄•́๑)و ✧', '¡¡¡( •̀ ᴗ •́ )و!!!', '⊂( ・ ̫・)⊃'],
+        index = Math.floor(Math.random() * emoji.length),
+        finishMsg = document.getElementById('finish-msg');
+
+    emojiFinish.textContent = emoji[index];
+
+    finishMsg.style.display = 'block';
+    hideFinishButton();
+
+    // finishBox.style.display = 'block';
+    wordTable.style.display = 'none';
   };
 
   // AJAX call to update words
@@ -119,6 +156,9 @@
   undoListener = function undoListenerFunc() {
     var line, i, allButtons, syl, curSyl, totalSyl, warningDiv;
 
+    if (curLine === lines.length) {
+      hideFinishButton();
+    }
     if (lines[curLine - 1].length === 1) {
       line = document.getElementById('poemLineWord' + curLine);
       line.style.display = '';
@@ -254,13 +294,13 @@
           curLine = curLine + 1;
         }
         else {
-          alert('Haiku Complete!');
+          showFinishButton();
         }
       }
     }
   };
 
-  // being execution
+  // begin execution
   getWordsGenerateTable();
 
   window.addEventListener('DOMContentLoaded', function appDCL() {
